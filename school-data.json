@@ -4,6 +4,7 @@
   "headline": "You're clear — nothing due.",
   "subline": "MAT 128 is wrapped; the course closes Fri, Jul 10. Fall starts Mon, Aug 24.",
   "oneThing": "Nothing school-side today. Want a head start? 20 minutes of algebra review this week makes MAT 151 week one easy.",
+  "oneThingTs": "2026-07-06T23:19:00-04:00",
   "semester": { "name": "Fall/Winter 2026", "start": "2026-08-24", "end": "2026-12-11", "campus": "Marple" },
   "canvasUrl": "https://canvas.dccc.edu",
   "assignments": [],
@@ -34,7 +35,4 @@
   ],
   "shifts": [],
   "personalBlocks": [
-    { "label": "Trading review", "day": "Sun", "start": "", "end": "", "note": "60–90 min · starts Aug 24 · skips exam weeks" }
-  ],
-  "weekPlan": null
-}
+    { "label": "Trading review", "day": "Sun", "start": "", "end": "", "note": "60–90 min · starts Aug 24 · s
