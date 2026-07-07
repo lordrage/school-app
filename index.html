@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>School</title>
+<meta name="description" content="Mckay's school dashboard — assignments, schedule, weekly plan.">
+<meta name="theme-color" content="#0b0d12">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="School">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+  :root{
+    --bg:#0b0d12; --card:#161a24; --card2:#1d2333; --line:#262d3f;
+    --text:#eef2f8; --dim:#939cb0; --accent:#5aa7ff; --ok:#4cd97b;
+    --warn:#ffb454; --bad:#ff6b6b; --chip:#232a3c; --r:16px;
+  }
+  @media (prefers-color-scheme: light){
+    :root{
+      --bg:#f2f4f8; --card:#ffffff; --card2:#eef1f7; --line:#dfe4ee;
+      --text:#171c26; --dim:#5d6576; --chip:#e8ecf4;
+    }
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{margin:0; padding:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:16px; line-height:1.45; min-height:100%;}
+  body{padding-bottom:calc(76px + env(safe-area-inset-bottom));}
+  header{position:sticky; top:0; z-index:20; background:color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px);
+    padding:calc(10px + env(safe-area-inset-top)) 18px 10px; display:flex; align-items:center; justify-content:space-between;
+    border-bottom:1px solid var(--line);}
+  header h1{font-size:1.15rem; margin:0; letter-spacing:.2px;}
+  header .date{color:var(--dim); font-size:.85rem; margin-top:1px;}
+  #syncChip{border:1px solid var(--line); background:var(--chip); color:var(--dim);
+    border-radius:999px; padding:6px 12px; font-size:.78rem; cursor:pointer; user-select:none;
+    display:flex; align-items:center; gap:6px; font-family:inherit;}
+  #syncChip .dot{width:8px; height:8px; border-radius:50%; background:var(--ok); flex:none;}
+  #syncChip.stale .dot{background:var(--warn);} #syncChip.old .dot{background:var(--bad);}
+  #syncChip.busy .dot{animation:pulse 1s infinite;}
+  @keyframes pulse{50%{opacity:.25}}
+  main{padding:16px 16px 8px; max-width:640px; margin:0 auto;}
+  .view{display:none;} .view.active{display:block; animation:fade .18s ease;}
+  @keyframes fade{from{opacity:0; transform:translateY(4px)} to{opacity:1}}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:var(--r);
+    padding:16px; margin-bottom:12px;}
+  .card h2{margin:0 0 10px; font-size:.8rem; text-transform:uppercase; letter-spacing:.08em; color:var(--dim); font-weight:600;}
+  .hero{background:linear-gradient(160deg, var(--card2), var(--card)); text-align:left;}
+  .hero .big{font-size:1.5rem; font-weight:700; margin:2px 0 6px;}
+  .hero .sub{color:var(--dim); font-size:.95rem;}
+  .count{display:flex; align-items:baseline; gap:10px;}
+  .count .n{font-size:2.4rem; font-weight:800; color:var(--accent); line-height:1;}
+  .count .lbl{color:var(--dim); font-size:.95rem;}
+  .one{border-left:3px solid var(--accent);}
+  .one p{margin:0; font-size:1rem;}
+  .banner{border-radius:var(--r); padding:12px 16px; margin-bottom:12px; font-size:.95rem;
+    background:color-mix(in srgb, var(--bad) 16%, var(--card)); border:1px solid color-mix(in srgb, var(--bad) 45%, var(--line));}
+  .item{display:flex; gap:12px; padding:12px 0; border-top:1px solid var(--line); align-items:flex-start;}
+  .item:first-of-type{border-top:none; padding-top:2px;}
+  .status{flex:none; margin-top:2px; width:26px; height:26px; border-radius:50%; border:2px solid var(--dim);
+    background:transparent; cursor:pointer; position:relative;}
+  .status.inprog{border-color:var(--warn); background:color-mix(in srgb, var(--warn) 25%, transparent);}
+  .status.done{border-color:var(--ok); background:var(--ok);}
+  .status.done::after{content:"✓"; position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    color:#0b0d12; font-weight:800; font-size:.85rem;}
+  .status.locked{cursor:default; opacity:.9;}
+  .item .body{flex:1; min-width:0;}
+  .item .t{font-weight:600; font-size:.98rem;}
+  .item .t.struck{text-decoration:line-through; color:var(--dim); font-weight:500;}
+  .item .m{color:var(--dim); font-size:.83rem; margin-top:2px; display:flex; flex-wrap:wrap; gap:6px 10px; align-items:center;}
+  .pill{display:inline-block; padding:1px 8px; border-radius:999px; font-size:.74rem; font-weight:600; color:#0b0d12;}
+  .pts{border:1px solid var(--line); border-radius:6px; padding:0 6px; font-size:.74rem; color:var(--dim);}
+  .due-rel{font-weight:600;}
+  .due-rel.late{color:var(--bad);} .due-rel.soon{color:var(--warn);}
+  .big-flag{color:var(--warn); font-weight:700;}
+  a.ext{color:var(--accent); text-decoration:none; font-size:.83rem;}
+  .empty{text-align:center; padding:34px 10px; color:var(--dim);}
+  .empty .e{font-size:2rem; margin-bottom:8px;}
+  .empty .h{color:var(--text); font-weight:700; font-size:1.05rem; margin-bottom:4px;}
+  .dayhead{font-weight:700; font-size:.95rem; margin:14px 0 4px;}
+  .dayhead:first-child{margin-top:0;}
+  .dayhead .today-tag{color:var(--accent); font-size:.78rem; margin-left:6px;}
+  .slot{display:flex; gap:10px; padding:9px 10px; border-radius:10px; margin:6px 0;
+    background:var(--card2); border-left:3px solid var(--dim); font-size:.9rem; align-items:center;}
+  .slot .time{flex:none; width:118px; color:var(--dim); font-variant-numeric:tabular-nums; font-size:.83rem;}
+  .slot .what{flex:1;}
+  .slot .what .sub{color:var(--dim); font-size:.8rem;}
+  .check{flex:none; width:22px; height:22px; border-radius:6px; border:2px solid var(--dim); background:transparent; cursor:pointer; position:relative;}
+  .check.on{background:var(--ok); border-color:var(--ok);}
+  .check.on::after{content:"✓"; position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#0b0d12; font-weight:800; font-size:.8rem;}
+  .protect{border-left:3px solid var(--warn);}
+  .protect p{margin:0; font-size:.95rem;}
+  nav{position:fixed; bottom:0; left:0; right:0; z-index:30; display:flex;
+    background:color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
+    border-top:1px solid var(--line); padding:6px 8px calc(6px + env(safe-area-inset-bottom));}
+  nav button{flex:1; background:none; border:none; color:var(--dim); font-family:inherit; font-size:.68rem;
+    display:flex; flex-direction:column; align-items:center; gap:3px; padding:6px 0 4px; cursor:pointer; border-radius:12px;}
+  nav button svg{width:23px; height:23px; stroke:currentColor; fill:none; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round;}
+  nav button.active{color:var(--accent);}
+  .foot{text-align:center; color:var(--dim); font-size:.75rem; padding:10px 0 6px;}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1 id="hTitle">School</h1>
+    <div class="date" id="hDate"></div>
+  </div>
+  <button id="syncChip" title="Data updates when Claude syncs Canvas. Tap to reload."><span class="dot"></span><span id="syncTxt">—</span></button>
+</header>
+
+<main>
+  <section class="view" id="view-today"></section>
+  <section class="view" id="view-due"></section>
+  <section class="view" id="view-week"></section>
+  <section class="view" id="view-schedule"></section>
+  <div class="foot" id="foot"></div>
+</main>
+
+<nav>
+  <button data-v="today"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg>Today</button>
+  <button data-v="due"><svg viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 5.5l1 1 2-2M4 11.5l1 1 2-2M4 17.5l1 1 2-2"/></svg>Due</button>
+  <button data-v="week"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>Week</button>
+  <button data-v="schedule"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg>Schedule</button>
+</nav>
+
+<script type="application/json" id="data-island">{
+  "generated": "2026-07-06T23:19:00-04:00",
+  "mode": "break",
+  "headline": "You're clear — nothing due.",
+  "subline": "MAT 128 is wrapped; the course closes Fri, Jul 10. Fall starts Mon, Aug 24.",
+  "oneThing": "Nothing school-side today. Want a head start? 20 minutes of algebra review this week makes MAT 151 week one easy.",
+  "semester": { "name": "Fall/Winter 2026", "start": "2026-08-24", "end": "2026-12-11", "campus": "Marple" },
+  "canvasUrl": "https://canvas.dccc.edu",
+  "assignments": [],
+  "courses": [
+    {
+      "code": "MAT 151", "name": "College Algebra", "color": "#5aa7ff", "instructor": "Abebe",
+      "meetings": [
+        { "day": "Tue", "start": "09:00", "end": "11:00", "kind": "class", "room": "2402" },
+        { "day": "Thu", "start": "09:00", "end": "11:00", "kind": "class", "room": "2402" }
+      ]
+    },
+    {
+      "code": "CHE 110", "name": "Gen Chemistry", "color": "#ffb454", "instructor": "Cacciavillani",
+      "meetings": [
+        { "day": "Mon", "start": "12:20", "end": "13:45", "kind": "class", "room": "3403" },
+        { "day": "Fri", "start": "12:20", "end": "13:45", "kind": "class", "room": "3403" },
+        { "day": "Wed", "start": "12:20", "end": "15:20", "kind": "lab", "room": "3413" }
+      ]
+    },
+    {
+      "code": "BIO 110", "name": "Gen Biology", "color": "#4cd97b", "instructor": "Scholz",
+      "meetings": [
+        { "day": "Tue", "start": "18:00", "end": "19:30", "kind": "class", "room": "2402" },
+        { "day": "Thu", "start": "18:00", "end": "19:30", "kind": "class", "room": "2402" },
+        { "day": "Tue", "start": "19:45", "end": "21:45", "kind": "lab", "room": "2411" }
+      ]
+    }
+  ],
+  "shifts": [],
+  "personalBlocks": [
+    { "label": "Trading review", "day": "Sun", "start": "", "end": "", "note": "60–90 min · starts Aug 24 · skips exam weeks" }
+  ],
+  "weekPlan": null
+}</script>
+
+<script>
+(function(){
+  "use strict";
+  var $=function(s){return document.querySelector(s)};
+  var DAYS=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  var DAY_ORDER=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+  var state={data:null, fetchedAt:0};
+
+  /* ---------- storage ---------- */
+  function lsGet(k,f){try{var v=localStorage.getItem(k); return v?JSON.parse(v):f}catch(e){return f}}
+  function lsSet(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+
+  /* ---------- data loading ---------- */
+  function island(){
+    try{var t=$("#data-island").textContent.trim(); if(t && t!=="{}"){return JSON.parse(t)}}catch(e){}
+    return null;
+  }
+  function newer(a,b){ // pick data with later "generated"
+    if(!a) return b; if(!b) return a;
+    return (new Date(a.generated||0) >= new Date(b.generated||0)) ? a : b;
+  }
+  function boot(){
+    state.data = newer(lsGet("sd:data",null), island());
+    if(state.data) renderAll();
+    fetchFresh(false);
+    if("serviceWorker" in navigator){ navigator.serviceWorker.register("./sw.js").catch(function(){}); }
+    document.addEventListener("visibilitychange", function(){
+      if(!document.hidden && Date.now()-state.fetchedAt > 10*60*1000) fetchFresh(false);
+    });
+  }
+  function fetchFresh(manual){
+    var chip=$("#syncChip"); chip.classList.add("busy");
+    fetch("school-data.json?v="+Date.now(), {cache:"no-store"})
+      .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(function(d){
+        state.fetchedAt=Date.now();
+        state.data = newer(state.data, d) === d ? d : (state.data||d);
+        lsSet("sd:data", state.data);
+        renderAll();
+      })
+      .catch(function(){ if(manual && state.data) renderAll(); })
+      .finally ? null : null;
+    // .finally not used for older Safari safety:
+    setTimeout(function(){ chip.classList.remove("busy"); updateChip(); }, 600);
+  }
+
+  /* ---------- helpers ---------- */
+  function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+  function fmtTime(hm){ // "13:45" -> "1:45 PM"
+    if(!hm) return "";
+    var p=hm.split(":"), h=+p[0], m=p[1];
+    var ap=h>=12?"PM":"AM"; h=h%12; if(h===0)h=12;
+    return h+":"+m+" "+ap;
+  }
+  function fmtDate(d){ return d.toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"}); }
+  function fmtDue(d){
+    var t=d.toLocaleTimeString(undefined,{hour:"numeric",minute:"2-digit"});
+    return fmtDate(d)+" · "+t;
+  }
+  function relDue(d,now){
+    var ms=d-now, day=86400000;
+    if(ms<0){ var l=Math.max(1,Math.round(-ms/day)); return {txt:(l===1?"1 day late":l+" days late"), cls:"late"}; }
+    if(ms<day*1.2){ return {txt: d.getDate()===now.getDate()?"today":"tomorrow", cls:"soon"}; }
+    var n=Math.round(ms/day);
+    return {txt:"in "+n+" days", cls:n<=3?"soon":""};
+  }
+  function courseColor(code){
+    var c=(state.data.courses||[]).find(function(x){return x.code===code});
+    return c?c.color:"#8b94a7";
+  }
+  function pill(code){ return '<span class="pill" style="background:'+esc(courseColor(code))+'">'+esc(code)+"</span>"; }
+
+  /* ---------- assignment status ---------- */
+  function effStatus(a){
+    if(a.status==="graded"||a.status==="submitted") return a.status;
+    var ov=lsGet("sd:status",{})[a.id];
+    if(ov && ov.ts >= new Date(state.data.generated).getTime()) return ov.s;
+    if(ov && (a.status==="not_started"||!a.status)) return ov.s; // keep local progress across syncs unless Canvas advanced
+    return a.status||"not_started";
+  }
+  function cycleStatus(a){
+    if(a.status==="graded"||a.status==="submitted") return;
+    var order=["not_started","in_progress","done"];
+    var cur=effStatus(a); var nxt=order[(order.indexOf(cur)+1)%order.length];
+    var all=lsGet("sd:status",{}); all[a.id]={s:nxt,ts:Date.now()}; lsSet("sd:status",all);
+    renderAll();
+  }
+  function statusBtn(a){
+    var s=effStatus(a);
+    var cls="status"+(s==="in_progress"?" inprog":"")+((s==="done"||s==="submitted"||s==="graded")?" done":"");
+    var locked=(a.status==="graded"||a.status==="submitted");
+    if(locked) cls+=" locked";
+    var title=locked?("Canvas: "+a.status):("Tap: not started → in progress → done");
+    return '<button class="'+cls+'" data-id="'+esc(a.id)+'" title="'+title+'"'+(locked?" disabled":"")+"></button>";
+  }
+  function isOpen(a){ var s=effStatus(a); return s!=="done"&&s!=="submitted"&&s!=="graded"; }
+
+  /* ---------- render: header ---------- */
+  function updateChip(){
+    var chip=$("#syncChip"), txt=$("#syncTxt");
+    if(!state.data){ txt.textContent="no data"; return; }
+    var h=(Date.now()-new Date(state.data.generated))/3600000;
+    chip.classList.remove("stale","old");
+    if(h>72) chip.classList.add("old"); else if(h>36) chip.classList.add("stale");
+    txt.textContent = h<1 ? "synced just now" : h<24 ? "synced "+Math.round(h)+"h ago" : "synced "+Math.round(h/24)+"d ago";
+  }
+
+  /* ---------- render: today ---------- */
+  function renderToday(){
+    var d=state.data, now=new Date(), out="";
+    var semStart=new Date(d.semester.start+"T00:00:00");
+    var open=(d.assignments||[]).filter(isOpen);
+    var overdue=open.filter(function(a){return new Date(a.due)<now});
+
+    if(overdue.length){
+      out+='<div class="banner">⚠️ <b>'+overdue.length+" overdue</b> — fastest path: knock out the smallest one first. It's in the Due tab.</div>";
+    }
+    if(now<semStart){
+      out+='<div class="card hero"><div class="big">'+esc(d.headline||"You're clear.")+'</div><div class="sub">'+esc(d.subline||"")+"</div></div>";
+      var days=Math.ceil((semStart-now)/86400000);
+      out+='<div class="card"><h2>Fall semester</h2><div class="count"><span class="n">'+days+'</span><span class="lbl">days until classes start · Mon, Aug 24</span></div></div>';
+    } else {
+      var tl=todaySlots(now);
+      out+='<div class="card"><h2>Today</h2>';
+      out+= tl.length ? tl.map(slotHtml).join("") : '<div class="sub" style="color:var(--dim)">Nothing on the calendar today.</div>';
+      out+="</div>";
+      var soon=open.filter(function(a){return new Date(a.due)>=now}).slice(0,3);
+      if(soon.length){
+        out+='<div class="card"><h2>Due next</h2>';
+        soon.forEach(function(a){ out+=dueRow(a,now); });
+        out+="</div>";
+      }
+    }
+    if(d.oneThing){
+      out+='<div class="card one"><h2>Today’s one thing</h2><p>'+esc(d.oneThing)+"</p></div>";
+    }
+    $("#view-today").innerHTML=out;
+  }
+  function todaySlots(now){
+    var d=state.data, wd=DAYS[now.getDay()], slots=[];
+    (d.courses||[]).forEach(function(c){
+      (c.meetings||[]).forEach(function(m){
+        if(m.day===wd) slots.push({start:m.start,end:m.end,label:c.code+" "+(m.kind==="lab"?"lab":"class"),sub:"Rm "+m.room,color:c.color});
+      });
+    });
+    (d.shifts||[]).forEach(function(s){
+      var hit = s.date ? (new Date(s.date+"T00:00:00").toDateString()===now.toDateString()) : (s.day===wd);
+      if(hit) slots.push({start:s.start,end:s.end,label:s.label||"Work",sub:"shift",color:"#b48cff"});
+    });
+    var plan=d.weekPlan;
+    if(plan && plan.days && plan.days[wd]){
+      plan.days[wd].forEach(function(b){ slots.push({start:b.start,end:b.end,label:b.task,sub:b.trigger||"study block",color:"var(--accent)",plan:true}); });
+    }
+    slots.sort(function(a,b){return (a.start||"").localeCompare(b.start||"")});
+    return slots;
+  }
+  function slotHtml(s){
+    return '<div class="slot" style="border-left-color:'+esc(s.color||"#8b94a7")+'"><span class="time">'+esc(fmtTime(s.start))+(s.end?"–"+esc(fmtTime(s.end)):"")+'</span><span class="what">'+esc(s.label)+(s.sub?'<div class="sub">'+esc(s.sub)+"</div>":"")+"</span></div>";
+  }
+
+  /* ---------- render: due ---------- */
+  function dueRow(a,now){
+    var dd=new Date(a.due), r=relDue(dd,now), s=effStatus(a);
+    var struck=(s==="done"||s==="submitted"||s==="graded");
+    return '<div class="item">'+statusBtn(a)+
+      '<div class="body"><div class="t'+(struck?" struck":"")+'">'+(a.big?'<span class="big-flag">★ </span>':"")+esc(a.title)+"</div>"+
+      '<div class="m">'+pill(a.course)+'<span class="due-rel '+r.cls+'">'+esc(r.txt)+"</span><span>"+esc(fmtDue(dd))+"</span>"+
+      (a.points!=null?'<span class="pts">'+esc(a.points)+" pts</span>":"")+
+      (a.url?'<a class="ext" href="'+esc(a.url)+'" target="_blank" rel="noopener">Open ↗</a>':"")+
+      "</div></div></div>";
+  }
+  function renderDue(){
+    var d=state.data, now=new Date(), out="";
+    var items=(d.assignments||[]).slice().sort(function(a,b){return new Date(a.due)-new Date(b.due)});
+    if(!items.length){
+      out='<div class="card"><div class="empty"><div class="e">🎉</div><div class="h">Nothing due.</div><div>'+esc(d.subline||"")+"</div></div></div>";
+    } else {
+      var wk=7*86400000;
+      var g={over:[],week:[],later:[],closed:[]};
+      items.forEach(function(a){
+        if(!isOpen(a)){ g.closed.push(a); return; }
+        var t=new Date(a.due);
+        if(t<now) g.over.push(a);
+        else if(t-now<wk) g.week.push(a);
+        else g.later.push(a);
+      });
+      function sec(title,arr){
+        if(!arr.length) return "";
+        var h='<div class="card"><h2>'+title+"</h2>";
+        arr.forEach(function(a){h+=dueRow(a,now)});
+        return h+"</div>";
+      }
+      out+=sec("⚠️ Overdue",g.over)+sec("This week",g.week)+sec("Later",g.later)+sec("Done / submitted",g.closed);
+    }
+    $("#view-due").innerHTML=out;
+    document.querySelectorAll("#view-due .status:not(.locked), #view-today .status:not(.locked)").forEach(function(b){
+      b.addEventListener("click",function(){
+        var a=(state.data.assignments||[]).find(function(x){return String(x.id)===b.getAttribute("data-id")});
+        if(a) cycleStatus(a);
+      });
+    });
+  }
+
+  /* ---------- render: week ---------- */
+  function renderWeek(){
+    var d=state.data, out="", plan=d.weekPlan;
+    if(!plan){
+      var msg = d.mode==="break" ? "Weekly plans come back with the semester — Aug 24." : 'No plan yet. Ask Claude: “plan my week.”';
+      out='<div class="card"><div class="empty"><div class="e">🗓️</div><div class="h">No weekly plan</div><div>'+esc(msg)+"</div></div></div>";
+    } else {
+      if(plan.protect) out+='<div class="card protect"><h2>If the week goes sideways, protect</h2><p>'+esc(plan.protect)+"</p></div>";
+      out+='<div class="card">';
+      var checks=lsGet("sd:week",{});
+      var today=DAYS[new Date().getDay()];
+      DAY_ORDER.forEach(function(day){
+        var blocks=(plan.days&&plan.days[day])||[];
+        if(!blocks.length) return;
+        out+='<div class="dayhead">'+day+(day===today?'<span class="today-tag">TODAY</span>':"")+"</div>";
+        blocks.forEach(function(b,i){
+          var key=plan.weekOf+"|"+day+"|"+i, on=!!checks[key];
+          out+='<div class="slot" style="border-left-color:var(--accent)">'+
+            '<button class="check'+(on?" on":"")+'" data-k="'+esc(key)+'"></button>'+
+            '<span class="time">'+esc(fmtTime(b.start))+(b.end?"–"+esc(fmtTime(b.end)):"")+"</span>"+
+            '<span class="what"'+(on?' style="text-decoration:line-through;color:var(--dim)"':"")+">"+esc(b.task)+(b.trigger?'<div class="sub">'+esc(b.trigger)+"</div>":"")+"</span></div>";
+        });
+      });
+      out+="</div>";
+    }
+    $("#view-week").innerHTML=out;
+    document.querySelectorAll("#view-week .check").forEach(function(b){
+      b.addEventListener("click",function(){
+        var c=lsGet("sd:week",{}); var k=b.getAttribute("data-k");
+        if(c[k]) delete c[k]; else c[k]=1;
+        lsSet("sd:week",c); renderWeek();
+      });
+    });
+  }
+
+  /* ---------- render: schedule ---------- */
+  function renderSchedule(){
+    var d=state.data, now=new Date(), out="";
+    var semStart=new Date(d.semester.start+"T00:00:00");
+    if(now<semStart){
+      out+='<div class="card" style="border-left:3px solid var(--accent)"><p style="margin:0"><b>'+esc(d.semester.name)+"</b> starts Mon, Aug 24 · "+esc(d.semester.campus)+" campus. This is your week once it does:</p></div>";
+    }
+    out+='<div class="card">';
+    DAY_ORDER.forEach(function(day){
+      var slots=[];
+      (d.courses||[]).forEach(function(c){(c.meetings||[]).forEach(function(m){
+        if(m.day===day) slots.push({start:m.start,end:m.end,label:c.code+" — "+c.name+(m.kind==="lab"?" (lab)":""),sub:"Rm "+m.room+" · "+c.instructor,color:c.color});
+      })});
+      (d.shifts||[]).forEach(function(s){ if(s.day===day&&!s.date) slots.push({start:s.start,end:s.end,label:s.label||"Work shift",sub:"work",color:"#b48cff"}); });
+      (d.personalBlocks||[]).forEach(function(p){ if(p.day===day) slots.push({start:p.start,end:p.end,label:p.label,sub:p.note,color:"#8b94a7"}); });
+      if(!slots.length) return;
+      slots.sort(function(a,b){return (a.start||"zz").localeCompare(b.start||"zz")});
+      out+='<div class="dayhead">'+day+"</div>"+slots.map(slotHtml).join("");
+    });
+    out+="</div>";
+    var noShifts=!(d.shifts&&d.shifts.length);
+    if(noShifts) out+='<div class="card"><h2>Work shifts</h2><div style="color:var(--dim);font-size:.92rem">None recorded. Tell Claude your shifts in any chat — they’ll show up here after the next sync.</div></div>';
+    $("#view-schedule").innerHTML=out;
+  }
+
+  /* ---------- nav + render all ---------- */
+  function show(v){
+    document.querySelectorAll(".view").forEach(function(x){x.classList.remove("active")});
+    document.querySelectorAll("nav button").forEach(function(x){x.classList.toggle("active",x.getAttribute("data-v")===v)});
+    var el=$("#view-"+v); if(el) el.classList.add("active");
+    try{history.replaceState(null,"","#"+v)}catch(e){}
+    window.scrollTo(0,0);
+  }
+  function renderAll(){
+    if(!state.data) return;
+    $("#hDate").textContent=new Date().toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric"});
+    updateChip();
+    renderToday(); renderDue(); renderWeek(); renderSchedule();
+    $("#foot").textContent="Built with Claude · data flows from Canvas via sync";
+  }
+  document.querySelectorAll("nav button").forEach(function(b){
+    b.addEventListener("click",function(){show(b.getAttribute("data-v"))});
+  });
+  $("#syncChip").addEventListener("click",function(){fetchFresh(true)});
+
+  boot();
+  show((location.hash||"#today").slice(1) in {today:1,due:1,week:1,schedule:1} ? (location.hash||"#today").slice(1) : "today");
+})();
+</script>
+</body>
+</html>
