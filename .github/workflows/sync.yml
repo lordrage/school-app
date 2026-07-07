@@ -35,5 +35,5 @@ jobs:
             echo "no changes"
           else
             git commit -m "auto-sync $(date -u +%FT%H:%MZ)"
-            git push
-          fi
+            for i in 1 2 3; do
+   
