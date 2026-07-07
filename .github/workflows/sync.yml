@@ -36,4 +36,8 @@ jobs:
           else
             git commit -m "auto-sync $(date -u +%FT%H:%MZ)"
             for i in 1 2 3; do
-   
+              if git push; then break; fi
+              echo "push rejected (concurrent update) — rebasing and retrying ($i/3)"
+              git pull --rebase -X theirs origin main
+            done
+          fi
