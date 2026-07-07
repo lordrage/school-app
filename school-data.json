@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-06T23:19:00-04:00",
+  "generated": "2026-07-06T23:42-04:00",
   "mode": "break",
   "headline": "You're clear — nothing due.",
   "subline": "MAT 128 is wrapped; the course closes Fri, Jul 10. Fall starts Mon, Aug 24.",
@@ -12,7 +12,98 @@
     "campus": "Marple"
   },
   "canvasUrl": "https://canvas.dccc.edu",
-  "assignments": [],
+  "assignments": [
+    {
+      "id": "assignment-1270154",
+      "title": "Module 6: Additional Radical Expressions Material",
+      "course": "MAT 128",
+      "due": "2026-06-19T22:59-04:00",
+      "points": 100.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270154/submissions/106818",
+      "big": true
+    },
+    {
+      "id": "assignment-1270155",
+      "title": "Module 6: Radical Expressions and Equations",
+      "course": "MAT 128",
+      "due": "2026-06-19T23:59-04:00",
+      "points": 100.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270155/submissions/106818",
+      "big": true
+    },
+    {
+      "id": "assignment-1270165",
+      "title": "Practice Test 6: Radical Expressions and Equations",
+      "course": "MAT 128",
+      "due": "2026-06-20T00:00-04:00",
+      "points": 100.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270165/submissions/106818",
+      "big": true
+    },
+    {
+      "id": "assignment-1270156",
+      "title": "Module 7: Quadratic Equations",
+      "course": "MAT 128",
+      "due": "2026-06-21T23:59-04:00",
+      "points": 100.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270156/submissions/106818",
+      "big": true
+    },
+    {
+      "id": "assignment-1270166",
+      "title": "Practice Test 7: Quadratic Equations",
+      "course": "MAT 128",
+      "due": "2026-06-22T00:00-04:00",
+      "points": 100.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270166/submissions/106818",
+      "big": true
+    },
+    {
+      "id": "assignment-1270157",
+      "title": "Module 8: Topics Still To Learn",
+      "course": "MAT 128",
+      "due": "2026-06-24T23:59-04:00",
+      "points": 100.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270157/submissions/106818",
+      "big": true
+    },
+    {
+      "id": "assignment-1270146",
+      "title": "Final Pie Progress Goal",
+      "course": "MAT 128",
+      "due": "2026-06-25T00:01-04:00",
+      "points": 100.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270146/submissions/106818",
+      "big": true
+    },
+    {
+      "id": "assignment-1270145",
+      "title": "Final Exam Knowledge Check (Must be Proctored with Honorlock side camera, Must Turn in Scrap Paper)",
+      "course": "MAT 128",
+      "due": "2026-06-25T23:59-04:00",
+      "points": 100.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270145/submissions/106818",
+      "big": true
+    },
+    {
+      "id": "assignment-1270167",
+      "title": "Scrap Paper Final Exam Knowledge Check (Due within 30 minutes of submitting Final Examination)",
+      "course": "MAT 128",
+      "due": "2026-06-25T23:59-04:00",
+      "points": 0.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270167/submissions/106818",
+      "big": true
+    }
+  ],
   "courses": [
     {
       "code": "MAT 151",
