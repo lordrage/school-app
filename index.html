@@ -382,13 +382,14 @@
     while(cur.getTime()!==d.getTime()){ cur.setDate(cur.getDate()+step); if(PPL_GYM_DAYS[cur.getDay()]) k+=step; }
     return PPL_LIFTS[((PPL_ANCHOR_IDX+k)%3+3)%3];
   }
-  function pplNextDateForWeekday(name){
-    var t=pplMid(new Date()), delta=(PPL_WD[name]-t.getDay()+7)%7, dt=new Date(t);
-    dt.setDate(t.getDate()+delta); return dt;
+  function pplDateInWeek(name){                        // that weekday's real date in the CURRENT Mon-Sun week
+    var t=pplMid(new Date()), monOff=(t.getDay()+6)%7, mon=new Date(t);
+    mon.setDate(t.getDate()-monOff);
+    var off=(PPL_WD[name]+6)%7, dt=new Date(mon); dt.setDate(mon.getDate()+off); return dt;
   }
   function pplLabel(p){
     if(!p||!p.ppl) return p?p.label:"";
-    var lift=pplLiftForDate(pplNextDateForWeekday(p.day));
+    var lift=pplLiftForDate(pplDateInWeek(p.day));
     return lift ? "Gym — "+lift : (p.label||"Gym");
   }
 
