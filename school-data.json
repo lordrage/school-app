@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-09T17:25-04:00",
+  "generated": "2026-07-09T23:40:00-04:00",
   "mode": "break",
   "headline": "You're clear — nothing due.",
-  "subline": "MAT 128 is wrapped; the course closes Fri, Jul 10. Fall starts Mon, Aug 24.",
-  "oneThing": "",
-  "oneThingTs": "2026-07-06T23:19:00-04:00",
+  "subline": "MAT 128 closes Fri, Jul 10. Fall starts Mon, Aug 24.",
+  "oneThing": "MAT 128 closes Friday — spend 10 minutes saving any feedback or worked solutions you want before access ends. After that, you're clear until Aug 24.",
+  "oneThingTs": "2026-07-09T23:40:00-04:00",
   "semester": {
     "name": "Fall/Winter 2026",
     "start": "2026-08-24",
@@ -12,98 +12,7 @@
     "campus": "Marple"
   },
   "canvasUrl": "https://canvas.dccc.edu",
-  "assignments": [
-    {
-      "id": "assignment-1270154",
-      "title": "Module 6: Additional Radical Expressions Material",
-      "course": "MAT 128",
-      "due": "2026-06-19T22:59-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270154/submissions/106818",
-      "big": true
-    },
-    {
-      "id": "assignment-1270155",
-      "title": "Module 6: Radical Expressions and Equations",
-      "course": "MAT 128",
-      "due": "2026-06-19T23:59-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270155/submissions/106818",
-      "big": true
-    },
-    {
-      "id": "assignment-1270165",
-      "title": "Practice Test 6: Radical Expressions and Equations",
-      "course": "MAT 128",
-      "due": "2026-06-20T00:00-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270165/submissions/106818",
-      "big": true
-    },
-    {
-      "id": "assignment-1270156",
-      "title": "Module 7: Quadratic Equations",
-      "course": "MAT 128",
-      "due": "2026-06-21T23:59-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270156/submissions/106818",
-      "big": true
-    },
-    {
-      "id": "assignment-1270166",
-      "title": "Practice Test 7: Quadratic Equations",
-      "course": "MAT 128",
-      "due": "2026-06-22T00:00-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270166/submissions/106818",
-      "big": true
-    },
-    {
-      "id": "assignment-1270157",
-      "title": "Module 8: Topics Still To Learn",
-      "course": "MAT 128",
-      "due": "2026-06-24T23:59-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270157/submissions/106818",
-      "big": true
-    },
-    {
-      "id": "assignment-1270146",
-      "title": "Final Pie Progress Goal",
-      "course": "MAT 128",
-      "due": "2026-06-25T00:01-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270146/submissions/106818",
-      "big": true
-    },
-    {
-      "id": "assignment-1270145",
-      "title": "Final Exam Knowledge Check (Must be Proctored with Honorlock side camera, Must Turn in Scrap Paper)",
-      "course": "MAT 128",
-      "due": "2026-06-25T23:59-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270145/submissions/106818",
-      "big": true
-    },
-    {
-      "id": "assignment-1270167",
-      "title": "Scrap Paper Final Exam Knowledge Check (Due within 30 minutes of submitting Final Examination)",
-      "course": "MAT 128",
-      "due": "2026-06-25T23:59-04:00",
-      "points": 0.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/51404/assignments/1270167/submissions/106818",
-      "big": true
-    }
-  ],
+  "assignments": [],
   "courses": [
     {
       "code": "MAT 151",
@@ -194,38 +103,6 @@
       "start": "",
       "end": "",
       "note": "60–90 min · starts Aug 24 · skips exam weeks"
-    },
-    {
-      "label": "Gym",
-      "day": "Mon",
-      "start": "14:30",
-      "end": "16:00",
-      "note": "Rolling PPL · after chem",
-      "ppl": true
-    },
-    {
-      "label": "Gym",
-      "day": "Wed",
-      "start": "15:45",
-      "end": "17:15",
-      "note": "Rolling PPL · after chem lab",
-      "ppl": true
-    },
-    {
-      "label": "Gym",
-      "day": "Thu",
-      "start": "12:00",
-      "end": "13:30",
-      "note": "Rolling PPL · midday, before bio",
-      "ppl": true
-    },
-    {
-      "label": "Gym",
-      "day": "Fri",
-      "start": "14:30",
-      "end": "16:00",
-      "note": "Rolling PPL · after chem",
-      "ppl": true
     }
   ],
   "weekPlan": null
