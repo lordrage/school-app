@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T00:19:00-04:00",
+  "generated": "2026-07-11T00:51-04:00",
   "mode": "break",
   "headline": "You're clear — nothing due.",
   "subline": "Summer session done. Fall starts Mon, Aug 24 — 44 days.",
@@ -20,8 +20,20 @@
       "color": "#5aa7ff",
       "instructor": "Abebe",
       "meetings": [
-        {"day": "Tue", "start": "09:00", "end": "11:00", "kind": "class", "room": "2402"},
-        {"day": "Thu", "start": "09:00", "end": "11:00", "kind": "class", "room": "2402"}
+        {
+          "day": "Tue",
+          "start": "09:00",
+          "end": "11:00",
+          "kind": "class",
+          "room": "2402"
+        },
+        {
+          "day": "Thu",
+          "start": "09:00",
+          "end": "11:00",
+          "kind": "class",
+          "room": "2402"
+        }
       ]
     },
     {
@@ -30,9 +42,27 @@
       "color": "#ffb454",
       "instructor": "Cacciavillani",
       "meetings": [
-        {"day": "Mon", "start": "12:20", "end": "13:45", "kind": "class", "room": "3403"},
-        {"day": "Fri", "start": "12:20", "end": "13:45", "kind": "class", "room": "3403"},
-        {"day": "Wed", "start": "12:20", "end": "15:20", "kind": "lab", "room": "3413"}
+        {
+          "day": "Mon",
+          "start": "12:20",
+          "end": "13:45",
+          "kind": "class",
+          "room": "3403"
+        },
+        {
+          "day": "Fri",
+          "start": "12:20",
+          "end": "13:45",
+          "kind": "class",
+          "room": "3403"
+        },
+        {
+          "day": "Wed",
+          "start": "12:20",
+          "end": "15:20",
+          "kind": "lab",
+          "room": "3413"
+        }
       ]
     },
     {
@@ -41,15 +71,39 @@
       "color": "#4cd97b",
       "instructor": "Scholz",
       "meetings": [
-        {"day": "Tue", "start": "18:00", "end": "19:30", "kind": "class", "room": "2402"},
-        {"day": "Thu", "start": "18:00", "end": "19:30", "kind": "class", "room": "2402"},
-        {"day": "Tue", "start": "19:45", "end": "21:45", "kind": "lab", "room": "2411"}
+        {
+          "day": "Tue",
+          "start": "18:00",
+          "end": "19:30",
+          "kind": "class",
+          "room": "2402"
+        },
+        {
+          "day": "Thu",
+          "start": "18:00",
+          "end": "19:30",
+          "kind": "class",
+          "room": "2402"
+        },
+        {
+          "day": "Tue",
+          "start": "19:45",
+          "end": "21:45",
+          "kind": "lab",
+          "room": "2411"
+        }
       ]
     }
   ],
   "shifts": [],
   "personalBlocks": [
-    {"label": "Trading review", "day": "Sun", "start": "", "end": "", "note": "60–90 min · starts Aug 24 · skips exam weeks"}
+    {
+      "label": "Trading review",
+      "day": "Sun",
+      "start": "",
+      "end": "",
+      "note": "60–90 min · starts Aug 24 · skips exam weeks"
+    }
   ],
   "weekPlan": null
 }
