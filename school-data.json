@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-12T19:47:00-04:00",
+  "generated": "2026-07-12T21:52:00-04:00",
   "mode": "break",
   "headline": "You're clear — nothing due.",
   "subline": "Summer session done. Fall starts Mon, Aug 24 — 43 days.",
-  "oneThing": "Sunday evening, break week — nothing due. If the trading review didn't happen today, a 30-min version tonight keeps the rhythm (journal it). Otherwise you're done — next thing with a clock is Tuesday's textbook pricing.",
-  "oneThingTs": "2026-07-12T19:47:00-04:00",
+  "oneThing": "Week's closed out — MAT 128 is done and nothing is due. First clocked item is Tuesday: 30 min pricing used textbooks for MAT 151/CHE 110/BIO 110 before August scarcity.",
+  "oneThingTs": "2026-07-12T21:52:00-04:00",
   "semester": {
     "name": "Fall/Winter 2026",
     "start": "2026-08-24",
@@ -20,8 +20,20 @@
       "color": "#5aa7ff",
       "instructor": "Abebe",
       "meetings": [
-        {"day": "Tue", "start": "09:00", "end": "11:00", "kind": "class", "room": "2402"},
-        {"day": "Thu", "start": "09:00", "end": "11:00", "kind": "class", "room": "2402"}
+        {
+          "day": "Tue",
+          "start": "09:00",
+          "end": "11:00",
+          "kind": "class",
+          "room": "2402"
+        },
+        {
+          "day": "Thu",
+          "start": "09:00",
+          "end": "11:00",
+          "kind": "class",
+          "room": "2402"
+        }
       ]
     },
     {
@@ -30,9 +42,27 @@
       "color": "#ffb454",
       "instructor": "Cacciavillani",
       "meetings": [
-        {"day": "Mon", "start": "12:20", "end": "13:45", "kind": "class", "room": "3403"},
-        {"day": "Fri", "start": "12:20", "end": "13:45", "kind": "class", "room": "3403"},
-        {"day": "Wed", "start": "12:20", "end": "15:20", "kind": "lab", "room": "3413"}
+        {
+          "day": "Mon",
+          "start": "12:20",
+          "end": "13:45",
+          "kind": "class",
+          "room": "3403"
+        },
+        {
+          "day": "Fri",
+          "start": "12:20",
+          "end": "13:45",
+          "kind": "class",
+          "room": "3403"
+        },
+        {
+          "day": "Wed",
+          "start": "12:20",
+          "end": "15:20",
+          "kind": "lab",
+          "room": "3413"
+        }
       ]
     },
     {
@@ -41,15 +71,39 @@
       "color": "#4cd97b",
       "instructor": "Scholz",
       "meetings": [
-        {"day": "Tue", "start": "18:00", "end": "19:30", "kind": "class", "room": "2402"},
-        {"day": "Thu", "start": "18:00", "end": "19:30", "kind": "class", "room": "2402"},
-        {"day": "Tue", "start": "19:45", "end": "21:45", "kind": "lab", "room": "2411"}
+        {
+          "day": "Tue",
+          "start": "18:00",
+          "end": "19:30",
+          "kind": "class",
+          "room": "2402"
+        },
+        {
+          "day": "Thu",
+          "start": "18:00",
+          "end": "19:30",
+          "kind": "class",
+          "room": "2402"
+        },
+        {
+          "day": "Tue",
+          "start": "19:45",
+          "end": "21:45",
+          "kind": "lab",
+          "room": "2411"
+        }
       ]
     }
   ],
   "shifts": [],
   "personalBlocks": [
-    {"label": "Trading review", "day": "Sun", "start": "", "end": "", "note": "60–90 min · starts Aug 24 · skips exam weeks"}
+    {
+      "label": "Trading review",
+      "day": "Sun",
+      "start": "",
+      "end": "",
+      "note": "60–90 min · starts Aug 24 · skips exam weeks"
+    }
   ],
   "weekPlan": {
     "weekOf": "2026-07-13",
@@ -57,16 +111,31 @@
     "days": {
       "Mon": [],
       "Tue": [
-        {"start": "", "end": "", "task": "Price used textbooks — MAT 151, CHE 110, BIO 110 (DCCC bookstore list, ~30 min)", "trigger": "with morning coffee"}
+        {
+          "start": "",
+          "end": "",
+          "task": "Price used textbooks — MAT 151, CHE 110, BIO 110 (DCCC bookstore list, ~30 min)",
+          "trigger": "with morning coffee"
+        }
       ],
       "Wed": [],
       "Thu": [
-        {"start": "", "end": "", "task": "Optional: algebra warm-up — skim MAT 128 notes or one Khan Academy unit (~30 min)", "trigger": "whenever; skip freely"}
+        {
+          "start": "",
+          "end": "",
+          "task": "Optional: algebra warm-up — skim MAT 128 notes or one Khan Academy unit (~30 min)",
+          "trigger": "whenever; skip freely"
+        }
       ],
       "Fri": [],
       "Sat": [],
       "Sun": [
-        {"start": "", "end": "", "task": "Trading review — paper trades only, journal in Trade_Journal.xlsx (60–90 min)", "trigger": "afternoon"}
+        {
+          "start": "",
+          "end": "",
+          "task": "Trading review — paper trades only, journal in Trade_Journal.xlsx (60–90 min)",
+          "trigger": "afternoon"
+        }
       ]
     }
   }
