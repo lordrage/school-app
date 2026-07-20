@@ -129,12 +129,12 @@
 </nav>
 
 <script type="application/json" id="data-island">{
-  "generated": "2026-07-20T13:57:21-04:00",
+  "generated": "2026-07-20T14:01:39-04:00",
   "mode": "break",
   "headline": "You're clear — nothing due.",
   "subline": "Summer session done. Fall starts Mon, Aug 24 — 35 days.",
-  "oneThing": "Price used textbooks for MAT 151, CHE 110 and BIO 110 off the DCCC bookstore list — about 30 minutes. Used copies get picked over closer to Aug 24.",
-  "oneThingTs": "2026-07-20T13:57:21-04:00",
+  "oneThing": "You're free until your 4 PM shift — price used textbooks for MAT 151, CHE 110 and BIO 110 off the DCCC bookstore list. About 30 minutes.",
+  "oneThingTs": "2026-07-20T14:01:39-04:00",
   "semester": {
     "name": "Fall/Winter 2026",
     "start": "2026-08-24",
@@ -225,7 +225,26 @@
       ]
     }
   ],
-  "shifts": [],
+  "shifts": [
+    {
+      "date": "2026-07-20",
+      "start": "16:00",
+      "end": "20:00",
+      "label": "Work"
+    },
+    {
+      "date": "2026-07-21",
+      "start": "14:00",
+      "end": "22:00",
+      "label": "Work"
+    },
+    {
+      "date": "2026-07-25",
+      "start": "14:00",
+      "end": "22:00",
+      "label": "Work"
+    }
+  ],
   "personalBlocks": [
     {
       "label": "Trading review",
@@ -237,14 +256,14 @@
   ],
   "weekPlan": {
     "weekOf": "2026-07-20",
-    "protect": "Nothing can slip — nothing is due. If one thing happens this week: price the textbooks.",
+    "protect": "Nothing is due, so nothing can break. Worth protecting: price the textbooks before Aug 24.",
     "days": {
       "Mon": [
         {
           "start": "",
-          "end": "",
+          "end": "16:00",
           "task": "Price used textbooks — MAT 151, CHE 110, BIO 110 (DCCC bookstore list, ~30 min)",
-          "trigger": "this afternoon"
+          "trigger": "before your 4 PM shift"
         }
       ],
       "Tue": [],
@@ -257,14 +276,21 @@
           "trigger": "whenever; skip freely"
         }
       ],
-      "Fri": [],
+      "Fri": [
+        {
+          "start": "",
+          "end": "",
+          "task": "Grab the new work schedule and tell Claude",
+          "trigger": "when it posts"
+        }
+      ],
       "Sat": [],
       "Sun": [
         {
           "start": "",
           "end": "",
           "task": "Trading review — paper trades only, journal in Trade_Journal.xlsx (60–90 min)",
-          "trigger": "afternoon"
+          "trigger": "afternoon; move it if you get scheduled"
         }
       ]
     }
