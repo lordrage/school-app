@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-20T13:47-04:00",
+  "generated": "2026-07-20T13:57:21-04:00",
   "mode": "break",
   "headline": "You're clear — nothing due.",
-  "subline": "Summer session done. Fall starts Mon, Aug 24 — 36 days.",
-  "oneThing": "Canvas token expired 7/18. Renew it so the app and morning check-ins work again when fall starts (ask Claude: I'll walk you through it).",
-  "oneThingTs": "2026-07-20T13:42:59-04:00",
+  "subline": "Summer session done. Fall starts Mon, Aug 24 — 35 days.",
+  "oneThing": "Price used textbooks for MAT 151, CHE 110 and BIO 110 off the DCCC bookstore list — about 30 minutes. Used copies get picked over closer to Aug 24.",
+  "oneThingTs": "2026-07-20T13:57:21-04:00",
   "semester": {
     "name": "Fall/Winter 2026",
     "start": "2026-08-24",
@@ -106,24 +106,24 @@
     }
   ],
   "weekPlan": {
-    "weekOf": "2026-07-13",
-    "protect": "Nothing critical this week. If one thing happens: Tuesday's 30-min textbook pricing.",
+    "weekOf": "2026-07-20",
+    "protect": "Nothing can slip — nothing is due. If one thing happens this week: price the textbooks.",
     "days": {
-      "Mon": [],
-      "Tue": [
+      "Mon": [
         {
           "start": "",
           "end": "",
           "task": "Price used textbooks — MAT 151, CHE 110, BIO 110 (DCCC bookstore list, ~30 min)",
-          "trigger": "with morning coffee"
+          "trigger": "this afternoon"
         }
       ],
+      "Tue": [],
       "Wed": [],
       "Thu": [
         {
           "start": "",
           "end": "",
-          "task": "Optional: algebra warm-up — skim MAT 128 notes or one Khan Academy unit (~30 min)",
+          "task": "Optional: algebra warm-up — one Khan Academy unit or skim MAT 128 notes (~30 min)",
           "trigger": "whenever; skip freely"
         }
       ],
