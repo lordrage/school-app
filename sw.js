@@ -1,5 +1,5 @@
 /* School app service worker */
-const CACHE = "school-v3";
+const CACHE = "school-v4";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {
