@@ -322,7 +322,14 @@
     state.data = newer(lsGet("sd:data",null), island());
     if(state.data) renderAll();
     fetchFresh(false);
-    if("serviceWorker" in navigator){ navigator.serviceWorker.register("./sw.js").catch(function(){}); }
+    if("serviceWorker" in navigator){
+      navigator.serviceWorker.register("./sw.js").catch(function(){});
+      // when a new worker takes over, reload once so the UI matches the new build
+      var swReloaded=false;
+      navigator.serviceWorker.addEventListener("controllerchange",function(){
+        if(swReloaded) return; swReloaded=true; location.reload();
+      });
+    }
     document.addEventListener("visibilitychange", function(){
       if(!document.hidden && Date.now()-state.fetchedAt > 10*60*1000) fetchFresh(false);
     });
