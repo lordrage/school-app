@@ -418,6 +418,11 @@
       out+='<div class="card hero"><div class="big">'+esc(d.headline||"You're clear.")+'</div><div class="sub">'+esc(d.subline||"")+"</div></div>";
       var days=Math.ceil((semStart-now)/86400000);
       out+='<div class="card"><h2>Fall semester</h2><div class="count"><span class="n">'+days+'</span><span class="lbl">days until classes start · Mon, Aug 24</span></div></div>';
+      // classes haven't started, but work shifts and plan blocks still happen — show them
+      var tlb=todaySlots(now);
+      if(tlb.length){
+        out+='<div class="card"><h2>Today</h2>'+tlb.map(slotHtml).join("")+"</div>";
+      }
     } else {
       var tl=todaySlots(now);
       out+='<div class="card"><h2>Today</h2>';
@@ -540,23 +545,43 @@
     var d=state.data, now=new Date(), out="";
     var semStart=new Date(d.semester.start+"T00:00:00");
     if(now<semStart){
-      out+='<div class="card" style="border-left:3px solid var(--accent)"><p style="margin:0"><b>'+esc(d.semester.name)+"</b> starts Mon, Aug 24 · "+esc(d.semester.campus)+" campus. This is your week once it does:</p></div>";
+      out+='<div class="card" style="border-left:3px solid var(--accent)"><p style="margin:0"><b>'+esc(d.semester.name)+"</b> starts Mon, Aug 24 · "+esc(d.semester.campus)+" campus. Classes below are the fall pattern; work shifts are live now.</p></div>";
     }
+    // dated shifts belong to one specific week — map the current Sun–Sat week onto weekdays
+    var wkStart=new Date(now); wkStart.setHours(0,0,0,0); wkStart.setDate(wkStart.getDate()-wkStart.getDay());
+    var wkEnd=new Date(wkStart); wkEnd.setDate(wkEnd.getDate()+7);
+    var shiftsThisWeek=0;
     out+='<div class="card">';
     DAY_ORDER.forEach(function(day){
       var slots=[];
       (d.courses||[]).forEach(function(c){(c.meetings||[]).forEach(function(m){
         if(m.day===day) slots.push({start:m.start,end:m.end,label:c.code+" — "+c.name+(m.kind==="lab"?" (lab)":""),sub:"Rm "+m.room+" · "+c.instructor,color:c.color});
       })});
-      (d.shifts||[]).forEach(function(s){ if(s.day===day&&!s.date) slots.push({start:s.start,end:s.end,label:s.label||"Work shift",sub:"work",color:"#b48cff"}); });
+      (d.shifts||[]).forEach(function(s){
+        if(s.date){
+          var sd=new Date(s.date+"T00:00:00");
+          if(sd>=wkStart&&sd<wkEnd&&DAYS[sd.getDay()]===day){
+            shiftsThisWeek++;
+            slots.push({start:s.start,end:s.end,label:s.label||"Work shift",
+              sub:"work · "+sd.toLocaleDateString(undefined,{month:"short",day:"numeric"}),color:"#b48cff"});
+          }
+        } else if(s.day===day){
+          shiftsThisWeek++;
+          slots.push({start:s.start,end:s.end,label:s.label||"Work shift",sub:"work · every week",color:"#b48cff"});
+        }
+      });
       (d.personalBlocks||[]).forEach(function(p){ if(p.day===day) slots.push({start:p.start,end:p.end,label:p.label,sub:p.note,color:"#8b94a7"}); });
       if(!slots.length) return;
       slots.sort(function(a,b){return (a.start||"zz").localeCompare(b.start||"zz")});
       out+='<div class="dayhead">'+day+"</div>"+slots.map(slotHtml).join("");
     });
     out+="</div>";
-    var noShifts=!(d.shifts&&d.shifts.length);
-    if(noShifts) out+='<div class="card"><h2>Work shifts</h2><div style="color:var(--dim);font-size:.92rem">None recorded. Tell Claude your shifts in any chat — they’ll show up here after the next sync.</div></div>';
+    if(!shiftsThisWeek){
+      var m=(d.shifts&&d.shifts.length)
+        ? "Nothing scheduled this week. Your next posted shifts are in a later week — tell Claude when the new schedule drops."
+        : "None recorded. Tell Claude your shifts in any chat — they’ll show up here after the next sync.";
+      out+='<div class="card"><h2>Work shifts</h2><div style="color:var(--dim);font-size:.92rem">'+esc(m)+"</div></div>";
+    }
     $("#view-schedule").innerHTML=out;
   }
 
