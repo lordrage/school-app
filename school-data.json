@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-24T00:18-04:00",
+  "generated": "2026-07-24T07:11:00-04:00",
   "mode": "break",
   "headline": "You're clear — nothing due.",
-  "subline": "Summer break. Fall starts Mon, Aug 24 — 32 days.",
-  "oneThing": "Wide-open Thursday — no class, no shift. Nothing's due, so this is a get-ahead window if you want one: knock the rust off algebra with a single Khan Academy unit or a few practice problems, ~30 min. Your fall opens with 9 AM algebra Tue/Thu, so a light rep now makes week one easier. Not required — skip guilt-free if you'd rather bank the rest today.",
-  "oneThingTs": "2026-07-23T07:10:00-04:00",
+  "subline": "Summer break. Fall starts Mon, Aug 24 — 31 days.",
+  "oneThing": "It's Friday — your next work schedule (Jul 26–Aug 1) posts today. Grab it and send it to Claude so next week isn't a blank; right now everything Sunday on is unknown. You're off today with no class, so it's a 2-minute win whenever you glance at your phone. Want more? One Khan algebra unit banks an easy rep before 9 AM Tue/Thu algebra starts Aug 24 — optional, skip guilt-free.",
+  "oneThingTs": "2026-07-24T07:11:00-04:00",
   "semester": {
     "name": "Fall/Winter 2026",
     "start": "2026-08-24",
@@ -96,18 +96,6 @@
     }
   ],
   "shifts": [
-    {
-      "date": "2026-07-20",
-      "start": "16:00",
-      "end": "20:00",
-      "label": "Work"
-    },
-    {
-      "date": "2026-07-21",
-      "start": "14:00",
-      "end": "22:00",
-      "label": "Work"
-    },
     {
       "date": "2026-07-25",
       "start": "14:00",
