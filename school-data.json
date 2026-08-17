@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-17T16:30-04:00",
+  "generated": "2026-08-17T19:27:00-04:00",
   "mode": "break",
   "headline": "You're clear — nothing due.",
-  "subline": "Summer break. Fall starts Mon, Aug 24 — 8 days.",
-  "oneThing": "Open Sunday, nothing academic due — so this is a light day. The one block worth protecting is the plan's Sunday anchor: log this week's paper trades in the journal (~60–90 min), then you start the new week clean. Two quick wins if you have a minute: the new work schedule (Aug 16–22) posted Friday — send it over so I can plan next week on real shifts; and if the used textbooks (MAT 151, CHE 110, BIO 110) aren't bought yet, 8 days out is the window before copies thin.",
-  "oneThingTs": "2026-08-16T07:11:55-04:00",
+  "subline": "Summer break. Fall starts Mon, Aug 24 — 7 days out.",
+  "oneThing": "Open Monday, nothing academic due — so give 45 minutes to the one item with a real clock: buy the used textbooks for MAT 151, CHE 110, and BIO 110 off the DCCC bookstore list. Seven days to Aug 24 and used copies thin as it nears — this is the last clean week to grab them cheap. If they're already bought, take the day. The next real thing is Friday's work schedule: it covers your first week of classes (Aug 23–29), so send it over once it posts and I'll plan that week on real shifts.",
+  "oneThingTs": "2026-08-17T19:27:00-04:00",
   "semester": {
     "name": "Fall/Winter 2026",
     "start": "2026-08-24",
@@ -106,22 +106,22 @@
     }
   ],
   "weekPlan": {
-    "weekOf": "2026-08-10",
-    "protect": "Buy used textbooks before Aug 24 while copies last",
+    "weekOf": "2026-08-17",
+    "protect": "Buy the used textbooks before Aug 24 — last clean week while copies last",
     "days": {
       "Mon": [
         {
           "start": "",
           "end": "",
           "task": "Buy used textbooks (MAT 151, CHE 110, BIO 110) from the DCCC bookstore list",
-          "trigger": "~45 min · do it early — copies thin as Aug 24 nears"
+          "trigger": "~45 min · last clean week, copies thin as Aug 24 nears"
         }
       ],
       "Wed": [
         {
           "start": "",
           "end": "",
-          "task": "Trading session 1 — next section of the learning plan, paper trades only",
+          "task": "Trading session — next section of the learning plan, paper trades only",
           "trigger": "~60–90 min"
         }
       ],
@@ -137,8 +137,8 @@
         {
           "start": "",
           "end": "",
-          "task": "Grab the new work schedule (posts today, covers Sun Aug 16 – Sat Aug 22) and send it over",
-          "trigger": "so next week plans on real shifts"
+          "task": "Grab the new work schedule (posts today, covers Sun Aug 23 – Sat Aug 29 — your first school week) and send it over",
+          "trigger": "so the first school week plans on real shifts"
         }
       ],
       "Sun": [
@@ -146,7 +146,7 @@
           "start": "",
           "end": "",
           "task": "Trading review — log the week's paper trades in the journal",
-          "trigger": "~60–90 min · anchor block, don't skip"
+          "trigger": "~60–90 min · anchor block, last one before classes start"
         }
       ]
     }
