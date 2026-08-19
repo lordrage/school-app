@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T22:18-04:00",
+  "generated": "2026-08-19T06:32-04:00",
   "mode": "break",
   "headline": "You're clear — nothing due.",
   "subline": "Summer break. Fall starts Mon, Aug 24 — 6 days out.",
@@ -12,7 +12,48 @@
     "campus": "Marple"
   },
   "canvasUrl": "https://canvas.dccc.edu",
-  "assignments": [],
+  "assignments": [
+    {
+      "id": "quiz-342928",
+      "title": "Textbook Overview - Chapter 1: Matter, Measurement, and Problem Solving",
+      "course": "CHE 110",
+      "due": "2026-08-25T23:59-04:00",
+      "points": 5.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342928",
+      "big": false
+    },
+    {
+      "id": "quiz-342927",
+      "title": "Textbook Overview - Chapter 2: Atoms and Elements",
+      "course": "CHE 110",
+      "due": "2026-08-30T23:59-04:00",
+      "points": 5.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342927",
+      "big": false
+    },
+    {
+      "id": "assignment-1314523",
+      "title": "EoC_1. End-of-Chapter Homework UPLOAD",
+      "course": "CHE 110",
+      "due": "2026-08-30T23:59-04:00",
+      "points": 5.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314523",
+      "big": false
+    },
+    {
+      "id": "assignment-1314524",
+      "title": "EoC_2. End-of-Chapter Homework UPLOAD",
+      "course": "CHE 110",
+      "due": "2026-09-10T23:59-04:00",
+      "points": 5.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314524",
+      "big": false
+    }
+  ],
   "courses": [
     {
       "code": "MAT 151",
