@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T07:13:00-04:00",
+  "generated": "2026-08-21T11:36-04:00",
   "mode": "break",
   "headline": "Nothing due yet — first work lands Tuesday.",
   "subline": "Fall starts Mon Aug 24. CHE 110 is live; its Chapter 1 quiz is due Tue Aug 25. Your first-week work schedule posts today.",
@@ -18,7 +18,7 @@
       "title": "Textbook Overview - Chapter 1: Matter, Measurement, and Problem Solving",
       "course": "CHE 110",
       "due": "2026-08-25T23:59-04:00",
-      "points": 5,
+      "points": 5.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342928",
       "big": false
@@ -28,7 +28,7 @@
       "title": "Textbook Overview - Chapter 2: Atoms and Elements",
       "course": "CHE 110",
       "due": "2026-08-30T23:59-04:00",
-      "points": 5,
+      "points": 5.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342927",
       "big": false
@@ -38,7 +38,7 @@
       "title": "EoC_1. End-of-Chapter Homework UPLOAD",
       "course": "CHE 110",
       "due": "2026-08-30T23:59-04:00",
-      "points": 5,
+      "points": 5.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314523",
       "big": false
@@ -48,7 +48,7 @@
       "title": "EoC_2. End-of-Chapter Homework UPLOAD",
       "course": "CHE 110",
       "due": "2026-09-10T23:59-04:00",
-      "points": 5,
+      "points": 5.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314524",
       "big": false
@@ -61,8 +61,20 @@
       "color": "#5aa7ff",
       "instructor": "Abebe",
       "meetings": [
-        {"day": "Tue", "start": "09:00", "end": "11:00", "kind": "class", "room": "2402"},
-        {"day": "Thu", "start": "09:00", "end": "11:00", "kind": "class", "room": "2402"}
+        {
+          "day": "Tue",
+          "start": "09:00",
+          "end": "11:00",
+          "kind": "class",
+          "room": "2402"
+        },
+        {
+          "day": "Thu",
+          "start": "09:00",
+          "end": "11:00",
+          "kind": "class",
+          "room": "2402"
+        }
       ]
     },
     {
@@ -71,9 +83,27 @@
       "color": "#ffb454",
       "instructor": "Cacciavillani",
       "meetings": [
-        {"day": "Mon", "start": "12:20", "end": "13:45", "kind": "class", "room": "3403"},
-        {"day": "Fri", "start": "12:20", "end": "13:45", "kind": "class", "room": "3403"},
-        {"day": "Wed", "start": "12:20", "end": "15:20", "kind": "lab", "room": "3413"}
+        {
+          "day": "Mon",
+          "start": "12:20",
+          "end": "13:45",
+          "kind": "class",
+          "room": "3403"
+        },
+        {
+          "day": "Fri",
+          "start": "12:20",
+          "end": "13:45",
+          "kind": "class",
+          "room": "3403"
+        },
+        {
+          "day": "Wed",
+          "start": "12:20",
+          "end": "15:20",
+          "kind": "lab",
+          "room": "3413"
+        }
       ]
     },
     {
@@ -82,9 +112,27 @@
       "color": "#4cd97b",
       "instructor": "Scholz",
       "meetings": [
-        {"day": "Tue", "start": "18:00", "end": "19:30", "kind": "class", "room": "2402"},
-        {"day": "Thu", "start": "18:00", "end": "19:30", "kind": "class", "room": "2402"},
-        {"day": "Tue", "start": "19:45", "end": "21:45", "kind": "lab", "room": "2411"}
+        {
+          "day": "Tue",
+          "start": "18:00",
+          "end": "19:30",
+          "kind": "class",
+          "room": "2402"
+        },
+        {
+          "day": "Thu",
+          "start": "18:00",
+          "end": "19:30",
+          "kind": "class",
+          "room": "2402"
+        },
+        {
+          "day": "Tue",
+          "start": "19:45",
+          "end": "21:45",
+          "kind": "lab",
+          "room": "2411"
+        }
       ]
     }
   ],
