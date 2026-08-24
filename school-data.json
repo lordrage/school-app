@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-24T06:39-04:00",
-  "mode": "break",
-  "headline": "Nothing due yet — first work lands Tuesday.",
-  "subline": "Fall starts Mon Aug 24. CHE 110 is live; its Chapter 1 quiz is due Tue Aug 25. Your first-week work schedule posts today.",
-  "oneThing": "",
-  "oneThingTs": "2026-08-21T07:13:00-04:00",
+  "generated": "2026-08-24T09:36:00-04:00",
+  "mode": "semester",
+  "headline": "",
+  "subline": "",
+  "oneThing": "Knock out the CHE 110 Chapter 1 quiz today in your gap after chem (5 pts, due tomorrow night). Tuesday runs algebra 9-11 then bio class + lab 6-9:45, so tomorrow leaves no room, and the Ch 1 notes and slides are already in your files folder. While you're in Canvas, post the BIO 110 'Introduce yourself' discussion, a 2-minute week-1 task.",
+  "oneThingTs": "2026-08-24T09:36:00-04:00",
   "semester": {
     "name": "Fall/Winter 2026",
     "start": "2026-08-24",
@@ -14,21 +14,11 @@
   "canvasUrl": "https://canvas.dccc.edu",
   "assignments": [
     {
-      "id": "discussion_topic-470322",
-      "title": "Week 1: Introduce yourself!",
-      "course": "BIO 110",
-      "due": "2026-08-24T00:00-04:00",
-      "points": null,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52810/discussion_topics/470322",
-      "big": false
-    },
-    {
       "id": "quiz-342928",
       "title": "Textbook Overview - Chapter 1: Matter, Measurement, and Problem Solving",
       "course": "CHE 110",
       "due": "2026-08-25T23:59-04:00",
-      "points": 5.0,
+      "points": 5,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342928",
       "big": false
@@ -38,7 +28,7 @@
       "title": "Textbook Overview - Chapter 2: Atoms and Elements",
       "course": "CHE 110",
       "due": "2026-08-30T23:59-04:00",
-      "points": 5.0,
+      "points": 5,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342927",
       "big": false
@@ -48,7 +38,7 @@
       "title": "EoC_1. End-of-Chapter Homework UPLOAD",
       "course": "CHE 110",
       "due": "2026-08-30T23:59-04:00",
-      "points": 5.0,
+      "points": 5,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314523",
       "big": false
@@ -58,7 +48,7 @@
       "title": "EoC_2. End-of-Chapter Homework UPLOAD",
       "course": "CHE 110",
       "due": "2026-09-10T23:59-04:00",
-      "points": 5.0,
+      "points": 5,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314524",
       "big": false
@@ -153,53 +143,8 @@
       "day": "Sun",
       "start": "",
       "end": "",
-      "note": "60–90 min · starts Aug 24 · skips exam weeks"
+      "note": "60-90 min - resumes Aug 24 - skips exam weeks"
     }
   ],
-  "weekPlan": {
-    "weekOf": "2026-08-17",
-    "protect": "Buy the used textbooks before Aug 24 — last clean week while copies last",
-    "days": {
-      "Mon": [
-        {
-          "start": "",
-          "end": "",
-          "task": "Buy used textbooks (MAT 151, CHE 110, BIO 110) from the DCCC bookstore list",
-          "trigger": "~45 min · last clean week, copies thin as Aug 24 nears"
-        }
-      ],
-      "Wed": [
-        {
-          "start": "",
-          "end": "",
-          "task": "Trading session — next section of the learning plan, paper trades only",
-          "trigger": "~60–90 min"
-        }
-      ],
-      "Thu": [
-        {
-          "start": "",
-          "end": "",
-          "task": "Optional algebra warm-up — one Khan unit to stay sharp for MAT 151",
-          "trigger": "~30 min · pure bonus, skip freely"
-        }
-      ],
-      "Fri": [
-        {
-          "start": "",
-          "end": "",
-          "task": "Grab the new work schedule (posts today, covers Sun Aug 23 – Sat Aug 29 — your first school week) and send it over",
-          "trigger": "so the first school week plans on real shifts"
-        }
-      ],
-      "Sun": [
-        {
-          "start": "",
-          "end": "",
-          "task": "Trading review — log the week's paper trades in the journal",
-          "trigger": "~60–90 min · anchor block, last one before classes start"
-        }
-      ]
-    }
-  }
+  "weekPlan": null
 }
