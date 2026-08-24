@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23T22:23-04:00",
+  "generated": "2026-08-24T06:39-04:00",
   "mode": "break",
   "headline": "Nothing due yet — first work lands Tuesday.",
   "subline": "Fall starts Mon Aug 24. CHE 110 is live; its Chapter 1 quiz is due Tue Aug 25. Your first-week work schedule posts today.",
@@ -13,6 +13,16 @@
   },
   "canvasUrl": "https://canvas.dccc.edu",
   "assignments": [
+    {
+      "id": "discussion_topic-470322",
+      "title": "Week 1: Introduce yourself!",
+      "course": "BIO 110",
+      "due": "2026-08-24T00:00-04:00",
+      "points": null,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810/discussion_topics/470322",
+      "big": false
+    },
     {
       "id": "quiz-342928",
       "title": "Textbook Overview - Chapter 1: Matter, Measurement, and Problem Solving",
