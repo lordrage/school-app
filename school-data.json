@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25T07:13:00-04:00",
+  "generated": "2026-08-25T11:45-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -14,11 +14,31 @@
   "canvasUrl": "https://canvas.dccc.edu",
   "assignments": [
     {
+      "id": "discussion_topic-470322",
+      "title": "Week 1: Introduce yourself!",
+      "course": "BIO 110",
+      "due": "2026-08-24T00:00-04:00",
+      "points": null,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810/discussion_topics/470322",
+      "big": false
+    },
+    {
+      "id": "assignment-1325329",
+      "title": "Daily Opener - 8/24",
+      "course": "CHE 110",
+      "due": "2026-08-24T23:59-04:00",
+      "points": 1.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1325329/submissions/106818",
+      "big": false
+    },
+    {
       "id": "quiz-342928",
       "title": "Textbook Overview - Chapter 1: Matter, Measurement, and Problem Solving",
       "course": "CHE 110",
       "due": "2026-08-25T23:59-04:00",
-      "points": 5,
+      "points": 5.0,
       "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342928",
       "big": false
@@ -28,7 +48,7 @@
       "title": "Textbook Overview - Chapter 2: Atoms and Elements",
       "course": "CHE 110",
       "due": "2026-08-30T23:59-04:00",
-      "points": 5,
+      "points": 5.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342927",
       "big": false
@@ -38,19 +58,19 @@
       "title": "EoC_1. End-of-Chapter Homework UPLOAD",
       "course": "CHE 110",
       "due": "2026-08-30T23:59-04:00",
-      "points": 5,
+      "points": 5.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314523",
       "big": false
     },
     {
-      "id": "aktiv-01-ec2401",
-      "title": "Aktiv 01 (EC.24.01) - online homework (app.aktiv.com)",
+      "id": "assignment-1325056",
+      "title": "Aktiv 01 (EC.24.01)",
       "course": "CHE 110",
       "due": "2026-09-01T00:00-04:00",
-      "points": 10,
+      "points": 10.0,
       "status": "not_started",
-      "url": "https://app.aktiv.com",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1325056",
       "big": false
     },
     {
@@ -58,7 +78,7 @@
       "title": "EoC_2. End-of-Chapter Homework UPLOAD",
       "course": "CHE 110",
       "due": "2026-09-10T23:59-04:00",
-      "points": 5,
+      "points": 5.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314524",
       "big": false
