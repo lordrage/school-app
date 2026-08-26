@@ -102,6 +102,17 @@
   nav button svg{width:23px; height:23px; stroke:currentColor; fill:none; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round;}
   nav button.active{color:var(--accent);}
   .foot{text-align:center; color:var(--dim); font-size:.75rem; padding:10px 0 6px;}
+  /* exams */
+  .exam-head{display:flex; align-items:center; gap:8px; margin-bottom:6px;}
+  .exam-head .cname{color:var(--dim); font-size:.85rem;}
+  .exam-head .syl{margin-left:auto; font-size:.8rem; white-space:nowrap;}
+  .exam-badge{border:1px solid var(--line); border-radius:6px; padding:0 6px; font-size:.72rem; color:var(--dim);}
+  .exam-badge.unconf{border-color:color-mix(in srgb, var(--warn) 55%, var(--line)); color:var(--warn);}
+  .item.study-open{border-left:3px solid var(--warn); padding-left:12px;}
+  .m.study{color:var(--dim);} .m.study b{color:var(--text);}
+  .m.ctx{color:var(--dim); font-style:italic; opacity:.85;}
+  .study-now{border-left:3px solid var(--warn);}
+  .study-now p{margin:3px 0; font-size:.96rem;}
 </style>
 </head>
 <body>
@@ -116,6 +127,7 @@
 <main>
   <section class="view" id="view-today"></section>
   <section class="view" id="view-due"></section>
+  <section class="view" id="view-exams"></section>
   <section class="view" id="view-week"></section>
   <section class="view" id="view-schedule"></section>
   <div class="foot" id="foot"></div>
@@ -124,6 +136,7 @@
 <nav>
   <button data-v="today"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg>Today</button>
   <button data-v="due"><svg viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 5.5l1 1 2-2M4 11.5l1 1 2-2M4 17.5l1 1 2-2"/></svg>Due</button>
+  <button data-v="exams"><svg viewBox="0 0 24 24"><path d="M6 2h8l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/><path d="M14 2v4h4"/><path d="M8 13h8M8 17h5"/></svg>Exams</button>
   <button data-v="week"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>Week</button>
   <button data-v="schedule"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg>Schedule</button>
 </nav>
@@ -448,6 +461,16 @@
     if(overdue.length){
       out+='<div class="banner">⚠️ <b>'+overdue.length+" overdue</b> — fastest path: knock out the smallest one first. It's in the Due tab.</div>";
     }
+    var studyNow=(d.exams||[]).filter(function(e){return examOpen(e, now)}).sort(function(a,b){return examDateObj(a)-examDateObj(b)});
+    if(studyNow.length){
+      out+='<div class="card study-now"><h2>Study window open</h2>';
+      studyNow.forEach(function(e){
+        var dn=daysUntil(e.date, now), when=dn<=0?"today":dn===1?"tomorrow":"in "+dn+" days";
+        out+='<p>📖 <b>'+esc(e.title)+'</b> '+pill(e.course)+' — '+esc(when)+' ('+esc(fmtExamDate(e.date))+')'+
+          (e.confirmed?"":' <span class="exam-badge unconf">unconfirmed</span>')+"</p>";
+      });
+      out+="</div>";
+    }
     if(now<semStart){
       out+='<div class="card hero"><div class="big">'+esc(d.headline||"You're clear.")+'</div><div class="sub">'+esc(d.subline||"")+"</div></div>";
       var days=Math.ceil((semStart-now)/86400000);
@@ -537,6 +560,71 @@
         if(a) cycleStatus(a);
       });
     });
+  }
+
+  /* ---------- render: exams ---------- */
+  function parseYMD(s){ if(!s) return null; var p=String(s).slice(0,10).split("-"); if(p.length!==3) return null; return new Date(+p[0], +p[1]-1, +p[2]); }
+  function startOfToday(now){ var t=new Date(now); t.setHours(0,0,0,0); return t; }
+  function examDateObj(e){ return e.hasTime ? new Date(e.date) : parseYMD(e.date); }
+  function daysUntil(s, now){ var d=parseYMD(s); if(!d) return 0; return Math.round((d - startOfToday(now))/86400000); }
+  function fmtExamDate(s){ var d=parseYMD(s); return d ? d.toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"}) : esc(s); }
+  function examOpen(e, now){ var s=parseYMD(e.studyStart), ed=examDateObj(e), t=startOfToday(now); return !!(s && ed && t>=s && ed>=t); }
+  function courseName(code){ var c=(state.data.courses||[]).find(function(x){return x.code===code}); return c?c.name:""; }
+  function upcomingExams(now){
+    var t=startOfToday(now);
+    return (state.data.exams||[]).filter(function(e){ var ed=examDateObj(e); return ed && ed>=t; })
+      .sort(function(a,b){ return examDateObj(a)-examDateObj(b); });
+  }
+  function examRow(e, now){
+    var dn=daysUntil(e.date, now);
+    var whenCls=dn<0?"late":(dn<=7?"soon":"");
+    var whenTxt=dn<0?(-dn)+"d ago":dn===0?"today":dn===1?"tomorrow":"in "+dn+" days";
+    var timeTxt=e.hasTime?(" · "+new Date(e.date).toLocaleTimeString(undefined,{hour:"numeric",minute:"2-digit"})):"";
+    var badge = !e.confirmed
+      ? '<span class="exam-badge unconf" title="Auto-read from your syllabus. Check it against the real syllabus.">unconfirmed</span>'
+      : e.source==="manual"
+        ? '<span class="exam-badge" title="You told Claude this date">added</span>'
+        : '<span class="exam-badge" title="From a Canvas assignment — real due date">Canvas</span>';
+    var open=examOpen(e, now);
+    return '<div class="item'+(open?" study-open":"")+'"><div class="body">'+
+      '<div class="t">'+esc(e.title)+'</div>'+
+      '<div class="m">'+
+        '<span class="due-rel '+whenCls+'">'+esc(whenTxt)+'</span>'+
+        '<span>'+esc(fmtExamDate(e.date))+timeTxt+'</span>'+
+        badge+
+        (e.url?'<a class="ext" href="'+esc(e.url)+'" target="_blank" rel="noopener">Open ↗</a>':"")+
+      '</div>'+
+      '<div class="m study">'+(open?"📖 Study window open — ":"🗓️ ")+"Study from <b>"+esc(fmtExamDate(e.studyStart))+"</b></div>"+
+      (e.context&&!e.confirmed?'<div class="m ctx">“'+esc(e.context)+'”</div>':"")+
+      "</div></div>";
+  }
+  function renderExams(){
+    var d=state.data, now=new Date(), out="";
+    var exams=upcomingExams(now);
+    if(!exams.length){
+      out='<div class="card"><div class="empty"><div class="e">📘</div><div class="h">No exams yet</div>'+
+        '<div>Exam dates land here after a sync reads your course syllabi. If a class lists its exams only on a paper or PDF syllabus, tell Claude the dates and they’ll show up here.</div></div></div>';
+      $("#view-exams").innerHTML=out; return;
+    }
+    var groups={};
+    exams.forEach(function(e){ (groups[e.course]=groups[e.course]||[]).push(e); });
+    // course groups ordered by their soonest exam (exams are already date-sorted)
+    Object.keys(groups).sort(function(a,b){
+      return examDateObj(groups[a][0]) - examDateObj(groups[b][0]);
+    }).forEach(function(code){
+      var syl=(d.syllabi||[]).find(function(s){return s.course===code});
+      out+='<div class="card"><div class="exam-head"><span>'+pill(code)+'</span>'+
+        '<span class="cname">'+esc(courseName(code))+'</span>'+
+        (syl&&syl.url?'<a class="ext syl" href="'+esc(syl.url)+'" target="_blank" rel="noopener">Syllabus ↗</a>':"")+
+        '</div>';
+      groups[code].forEach(function(e){ out+=examRow(e, now); });
+      out+="</div>";
+    });
+    if(exams.some(function(e){return !e.confirmed})){
+      out+='<div class="card"><h2>Heads up</h2><div style="color:var(--dim);font-size:.9rem">Dates marked '+
+        '<span class="exam-badge unconf">unconfirmed</span> were auto-read from syllabus text — regex on prose isn’t perfect. Open the syllabus to double-check before you rely on one.</div></div>';
+    }
+    $("#view-exams").innerHTML=out;
   }
 
   /* ---------- render: week ---------- */
@@ -631,7 +719,7 @@
     if(!state.data) return;
     $("#hDate").textContent=new Date().toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric"});
     updateChip();
-    renderToday(); renderDue(); renderWeek(); renderSchedule();
+    renderToday(); renderDue(); renderExams(); renderWeek(); renderSchedule();
     $("#foot").textContent="Built with Claude · data flows from Canvas via sync";
   }
   document.querySelectorAll("nav button").forEach(function(b){
@@ -640,7 +728,7 @@
   $("#syncChip").addEventListener("click",function(){fetchFresh(true)});
 
   boot();
-  show((location.hash||"#today").slice(1) in {today:1,due:1,week:1,schedule:1} ? (location.hash||"#today").slice(1) : "today");
+  show((location.hash||"#today").slice(1) in {today:1,due:1,exams:1,week:1,schedule:1} ? (location.hash||"#today").slice(1) : "today");
 })();
 </script>
 </body>
