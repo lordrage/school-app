@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - name: Probe Canvas for CHE/BIO exam dates
+      - name: Probe2
         env:
           CANVAS_TOKEN: ${{ secrets.CANVAS_TOKEN }}
           CANVAS_BASE: https://canvas.dccc.edu
@@ -15,32 +15,28 @@ jobs:
           python - <<'PY'
           import os, json, urllib.request, re
           BASE=os.environ["CANVAS_BASE"].rstrip("/"); TOK=os.environ["CANVAS_TOKEN"]
-          def api(path):
-              req=urllib.request.Request(BASE+path, headers={"Authorization":"Bearer "+TOK})
+          def api(url):
+              if url.startswith("/"): url=BASE+url
+              req=urllib.request.Request(url, headers={"Authorization":"Bearer "+TOK})
               with urllib.request.urlopen(req, timeout=30) as r: return json.load(r)
           def strip(h):
-              t=re.sub(r"<[^>]+>"," ", h or ""); return re.sub(r"\s+"," ", t).strip()
+              t=re.sub(r"<[^>]+>"," ", h or ""); return re.sub(r"[ \t]+"," ", t)
+          PAT=re.compile(r"calendar|syllab|exam|schedule|test|midterm|final", re.I)
           for cid,code in [("52358","CHE 110"),("52810","BIO 110")]:
-              print("\n================= %s (course %s) =================" % (code,cid))
-              try:
-                  c=api("/api/v1/courses/%s?include[]=syllabus_body"%cid)
-                  print("[SYLLABUS BODY]:", strip(c.get("syllabus_body"))[:1500])
-              except Exception as e: print("syllabus err",e)
-              try:
-                  pages=api("/api/v1/courses/%s/pages?per_page=50"%cid)
-                  print("[PAGES]:", [p.get("title") for p in pages])
-                  for p in pages:
-                      if re.search(r"exam|schedule|calendar|test|midterm|final|syllab", p.get("title",""), re.I):
-                          full=api("/api/v1/courses/%s/pages/%s"%(cid,p.get("url")))
-                          print("  --PAGE '%s'--"%p.get("title"), strip(full.get("body"))[:1500])
-              except Exception as e: print("pages err",e)
-              try:
-                  mods=api("/api/v1/courses/%s/modules?include[]=items&per_page=50"%cid)
-                  for m in mods:
-                      print("[MODULE]", m.get("name"), "->", [i.get("title") for i in (m.get("items") or [])])
-              except Exception as e: print("modules err",e)
-              try:
-                  files=api("/api/v1/courses/%s/files?per_page=50"%cid)
-                  print("[FILES]:", [f.get("display_name") for f in files])
-              except Exception as e: print("files err",e)
+              print("\n=========== %s ==========="%code)
+              mods=api("/api/v1/courses/%s/modules?include[]=items&per_page=50"%cid)
+              for m in mods:
+                  for it in (m.get("items") or []):
+                      if PAT.search(it.get("title","")):
+                          print("\n--- ITEM:", it.get("title"), "| type:", it.get("type"))
+                          u=it.get("url") or ""
+                          try:
+                              if it.get("type")=="Page":
+                                  body=api(u).get("body")
+                                  print(strip(body)[:2500])
+                              elif it.get("type")=="File":
+                                  f=api(u); print("file:", f.get("display_name"), f.get("content-type"), f.get("url","")[:80])
+                              else:
+                                  print("url:", u, "html:", it.get("html_url"))
+                          except Exception as e: print("fetch err", e)
           PY
