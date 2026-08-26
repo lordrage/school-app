@@ -7,36 +7,42 @@ jobs:
     steps:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - name: Probe2
+      - name: Probe3
         env:
           CANVAS_TOKEN: ${{ secrets.CANVAS_TOKEN }}
           CANVAS_BASE: https://canvas.dccc.edu
         run: |
+          pip -q install pypdf
           python - <<'PY'
           import os, json, urllib.request, re
+          from pypdf import PdfReader
+          import io
           BASE=os.environ["CANVAS_BASE"].rstrip("/"); TOK=os.environ["CANVAS_TOKEN"]
+          H={"Authorization":"Bearer "+TOK}
           def api(url):
               if url.startswith("/"): url=BASE+url
-              req=urllib.request.Request(url, headers={"Authorization":"Bearer "+TOK})
-              with urllib.request.urlopen(req, timeout=30) as r: return json.load(r)
-          def strip(h):
-              t=re.sub(r"<[^>]+>"," ", h or ""); return re.sub(r"[ \t]+"," ", t)
-          PAT=re.compile(r"calendar|syllab|exam|schedule|test|midterm|final", re.I)
-          for cid,code in [("52358","CHE 110"),("52810","BIO 110")]:
-              print("\n=========== %s ==========="%code)
-              mods=api("/api/v1/courses/%s/modules?include[]=items&per_page=50"%cid)
-              for m in mods:
-                  for it in (m.get("items") or []):
-                      if PAT.search(it.get("title","")):
-                          print("\n--- ITEM:", it.get("title"), "| type:", it.get("type"))
-                          u=it.get("url") or ""
-                          try:
-                              if it.get("type")=="Page":
-                                  body=api(u).get("body")
-                                  print(strip(body)[:2500])
-                              elif it.get("type")=="File":
-                                  f=api(u); print("file:", f.get("display_name"), f.get("content-type"), f.get("url","")[:80])
-                              else:
-                                  print("url:", u, "html:", it.get("html_url"))
-                          except Exception as e: print("fetch err", e)
+              with urllib.request.urlopen(urllib.request.Request(url,headers=H),timeout=30) as r: return json.load(r)
+          def raw(url):
+              with urllib.request.urlopen(urllib.request.Request(url,headers=H),timeout=60) as r: return r.read()
+          print("===== BIO 110 assignments with dates =====")
+          for a in api("/api/v1/courses/52810/assignments?per_page=100"):
+              t=a.get("name","")
+              if re.search(r"exam|test|midterm|final|unit", t, re.I):
+                  print("  %-45s due=%s"%(t[:45], a.get("due_at")))
+          print("\n===== CHE 110 assignments with dates =====")
+          for a in api("/api/v1/courses/52358/assignments?per_page=100"):
+              t=a.get("name","")
+              if re.search(r"exam|test|midterm|final|quiz", t, re.I):
+                  print("  %-45s due=%s"%(t[:45], a.get("due_at")))
+          for fid,label in [("9816671","CHE Calendar Summary")]:
+              print("\n===== %s (PDF text) ====="%label)
+              try:
+                  f=api("/api/v1/files/%s"%fid); data=raw(f["url"])
+                  txt=""
+                  for pg in PdfReader(io.BytesIO(data)).pages: txt+=pg.extract_text() or ""
+                  txt=re.sub(r"[ \t]+"," ",txt)
+                  for line in txt.splitlines():
+                      if re.search(r"exam|test|midterm|final|quiz", line, re.I):
+                          print("  |", line.strip()[:160])
+              except Exception as e: print("pdf err", e)
           PY
