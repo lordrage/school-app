@@ -276,5 +276,61 @@
       "url": "https://canvas.dccc.edu/courses/52253/assignments/syllabus",
       "hasContent": true
     }
+  ],
+  "manualExams": [
+    {
+      "course": "CHE 110",
+      "title": "Exam 1 (Ch 1-2)",
+      "date": "2026-09-11T12:20:00-04:00",
+      "url": "https://canvas.dccc.edu/courses/52358"
+    },
+    {
+      "course": "CHE 110",
+      "title": "Exam 2 (Ch 3-4)",
+      "date": "2026-10-02T12:20:00-04:00",
+      "url": "https://canvas.dccc.edu/courses/52358"
+    },
+    {
+      "course": "CHE 110",
+      "title": "Exam 3 (Ch 5-6)",
+      "date": "2026-10-23T12:20:00-04:00",
+      "url": "https://canvas.dccc.edu/courses/52358"
+    },
+    {
+      "course": "CHE 110",
+      "title": "Exam 4 (Ch 7-8)",
+      "date": "2026-11-13T12:20:00-05:00",
+      "url": "https://canvas.dccc.edu/courses/52358"
+    },
+    {
+      "course": "CHE 110",
+      "title": "Exam 5 (Ch 9-10)",
+      "date": "2026-12-02T12:20:00-05:00",
+      "url": "https://canvas.dccc.edu/courses/52358"
+    },
+    {
+      "course": "CHE 110",
+      "title": "Final Exam (Ch 1-11)",
+      "date": "2026-12-11T11:00:00-05:00",
+      "url": "https://canvas.dccc.edu/courses/52358"
+    },
+    {
+      "course": "BIO 110",
+      "title": "Unit 1 Exam (Ch 1-3)",
+      "date": "2026-09-17T18:00:00-04:00",
+      "url": "https://canvas.dccc.edu/courses/52810"
+    },
+    {
+      "course": "BIO 110",
+      "title": "Unit 2 Exam (Ch 4-5)",
+      "date": "2026-10-15T18:00:00-04:00",
+      "url": "https://canvas.dccc.edu/courses/52810"
+    },
+    {
+      "course": "BIO 110",
+      "title": "Unit 3 Exam (Ch 6-8)",
+      "date": "2026-11-19T18:00:00-05:00",
+      "url": "https://canvas.dccc.edu/courses/52810"
+    }
   ]
 }
