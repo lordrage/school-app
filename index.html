@@ -102,17 +102,6 @@
   nav button svg{width:23px; height:23px; stroke:currentColor; fill:none; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round;}
   nav button.active{color:var(--accent);}
   .foot{text-align:center; color:var(--dim); font-size:.75rem; padding:10px 0 6px;}
-  /* exams */
-  .exam-head{display:flex; align-items:center; gap:8px; margin-bottom:6px;}
-  .exam-head .cname{color:var(--dim); font-size:.85rem;}
-  .exam-head .syl{margin-left:auto; font-size:.8rem; white-space:nowrap;}
-  .exam-badge{border:1px solid var(--line); border-radius:6px; padding:0 6px; font-size:.72rem; color:var(--dim);}
-  .exam-badge.unconf{border-color:color-mix(in srgb, var(--warn) 55%, var(--line)); color:var(--warn);}
-  .item.study-open{border-left:3px solid var(--warn); padding-left:12px;}
-  .m.study{color:var(--dim);} .m.study b{color:var(--text);}
-  .m.ctx{color:var(--dim); font-style:italic; opacity:.85;}
-  .study-now{border-left:3px solid var(--warn);}
-  .study-now p{margin:3px 0; font-size:.96rem;}
 </style>
 </head>
 <body>
@@ -127,7 +116,6 @@
 <main>
   <section class="view" id="view-today"></section>
   <section class="view" id="view-due"></section>
-  <section class="view" id="view-exams"></section>
   <section class="view" id="view-week"></section>
   <section class="view" id="view-schedule"></section>
   <div class="foot" id="foot"></div>
@@ -136,12 +124,235 @@
 <nav>
   <button data-v="today"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg>Today</button>
   <button data-v="due"><svg viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 5.5l1 1 2-2M4 11.5l1 1 2-2M4 17.5l1 1 2-2"/></svg>Due</button>
-  <button data-v="exams"><svg viewBox="0 0 24 24"><path d="M6 2h8l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/><path d="M14 2v4h4"/><path d="M8 13h8M8 17h5"/></svg>Exams</button>
   <button data-v="week"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>Week</button>
   <button data-v="schedule"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg>Schedule</button>
 </nav>
 
-<script type="application/json" id="data-island">{"generated": "2026-08-27T07:01-04:00", "mode": "semester", "headline": "", "subline": "", "oneThing": "After CHE lab wraps at 3:20 today, use the free evening — your only no-evening-class day this week — to knock out CHE EoC_1 (5 pts, due Sun) so it doesn't ride into the weekend. The Ch 2 lecture notes just posted on Canvas: skim those tonight and save the 5-pt Ch 2 quiz for tomorrow's midday gap between algebra and bio.", "oneThingTs": "2026-08-26T11:43:52-04:00", "semester": {"name": "Fall/Winter 2026", "start": "2026-08-24", "end": "2026-12-11", "campus": "Marple"}, "canvasUrl": "https://canvas.dccc.edu", "assignments": [{"id": "discussion_topic-470322", "title": "Week 1: Introduce yourself!", "course": "BIO 110", "due": "2026-08-24T00:00-04:00", "points": null, "status": "not_started", "url": "https://canvas.dccc.edu/courses/52810/discussion_topics/470322", "big": false}, {"id": "assignment-1325329", "title": "Daily Opener - 8/24", "course": "CHE 110", "due": "2026-08-24T23:59-04:00", "points": 1.0, "status": "graded", "url": "https://canvas.dccc.edu/courses/52358/assignments/1325329/submissions/106818", "big": false}, {"id": "quiz-342928", "title": "Textbook Overview - Chapter 1: Matter, Measurement, and Problem Solving", "course": "CHE 110", "due": "2026-08-25T23:59-04:00", "points": 5.0, "status": "graded", "url": "https://canvas.dccc.edu/courses/52358/quizzes/342928", "big": false}, {"id": "assignment-1326648", "title": "Daily Opener - 8/26", "course": "CHE 110", "due": "2026-08-26T23:59-04:00", "points": 1.0, "status": "graded", "url": "https://canvas.dccc.edu/courses/52358/assignments/1326648/submissions/106818", "big": false}, {"id": "quiz-342927", "title": "Textbook Overview - Chapter 2: Atoms and Elements", "course": "CHE 110", "due": "2026-08-30T23:59-04:00", "points": 5.0, "status": "not_started", "url": "https://canvas.dccc.edu/courses/52358/quizzes/342927", "big": false}, {"id": "assignment-1314523", "title": "EoC_1. End-of-Chapter Homework UPLOAD", "course": "CHE 110", "due": "2026-08-30T23:59-04:00", "points": 5.0, "status": "not_started", "url": "https://canvas.dccc.edu/courses/52358/assignments/1314523", "big": false}, {"id": "quiz-342932", "title": "EXP0.Post.1of3, Laboratory Safety Rules [Required by EXP1], v24.09b", "course": "CHE 110", "due": "2026-08-31T23:59-04:00", "points": 2.0, "status": "not_started", "url": "https://canvas.dccc.edu/courses/52358/quizzes/342932", "big": false}, {"id": "assignment-1325056", "title": "Aktiv 01 (EC.24.01)", "course": "CHE 110", "due": "2026-09-01T00:00-04:00", "points": 10.0, "status": "not_started", "url": "https://canvas.dccc.edu/courses/52358/assignments/1325056", "big": false}, {"id": "quiz-342929", "title": "EXP0. POST-LAB QUIZ 1: Basic glassware, equipment and techniques (~35 min), v21.06b", "course": "CHE 110", "due": "2026-09-01T23:59-04:00", "points": 5.0, "status": "not_started", "url": "https://canvas.dccc.edu/courses/52358/quizzes/342929", "big": false}, {"id": "quiz-342931", "title": "EXP0. POST-LAB QUIZ 2: Significant Figures & Scientific Notation, CHE 110, v22.01", "course": "CHE 110", "due": "2026-09-01T23:59-04:00", "points": 10.0, "status": "not_started", "url": "https://canvas.dccc.edu/courses/52358/quizzes/342931", "big": false}, {"id": "assignment-1314524", "title": "EoC_2. End-of-Chapter Homework UPLOAD", "course": "CHE 110", "due": "2026-09-10T23:59-04:00", "points": 5.0, "status": "not_started", "url": "https://canvas.dccc.edu/courses/52358/assignments/1314524", "big": false}], "courses": [{"code": "MAT 151", "name": "College Algebra", "color": "#5aa7ff", "instructor": "Abebe", "meetings": [{"day": "Tue", "start": "09:00", "end": "11:00", "kind": "class", "room": "2402"}, {"day": "Thu", "start": "09:00", "end": "11:00", "kind": "class", "room": "2402"}]}, {"code": "CHE 110", "name": "Gen Chemistry", "color": "#ffb454", "instructor": "Cacciavillani", "meetings": [{"day": "Mon", "start": "12:20", "end": "13:45", "kind": "class", "room": "3403"}, {"day": "Fri", "start": "12:20", "end": "13:45", "kind": "class", "room": "3403"}, {"day": "Wed", "start": "12:20", "end": "15:20", "kind": "lab", "room": "3413"}]}, {"code": "BIO 110", "name": "Gen Biology", "color": "#4cd97b", "instructor": "Scholz", "meetings": [{"day": "Tue", "start": "18:00", "end": "19:30", "kind": "class", "room": "2402"}, {"day": "Thu", "start": "18:00", "end": "19:30", "kind": "class", "room": "2402"}, {"day": "Tue", "start": "19:45", "end": "21:45", "kind": "lab", "room": "2411"}]}], "shifts": [], "personalBlocks": [{"label": "Trading review", "day": "Sun", "start": "", "end": "", "note": "60-90 min - resumes Aug 24 - skips exam weeks"}], "weekPlan": {"weekOf": "2026-08-24", "protect": "CHE Ch 2 quiz + EoC_1 both submitted before Sun 11:59 PM.", "days": {"Wed": [{"start": "15:20", "end": "17:00", "task": "Start CHE EoC_1 homework (best work window — no evening class)", "trigger": "after CHE lab"}], "Thu": [{"start": "12:00", "end": "17:00", "task": "CHE Ch 2 quiz (5 pts) + finish EoC_1", "trigger": "midday gap between algebra and bio"}], "Fri": [{"start": "13:45", "end": "14:15", "task": "Trading check (paper) + confirm EoC_1 submitted & Ch 2 quiz done", "trigger": "after chem"}], "Sat": [{"start": "", "end": "", "task": "Buffer: finish anything that slipped; else 20–30 min Ch 1–2 skim for CHE Exam 1 (Sep 11)", "trigger": "open day"}], "Sun": [{"start": "", "end": "", "task": "Trading review 60–90 min + confirm both CHE items submitted", "trigger": "weekly review"}]}}, "exams": [{"course": "CHE 110", "title": "Exam 1 (Ch 1-2)", "date": "2026-09-11T12:20:00-04:00", "hasTime": true, "studyStart": "2026-09-04", "source": "manual", "confirmed": true, "url": "https://canvas.dccc.edu/courses/52358", "context": "", "id": "che-110-exam-1-ch-1-2-2026-09-11"}, {"course": "BIO 110", "title": "Unit 1 Exam (Ch 1-3)", "date": "2026-09-17T18:00:00-04:00", "hasTime": true, "studyStart": "2026-09-10", "source": "manual", "confirmed": true, "url": "https://canvas.dccc.edu/courses/52810", "context": "", "id": "bio-110-unit-1-exam-ch-1-3-2026-09-17"}, {"course": "CHE 110", "title": "Exam 2 (Ch 3-4)", "date": "2026-10-02T12:20:00-04:00", "hasTime": true, "studyStart": "2026-09-25", "source": "manual", "confirmed": true, "url": "https://canvas.dccc.edu/courses/52358", "context": "", "id": "che-110-exam-2-ch-3-4-2026-10-02"}, {"course": "BIO 110", "title": "Unit 2 Exam (Ch 4-5)", "date": "2026-10-15T18:00:00-04:00", "hasTime": true, "studyStart": "2026-10-08", "source": "manual", "confirmed": true, "url": "https://canvas.dccc.edu/courses/52810", "context": "", "id": "bio-110-unit-2-exam-ch-4-5-2026-10-15"}, {"course": "MAT 151", "title": "Exam 2", "date": "2026-10-20", "hasTime": false, "studyStart": "2026-10-13", "source": "syllabus", "confirmed": false, "url": "https://canvas.dccc.edu/courses/52253/assignments/syllabus", "context": "No class — Exam 2 (Ch 3) — 10/20 – 10/22 — Section 4.3 — Section 4.5/5.1", "id": "mat-151-exam-2-2026-10-20"}, {"course": "CHE 110", "title": "Exam 3 (Ch 5-6)", "date": "2026-10-23T12:20:00-04:00", "hasTime": true, "studyStart": "2026-10-16", "source": "manual", "confirmed": true, "url": "https://canvas.dccc.edu/courses/52358", "context": "", "id": "che-110-exam-3-ch-5-6-2026-10-23"}, {"course": "MAT 151", "title": "Exam 3", "date": "2026-11-12", "hasTime": false, "studyStart": "2026-11-05", "source": "syllabus", "confirmed": false, "url": "https://canvas.dccc.edu/courses/52253/assignments/syllabus", "context": "10–11/12 — Exam 3 (Ch 4/5) — Section 6.1/6.2 — 11/17–11/19 — Section 6.3", "id": "mat-151-exam-3-2026-11-12"}, {"course": "CHE 110", "title": "Exam 4 (Ch 7-8)", "date": "2026-11-13T12:20:00-05:00", "hasTime": true, "studyStart": "2026-11-06", "source": "manual", "confirmed": true, "url": "https://canvas.dccc.edu/courses/52358", "context": "", "id": "che-110-exam-4-ch-7-8-2026-11-13"}, {"course": "BIO 110", "title": "Unit 3 Exam (Ch 6-8)", "date": "2026-11-19T18:00:00-05:00", "hasTime": true, "studyStart": "2026-11-12", "source": "manual", "confirmed": true, "url": "https://canvas.dccc.edu/courses/52810", "context": "", "id": "bio-110-unit-3-exam-ch-6-8-2026-11-19"}, {"course": "CHE 110", "title": "Exam 5 (Ch 9-10)", "date": "2026-12-02T12:20:00-05:00", "hasTime": true, "studyStart": "2026-11-25", "source": "manual", "confirmed": true, "url": "https://canvas.dccc.edu/courses/52358", "context": "", "id": "che-110-exam-5-ch-9-10-2026-12-02"}, {"course": "MAT 151", "title": "Final Exam", "date": "2026-12-08", "hasTime": false, "studyStart": "2026-12-01", "source": "syllabus", "confirmed": false, "url": "https://canvas.dccc.edu/courses/52253/assignments/syllabus", "context": "end Dec 8 Final Exam Schedule. This schedule is subject to change based", "id": "mat-151-final-exam-2026-12-08"}, {"course": "CHE 110", "title": "Final Exam (Ch 1-11)", "date": "2026-12-11T11:00:00-05:00", "hasTime": true, "studyStart": "2026-12-04", "source": "manual", "confirmed": true, "url": "https://canvas.dccc.edu/courses/52358", "context": "", "id": "che-110-final-exam-ch-1-11-2026-12-11"}], "syllabi": [{"course": "BIO 110", "url": "https://canvas.dccc.edu/courses/52810/assignments/syllabus", "hasContent": true}, {"course": "CHE 110", "url": "https://canvas.dccc.edu/courses/52358/assignments/syllabus", "hasContent": false}, {"course": "MAT 151", "url": "https://canvas.dccc.edu/courses/52253/assignments/syllabus", "hasContent": true}], "manualExams": [{"course": "CHE 110", "title": "Exam 1 (Ch 1-2)", "date": "2026-09-11T12:20:00-04:00", "url": "https://canvas.dccc.edu/courses/52358"}, {"course": "CHE 110", "title": "Exam 2 (Ch 3-4)", "date": "2026-10-02T12:20:00-04:00", "url": "https://canvas.dccc.edu/courses/52358"}, {"course": "CHE 110", "title": "Exam 3 (Ch 5-6)", "date": "2026-10-23T12:20:00-04:00", "url": "https://canvas.dccc.edu/courses/52358"}, {"course": "CHE 110", "title": "Exam 4 (Ch 7-8)", "date": "2026-11-13T12:20:00-05:00", "url": "https://canvas.dccc.edu/courses/52358"}, {"course": "CHE 110", "title": "Exam 5 (Ch 9-10)", "date": "2026-12-02T12:20:00-05:00", "url": "https://canvas.dccc.edu/courses/52358"}, {"course": "CHE 110", "title": "Final Exam (Ch 1-11)", "date": "2026-12-11T11:00:00-05:00", "url": "https://canvas.dccc.edu/courses/52358"}, {"course": "BIO 110", "title": "Unit 1 Exam (Ch 1-3)", "date": "2026-09-17T18:00:00-04:00", "url": "https://canvas.dccc.edu/courses/52810"}, {"course": "BIO 110", "title": "Unit 2 Exam (Ch 4-5)", "date": "2026-10-15T18:00:00-04:00", "url": "https://canvas.dccc.edu/courses/52810"}, {"course": "BIO 110", "title": "Unit 3 Exam (Ch 6-8)", "date": "2026-11-19T18:00:00-05:00", "url": "https://canvas.dccc.edu/courses/52810"}]}</script>
+<script type="application/json" id="data-island">{
+  "generated": "2026-08-27T07:12:00-04:00",
+  "mode": "semester",
+  "headline": "",
+  "subline": "",
+  "oneThing": "Algebra ends at 11 and Bio isn't until 6 — that 11-to-6 gap is your whole workday. Use it to finish both CHE items due Sunday: Ch 2 quiz (5 pts) and EoC_1 (5 pts). Ch 2 lecture notes are in your files folder to work from. Get both submitted today and the weekend stays clear for the Sep 1 lab quiz pile.",
+  "oneThingTs": "2026-08-27T07:12:00-04:00",
+  "semester": {
+    "name": "Fall/Winter 2026",
+    "start": "2026-08-24",
+    "end": "2026-12-11",
+    "campus": "Marple"
+  },
+  "canvasUrl": "https://canvas.dccc.edu",
+  "assignments": [
+    {
+      "id": "1314521",
+      "title": "Textbook Overview - Chapter 2: Atoms and Elements",
+      "course": "CHE 110",
+      "due": "2026-08-30T23:59:59-04:00",
+      "points": 5,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342927",
+      "big": false
+    },
+    {
+      "id": "1314523",
+      "title": "EoC_1. End-of-Chapter Homework UPLOAD",
+      "course": "CHE 110",
+      "due": "2026-08-30T23:59:59-04:00",
+      "points": 5,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314523",
+      "big": false
+    },
+    {
+      "id": "342932",
+      "title": "EXP0 Lab Safety Rules quiz",
+      "course": "CHE 110",
+      "due": "2026-08-31T23:59:59-04:00",
+      "points": 2,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342932",
+      "big": false
+    },
+    {
+      "id": "1325056",
+      "title": "Aktiv 01 (EC.24.01)",
+      "course": "CHE 110",
+      "due": "2026-09-01T00:00:00-04:00",
+      "points": 10,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1325056",
+      "big": true
+    },
+    {
+      "id": "342929",
+      "title": "EXP0 Post-Lab Quiz 1: glassware & equipment",
+      "course": "CHE 110",
+      "due": "2026-09-01T23:59:59-04:00",
+      "points": 5,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342929",
+      "big": false
+    },
+    {
+      "id": "342931",
+      "title": "EXP0 Post-Lab Quiz 2: Sig Figs & Sci Notation",
+      "course": "CHE 110",
+      "due": "2026-09-01T23:59:59-04:00",
+      "points": 10,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342931",
+      "big": true
+    },
+    {
+      "id": "1314524",
+      "title": "EoC_2. End-of-Chapter Homework UPLOAD",
+      "course": "CHE 110",
+      "due": "2026-09-10T23:59:59-04:00",
+      "points": 5,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314524",
+      "big": false
+    }
+  ],
+  "courses": [
+    {
+      "code": "MAT 151",
+      "name": "College Algebra",
+      "color": "#5aa7ff",
+      "instructor": "Abebe",
+      "meetings": [
+        {
+          "day": "Tue",
+          "start": "09:00",
+          "end": "11:00",
+          "kind": "class",
+          "room": "2402"
+        },
+        {
+          "day": "Thu",
+          "start": "09:00",
+          "end": "11:00",
+          "kind": "class",
+          "room": "2402"
+        }
+      ]
+    },
+    {
+      "code": "CHE 110",
+      "name": "Gen Chemistry",
+      "color": "#ffb454",
+      "instructor": "Cacciavillani",
+      "meetings": [
+        {
+          "day": "Mon",
+          "start": "12:20",
+          "end": "13:45",
+          "kind": "class",
+          "room": "3403"
+        },
+        {
+          "day": "Fri",
+          "start": "12:20",
+          "end": "13:45",
+          "kind": "class",
+          "room": "3403"
+        },
+        {
+          "day": "Wed",
+          "start": "12:20",
+          "end": "15:20",
+          "kind": "lab",
+          "room": "3413"
+        }
+      ]
+    },
+    {
+      "code": "BIO 110",
+      "name": "Gen Biology",
+      "color": "#4cd97b",
+      "instructor": "Scholz",
+      "meetings": [
+        {
+          "day": "Tue",
+          "start": "18:00",
+          "end": "19:30",
+          "kind": "class",
+          "room": "2402"
+        },
+        {
+          "day": "Thu",
+          "start": "18:00",
+          "end": "19:30",
+          "kind": "class",
+          "room": "2402"
+        },
+        {
+          "day": "Tue",
+          "start": "19:45",
+          "end": "21:45",
+          "kind": "lab",
+          "room": "2411"
+        }
+      ]
+    }
+  ],
+  "shifts": [],
+  "personalBlocks": [
+    {
+      "label": "Trading review",
+      "day": "Sun",
+      "start": "",
+      "end": "",
+      "note": "60-90 min - resumes Aug 24 - skips exam weeks"
+    }
+  ],
+  "weekPlan": {
+    "weekOf": "2026-08-24",
+    "protect": "CHE Ch 2 quiz + EoC_1 both submitted before Sun 11:59 PM.",
+    "days": {
+      "Wed": [
+        {
+          "start": "15:20",
+          "end": "17:00",
+          "task": "Start CHE EoC_1 homework (best work window — no evening class)",
+          "trigger": "after CHE lab"
+        }
+      ],
+      "Thu": [
+        {
+          "start": "12:00",
+          "end": "17:00",
+          "task": "CHE Ch 2 quiz (5 pts) + finish EoC_1",
+          "trigger": "midday gap between algebra and bio"
+        }
+      ],
+      "Fri": [
+        {
+          "start": "13:45",
+          "end": "14:15",
+          "task": "Trading check (paper) + confirm EoC_1 submitted & Ch 2 quiz done",
+          "trigger": "after chem"
+        }
+      ],
+      "Sat": [
+        {
+          "start": "",
+          "end": "",
+          "task": "Buffer: finish anything that slipped; else 20–30 min Ch 1–2 skim for CHE Exam 1 (Sep 11)",
+          "trigger": "open day"
+        }
+      ],
+      "Sun": [
+        {
+          "start": "",
+          "end": "",
+          "task": "Trading review 60–90 min + confirm both CHE items submitted",
+          "trigger": "weekly review"
+        }
+      ]
+    }
+  }
+}</script>
 
 <script>
 (function(){
@@ -267,16 +478,6 @@
     if(overdue.length){
       out+='<div class="banner">⚠️ <b>'+overdue.length+" overdue</b> — fastest path: knock out the smallest one first. It's in the Due tab.</div>";
     }
-    var studyNow=(d.exams||[]).filter(function(e){return examOpen(e, now)}).sort(function(a,b){return examDateObj(a)-examDateObj(b)});
-    if(studyNow.length){
-      out+='<div class="card study-now"><h2>Study window open</h2>';
-      studyNow.forEach(function(e){
-        var dn=daysUntil(e.date, now), when=dn<=0?"today":dn===1?"tomorrow":"in "+dn+" days";
-        out+='<p>📖 <b>'+esc(e.title)+'</b> '+pill(e.course)+' — '+esc(when)+' ('+esc(fmtExamDate(e.date))+')'+
-          (e.confirmed?"":' <span class="exam-badge unconf">unconfirmed</span>')+"</p>";
-      });
-      out+="</div>";
-    }
     if(now<semStart){
       out+='<div class="card hero"><div class="big">'+esc(d.headline||"You're clear.")+'</div><div class="sub">'+esc(d.subline||"")+"</div></div>";
       var days=Math.ceil((semStart-now)/86400000);
@@ -366,71 +567,6 @@
         if(a) cycleStatus(a);
       });
     });
-  }
-
-  /* ---------- render: exams ---------- */
-  function parseYMD(s){ if(!s) return null; var p=String(s).slice(0,10).split("-"); if(p.length!==3) return null; return new Date(+p[0], +p[1]-1, +p[2]); }
-  function startOfToday(now){ var t=new Date(now); t.setHours(0,0,0,0); return t; }
-  function examDateObj(e){ return e.hasTime ? new Date(e.date) : parseYMD(e.date); }
-  function daysUntil(s, now){ var d=parseYMD(s); if(!d) return 0; return Math.round((d - startOfToday(now))/86400000); }
-  function fmtExamDate(s){ var d=parseYMD(s); return d ? d.toLocaleDateString(undefined,{weekday:"short",month:"short",day:"numeric"}) : esc(s); }
-  function examOpen(e, now){ var s=parseYMD(e.studyStart), ed=examDateObj(e), t=startOfToday(now); return !!(s && ed && t>=s && ed>=t); }
-  function courseName(code){ var c=(state.data.courses||[]).find(function(x){return x.code===code}); return c?c.name:""; }
-  function upcomingExams(now){
-    var t=startOfToday(now);
-    return (state.data.exams||[]).filter(function(e){ var ed=examDateObj(e); return ed && ed>=t; })
-      .sort(function(a,b){ return examDateObj(a)-examDateObj(b); });
-  }
-  function examRow(e, now){
-    var dn=daysUntil(e.date, now);
-    var whenCls=dn<0?"late":(dn<=7?"soon":"");
-    var whenTxt=dn<0?(-dn)+"d ago":dn===0?"today":dn===1?"tomorrow":"in "+dn+" days";
-    var timeTxt=e.hasTime?(" · "+new Date(e.date).toLocaleTimeString(undefined,{hour:"numeric",minute:"2-digit"})):"";
-    var badge = !e.confirmed
-      ? '<span class="exam-badge unconf" title="Auto-read from your syllabus. Check it against the real syllabus.">unconfirmed</span>'
-      : e.source==="manual"
-        ? '<span class="exam-badge" title="You told Claude this date">added</span>'
-        : '<span class="exam-badge" title="From a Canvas assignment — real due date">Canvas</span>';
-    var open=examOpen(e, now);
-    return '<div class="item'+(open?" study-open":"")+'"><div class="body">'+
-      '<div class="t">'+esc(e.title)+'</div>'+
-      '<div class="m">'+
-        '<span class="due-rel '+whenCls+'">'+esc(whenTxt)+'</span>'+
-        '<span>'+esc(fmtExamDate(e.date))+timeTxt+'</span>'+
-        badge+
-        (e.url?'<a class="ext" href="'+esc(e.url)+'" target="_blank" rel="noopener">Open ↗</a>':"")+
-      '</div>'+
-      '<div class="m study">'+(open?"📖 Study window open — ":"🗓️ ")+"Study from <b>"+esc(fmtExamDate(e.studyStart))+"</b></div>"+
-      (e.context&&!e.confirmed?'<div class="m ctx">“'+esc(e.context)+'”</div>':"")+
-      "</div></div>";
-  }
-  function renderExams(){
-    var d=state.data, now=new Date(), out="";
-    var exams=upcomingExams(now);
-    if(!exams.length){
-      out='<div class="card"><div class="empty"><div class="e">📘</div><div class="h">No exams yet</div>'+
-        '<div>Exam dates land here after a sync reads your course syllabi. If a class lists its exams only on a paper or PDF syllabus, tell Claude the dates and they’ll show up here.</div></div></div>';
-      $("#view-exams").innerHTML=out; return;
-    }
-    var groups={};
-    exams.forEach(function(e){ (groups[e.course]=groups[e.course]||[]).push(e); });
-    // course groups ordered by their soonest exam (exams are already date-sorted)
-    Object.keys(groups).sort(function(a,b){
-      return examDateObj(groups[a][0]) - examDateObj(groups[b][0]);
-    }).forEach(function(code){
-      var syl=(d.syllabi||[]).find(function(s){return s.course===code});
-      out+='<div class="card"><div class="exam-head"><span>'+pill(code)+'</span>'+
-        '<span class="cname">'+esc(courseName(code))+'</span>'+
-        (syl&&syl.url?'<a class="ext syl" href="'+esc(syl.url)+'" target="_blank" rel="noopener">Syllabus ↗</a>':"")+
-        '</div>';
-      groups[code].forEach(function(e){ out+=examRow(e, now); });
-      out+="</div>";
-    });
-    if(exams.some(function(e){return !e.confirmed})){
-      out+='<div class="card"><h2>Heads up</h2><div style="color:var(--dim);font-size:.9rem">Dates marked '+
-        '<span class="exam-badge unconf">unconfirmed</span> were auto-read from syllabus text — regex on prose isn’t perfect. Open the syllabus to double-check before you rely on one.</div></div>';
-    }
-    $("#view-exams").innerHTML=out;
   }
 
   /* ---------- render: week ---------- */
@@ -525,7 +661,7 @@
     if(!state.data) return;
     $("#hDate").textContent=new Date().toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric"});
     updateChip();
-    renderToday(); renderDue(); renderExams(); renderWeek(); renderSchedule();
+    renderToday(); renderDue(); renderWeek(); renderSchedule();
     $("#foot").textContent="Built with Claude · data flows from Canvas via sync";
   }
   document.querySelectorAll("nav button").forEach(function(b){
@@ -534,7 +670,7 @@
   $("#syncChip").addEventListener("click",function(){fetchFresh(true)});
 
   boot();
-  show((location.hash||"#today").slice(1) in {today:1,due:1,exams:1,week:1,schedule:1} ? (location.hash||"#today").slice(1) : "today");
+  show((location.hash||"#today").slice(1) in {today:1,due:1,week:1,schedule:1} ? (location.hash||"#today").slice(1) : "today");
 })();
 </script>
 </body>
