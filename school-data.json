@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-28T08:35-04:00",
+  "generated": "2026-08-28T19:56-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
-  "oneThing": "Algebra ends at 11 and Bio isn't until 6 — that 11-to-6 gap is your whole workday. Use it to finish both CHE items due Sunday: Ch 2 quiz (5 pts) and EoC_1 (5 pts). Ch 2 lecture notes are in your files folder to work from. Get both submitted today and the weekend stays clear for the Sep 1 lab quiz pile.",
+  "oneThing": "",
   "oneThingTs": "2026-08-27T07:12:00-04:00",
   "semester": {
     "name": "Fall/Winter 2026",
@@ -51,6 +51,16 @@
       "points": 1.0,
       "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1326648/submissions/106818",
+      "big": false
+    },
+    {
+      "id": "assignment-1327173",
+      "title": "Daily Opener - 8/28",
+      "course": "CHE 110",
+      "due": "2026-08-28T23:59-04:00",
+      "points": 1.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1327173/submissions/106818",
       "big": false
     },
     {
