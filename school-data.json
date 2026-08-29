@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T10:57-04:00",
+  "generated": "2026-08-29T14:20-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -121,6 +121,16 @@
       "points": 10.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342931",
+      "big": false
+    },
+    {
+      "id": "quiz-345846",
+      "title": "Self Evaluation 20260827",
+      "course": "BIO 110",
+      "due": "2026-09-05T23:59-04:00",
+      "points": 6.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810/quizzes/345846",
       "big": false
     },
     {
