@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T14:30-04:00",
+  "generated": "2026-08-30T18:31-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -69,7 +69,7 @@
       "course": "CHE 110",
       "due": "2026-08-30T23:59-04:00",
       "points": 5.0,
-      "status": "not_started",
+      "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342927",
       "big": false
     },
@@ -109,7 +109,7 @@
       "course": "CHE 110",
       "due": "2026-09-01T23:59-04:00",
       "points": 5.0,
-      "status": "not_started",
+      "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342929",
       "big": false
     },
@@ -119,7 +119,7 @@
       "course": "CHE 110",
       "due": "2026-09-01T23:59-04:00",
       "points": 10.0,
-      "status": "not_started",
+      "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342931",
       "big": false
     },
