@@ -101,6 +101,32 @@
     display:flex; flex-direction:column; align-items:center; gap:3px; padding:6px 0 4px; cursor:pointer; border-radius:12px;}
   nav button svg{width:23px; height:23px; stroke:currentColor; fill:none; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round;}
   nav button.active{color:var(--accent);}
+  /* --- brief / messages --- */
+  .msg{border-top:1px solid var(--line); padding:13px 0;}
+  .msg:first-of-type{border-top:none; padding-top:2px;}
+  .msg .mh{display:flex; align-items:center; gap:8px; margin-bottom:3px;}
+  .msg .mt{font-weight:650; font-size:.97rem; flex:1; min-width:0;}
+  .msg .mts{color:var(--dim); font-size:.76rem; flex:none;}
+  .msg .mb{font-size:.92rem; color:var(--text); white-space:pre-wrap; margin-top:3px;}
+  .msg.unread .mt::before{content:""; display:inline-block; width:7px; height:7px; border-radius:50%;
+    background:var(--accent); margin-right:7px; vertical-align:middle;}
+  .msg .kind{flex:none; font-size:.68rem; font-weight:700; letter-spacing:.05em; text-transform:uppercase;
+    padding:2px 7px; border-radius:999px; border:1px solid var(--line); color:var(--dim);}
+  .msg .kind.alert{color:var(--bad); border-color:color-mix(in srgb, var(--bad) 50%, var(--line));}
+  .msg .kind.question{color:var(--warn); border-color:color-mix(in srgb, var(--warn) 50%, var(--line));}
+  .msg .reply{margin-top:7px; font-size:.83rem; color:var(--warn);}
+  .digest .dsec{margin-top:12px;}
+  .digest .dsec:first-of-type{margin-top:2px;}
+  .digest .dsec h3{margin:0 0 4px; font-size:.83rem; font-weight:700; color:var(--text);}
+  .digest .dsec ul{margin:0; padding-left:18px;}
+  .digest .dsec li{font-size:.92rem; margin:2px 0;}
+  .digest .dnone{color:var(--dim); font-size:.92rem;}
+  .srcTag{border:1px solid var(--line); border-radius:6px; padding:0 6px; font-size:.72rem; color:var(--dim);}
+  .srcTag.pearson{color:var(--warn); border-color:color-mix(in srgb, var(--warn) 45%, var(--line));}
+  nav button{position:relative;}
+  nav .badge{position:absolute; top:2px; right:calc(50% - 20px); min-width:16px; height:16px; padding:0 4px;
+    border-radius:999px; background:var(--bad); color:#fff; font-size:.63rem; font-weight:700;
+    display:flex; align-items:center; justify-content:center; line-height:1;}
   .foot{text-align:center; color:var(--dim); font-size:.75rem; padding:10px 0 6px;}
 </style>
 </head>
@@ -114,6 +140,7 @@
 </header>
 
 <main>
+  <section class="view" id="view-brief"></section>
   <section class="view" id="view-today"></section>
   <section class="view" id="view-due"></section>
   <section class="view" id="view-week"></section>
@@ -122,6 +149,7 @@
 </main>
 
 <nav>
+  <button data-v="brief"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4z"/><path d="M8 9h8M8 12.5h5"/></svg>Brief</button>
   <button data-v="today"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg>Today</button>
   <button data-v="due"><svg viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><path d="M4 5.5l1 1 2-2M4 11.5l1 1 2-2M4 17.5l1 1 2-2"/></svg>Due</button>
   <button data-v="week"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg>Week</button>
@@ -129,12 +157,12 @@
 </nav>
 
 <script type="application/json" id="data-island">{
-  "generated": "2026-08-31T09:15:00-04:00",
+  "generated": "2026-08-31T14:30:00-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
-  "oneThing": "Chem class ends at 1:45 — use the afternoon before your night is free to knock out both items due tonight: EXP0 Lab Safety quiz (10 min) then Aktiv 01 (10 pts, the bigger one). Both close at midnight.",
-  "oneThingTs": "2026-08-31T09:15:00-04:00",
+  "oneThing": "Four things close tonight at 11:59: Pearson Sections 1.1 and 1.2 (36 pts, both untouched), the CHE lab safety quiz, and Aktiv 01. Start with 1.1 and 1.2 — they're the biggest and the easiest to run out of clock on.",
+  "oneThingTs": "2026-08-31T14:30:00-04:00",
   "semester": {
     "name": "Fall/Winter 2026",
     "start": "2026-08-24",
@@ -151,7 +179,8 @@
       "points": 5,
       "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342927",
-      "big": false
+      "big": false,
+      "source": "Canvas"
     },
     {
       "id": "1314523",
@@ -161,6 +190,29 @@
       "points": 5,
       "status": "submitted",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314523",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
+      "id": "pearson-section-1.1",
+      "title": "Section 1.1",
+      "course": "MAT 151",
+      "due": "2026-08-31T23:59:00-04:00",
+      "points": 17,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-section-1.2",
+      "title": "Section 1.2",
+      "course": "MAT 151",
+      "due": "2026-08-31T23:59:00-04:00",
+      "points": 19,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
       "big": false
     },
     {
@@ -171,7 +223,8 @@
       "points": 2,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342932",
-      "big": false
+      "big": false,
+      "source": "Canvas"
     },
     {
       "id": "1325056",
@@ -181,7 +234,8 @@
       "points": 10,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1325056",
-      "big": true
+      "big": true,
+      "source": "Canvas"
     },
     {
       "id": "342929",
@@ -191,7 +245,8 @@
       "points": 5,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342929",
-      "big": false
+      "big": false,
+      "source": "Canvas"
     },
     {
       "id": "342931",
@@ -201,7 +256,30 @@
       "points": 10,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342931",
-      "big": true
+      "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "pearson-section-1.3",
+      "title": "Section 1.3",
+      "course": "MAT 151",
+      "due": "2026-09-05T23:59:00-04:00",
+      "points": 17,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-section-1.4",
+      "title": "Section 1.4",
+      "course": "MAT 151",
+      "due": "2026-09-05T23:59:00-04:00",
+      "points": 18,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
     },
     {
       "id": "1314524",
@@ -211,6 +289,84 @@
       "points": 5,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314524",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
+      "id": "pearson-section-1.5",
+      "title": "Section 1.5",
+      "course": "MAT 151",
+      "due": "2026-09-12T23:59:00-04:00",
+      "points": 20,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-section-1.6",
+      "title": "Section 1.6",
+      "course": "MAT 151",
+      "due": "2026-09-12T23:59:00-04:00",
+      "points": 19,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-section-2.1",
+      "title": "Section 2.1",
+      "course": "MAT 151",
+      "due": "2026-09-19T23:59:00-04:00",
+      "points": 8,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-section-2.2",
+      "title": "Section 2.2",
+      "course": "MAT 151",
+      "due": "2026-09-19T23:59:00-04:00",
+      "points": 20,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-review-test1",
+      "title": "Review Test1",
+      "course": "MAT 151",
+      "due": "2026-09-24T23:59:00-04:00",
+      "points": 23,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": true
+    },
+    {
+      "id": "pearson-test-1",
+      "title": "Test 1",
+      "course": "MAT 151",
+      "due": "2026-09-24T23:59:00-04:00",
+      "points": 17,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": true
+    },
+    {
+      "id": "pearson-section-2.3",
+      "title": "Section 2.3",
+      "course": "MAT 151",
+      "due": "2026-09-26T23:59:00-04:00",
+      "points": 24,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
       "big": false
     }
   ],
@@ -296,17 +452,94 @@
       ]
     }
   ],
-  "shifts": [],
+  "shifts": [
+    {
+      "date": "2026-09-01",
+      "start": "18:00",
+      "end": "23:00",
+      "label": "Work shift"
+    }
+  ],
   "personalBlocks": [
+    {
+      "label": "Trip — away",
+      "day": "Fri",
+      "start": "04:00",
+      "end": "",
+      "note": "Depart 4:00 AM Fri Sep 4 · back Mon Sep 7, 7 AM · 2-3 h/day available"
+    },
     {
       "label": "Trading review",
       "day": "Sun",
       "start": "",
       "end": "",
-      "note": "60-90 min - resumes Aug 24 - skips exam weeks"
+      "note": "60-90 min - CUT this week (trip + chem exam ramp)"
     }
   ],
-  "weekPlan": null
+  "weekPlan": null,
+  "digest": {
+    "label": "Today’s brief",
+    "generated": "2026-08-31T14:30:00-04:00",
+    "headline": "48 points close tonight — and the trip cutoff is Thursday.",
+    "sections": [
+      {
+        "h": "Due tonight, 11:59 PM",
+        "lines": [
+          "MAT 1.1 — Pearson, 17 pts, not started",
+          "MAT 1.2 — Pearson, 19 pts, not started",
+          "CHE EXP0 Lab Safety Rules quiz — 2 pts, ~10 min",
+          "CHE Aktiv 01 — 10 pts"
+        ]
+      },
+      {
+        "h": "Today’s calendar",
+        "lines": [
+          "CHE 110 class 12:20–1:45 PM, Rm 3403"
+        ]
+      },
+      {
+        "h": "Before you leave Friday 4 AM",
+        "lines": [
+          "MAT 1.3 + 1.4 — due Sat 9/5, do them Wed or Thu",
+          "BIO Self Evaluation — due Sat 9/5, do it early",
+          "Weekly MAT quiz lands Tue or Thu — review 1.1–1.4 first"
+        ]
+      },
+      {
+        "h": "Watch",
+        "lines": [
+          "CHE Exam 1 is Fri 9/11 — Ch 1–2. Review pack is built and in Drive.",
+          "Tue 9/1 shift 6–11 PM collides with BIO class + lab. See Messages."
+        ]
+      }
+    ]
+  },
+  "messages": [
+    {
+      "id": "m-2026-08-31-conflict",
+      "ts": "2026-08-31T14:30:00-04:00",
+      "kind": "question",
+      "needsReply": true,
+      "title": "Your Tuesday shift lands on top of BIO class and lab",
+      "body": "You said you work Tue 6–11 PM. BIO 110 meets Tue 6:00–7:30 PM and the Tuesday-only lab runs 7:45–9:45 PM. Scholz docks 25 points for the first missed lab, so this one is expensive.\n\nWhich is it: did the shift change, is BIO meeting at a different time than I have on file, or are you planning to miss the lab? Tell me and I'll rebuild Tuesday around the real answer. Until then I've left both on the schedule rather than guess."
+    },
+    {
+      "id": "m-2026-08-31-setup",
+      "ts": "2026-08-31T14:30:00-04:00",
+      "kind": "info",
+      "needsReply": false,
+      "title": "Everything now lands here instead of the chat",
+      "body": "This Brief tab is the new home for your morning digest and anything I need to tell you — check here, not the chat. The badge on the tab shows unread messages.\n\nYour study guides are also synced to Google Drive now (School Study Guides folder), so they open on your phone, laptop, or anything you sign into.\n\nOne limit worth knowing: this app is a static page, so messages only go one direction. When something is tagged QUESTION it needs an actual answer from you in a chat — everything else is just me keeping you posted."
+    },
+    {
+      "id": "m-2026-08-31-pearson",
+      "ts": "2026-08-31T14:30:00-04:00",
+      "kind": "info",
+      "needsReply": false,
+      "title": "Math is now tracked from Pearson",
+      "body": "Saved your full Pearson schedule — 42 items, 680 points, through the Dec 8 final. Math assignments show a Pearson tag in the Due tab so you can tell them from Canvas work.\n\nI also logged the weekly in-class quiz. Since you said it falls Tuesday or Thursday, that confirms math meets Tue/Thu — which settles a mismatch I'd been carrying, since the MAT 151 syllabus PDF claimed MWF 8:45–10:00."
+    }
+  ]
 }</script>
 
 <script>
@@ -489,6 +722,7 @@
       '<div class="body"><div class="t'+(struck?" struck":"")+'">'+(a.big?'<span class="big-flag">★ </span>':"")+esc(a.title)+"</div>"+
       '<div class="m">'+pill(a.course)+'<span class="due-rel '+r.cls+'">'+esc(r.txt)+"</span><span>"+esc(fmtDue(dd))+"</span>"+
       (a.points!=null?'<span class="pts">'+esc(a.points)+" pts</span>":"")+
+      (a.source&&a.source!=="Canvas"?'<span class="srcTag '+esc(String(a.source).toLowerCase())+'">'+esc(a.source)+"</span>":"")+
       (a.url?'<a class="ext" href="'+esc(a.url)+'" target="_blank" rel="noopener">Open ↗</a>':"")+
       "</div></div></div>";
   }
@@ -604,11 +838,95 @@
     $("#view-schedule").innerHTML=out;
   }
 
+  /* ---------- render: brief (digest + messages) ---------- */
+  function msgKey(m){ return String(m.id || (m.ts+"|"+m.title)); }
+  function readSet(){ return lsGet("sd:read",{}); }
+  function unreadMsgs(){
+    var r=readSet();
+    return ((state.data&&state.data.messages)||[]).filter(function(m){return !r[msgKey(m)]});
+  }
+  function markRead(m){
+    var r=readSet(); r[msgKey(m)]=Date.now(); lsSet("sd:read",r);
+  }
+  function markAllRead(){
+    var r=readSet();
+    ((state.data&&state.data.messages)||[]).forEach(function(m){ r[msgKey(m)]=Date.now(); });
+    lsSet("sd:read",r); updateBadge(); renderBrief();
+  }
+  function updateBadge(){
+    var b=document.querySelector('nav button[data-v="brief"]');
+    if(!b) return;
+    var old=b.querySelector(".badge"); if(old) old.remove();
+    var n=unreadMsgs().length;
+    if(n>0){ var s=document.createElement("span"); s.className="badge"; s.textContent=n>9?"9+":String(n); b.appendChild(s); }
+  }
+  function fmtStamp(ts){
+    var d=new Date(ts); if(isNaN(d)) return "";
+    var now=new Date(), ms=now-d;
+    if(ms<3600000) return Math.max(1,Math.round(ms/60000))+"m ago";
+    if(ms<86400000) return Math.round(ms/3600000)+"h ago";
+    return d.toLocaleDateString(undefined,{month:"short",day:"numeric"});
+  }
+  function renderBrief(){
+    var d=state.data, out="", dg=d.digest;
+
+    if(dg){
+      out+='<div class="card digest">';
+      out+='<h2>'+esc(dg.label||"Today’s brief")+(dg.generated?' · '+esc(fmtStamp(dg.generated)):"")+'</h2>';
+      if(dg.headline) out+='<div style="font-size:1.12rem;font-weight:700;margin:0 0 4px">'+esc(dg.headline)+'</div>';
+      (dg.sections||[]).forEach(function(s){
+        out+='<div class="dsec"><h3>'+esc(s.h)+"</h3>";
+        if(s.lines&&s.lines.length){
+          out+="<ul>"+s.lines.map(function(l){return "<li>"+esc(l)+"</li>"}).join("")+"</ul>";
+        } else {
+          out+='<div class="dnone">'+esc(s.empty||"Nothing.")+"</div>";
+        }
+        out+="</div>";
+      });
+      out+="</div>";
+    } else {
+      out+='<div class="card"><div class="empty"><div class="e">☀️</div><div class="h">No brief yet</div>'+
+           '<div>The morning check-in writes it here each day.</div></div></div>';
+    }
+
+    if(d.oneThing){
+      out+='<div class="card one"><h2>Today’s one thing</h2><p>'+esc(d.oneThing)+"</p></div>";
+    }
+
+    var msgs=(d.messages||[]).slice().sort(function(a,b){return new Date(b.ts)-new Date(a.ts)});
+    var r=readSet(), nUnread=msgs.filter(function(m){return !r[msgKey(m)]}).length;
+    out+='<div class="card"><h2>Messages from Claude'+(nUnread?" · "+nUnread+" new":"")+"</h2>";
+    if(!msgs.length){
+      out+='<div class="dnone" style="color:var(--dim);font-size:.92rem">Nothing right now.</div>';
+    } else {
+      msgs.forEach(function(m){
+        var unread=!r[msgKey(m)];
+        var k=(m.kind||"info").toLowerCase();
+        out+='<div class="msg'+(unread?" unread":"")+'">'+
+             '<div class="mh"><span class="mt">'+esc(m.title||"")+"</span>"+
+             (k!=="info"?'<span class="kind '+esc(k)+'">'+esc(k)+"</span>":"")+
+             '<span class="mts">'+esc(fmtStamp(m.ts))+"</span></div>"+
+             '<div class="mb">'+esc(m.body||"")+"</div>"+
+             (m.needsReply?'<div class="reply">↳ Needs an answer from you — tell Claude next time you’re in a chat.</div>':"")+
+             "</div>";
+      });
+      if(nUnread) out+='<div style="margin-top:12px"><button id="markRead" style="font-family:inherit;font-size:.82rem;'+
+        'background:var(--chip);color:var(--dim);border:1px solid var(--line);border-radius:999px;padding:6px 14px;cursor:pointer">'+
+        "Mark all read</button></div>";
+    }
+    out+="</div>";
+
+    $("#view-brief").innerHTML=out;
+    var mr=$("#markRead"); if(mr) mr.addEventListener("click",markAllRead);
+    updateBadge();
+  }
+
   /* ---------- nav + render all ---------- */
   function show(v){
     document.querySelectorAll(".view").forEach(function(x){x.classList.remove("active")});
     document.querySelectorAll("nav button").forEach(function(x){x.classList.toggle("active",x.getAttribute("data-v")===v)});
     var el=$("#view-"+v); if(el) el.classList.add("active");
+    if(v==="brief"){ ((state.data&&state.data.messages)||[]).forEach(markRead); setTimeout(updateBadge,900); }
     try{history.replaceState(null,"","#"+v)}catch(e){}
     window.scrollTo(0,0);
   }
@@ -616,7 +934,7 @@
     if(!state.data) return;
     $("#hDate").textContent=new Date().toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric"});
     updateChip();
-    renderToday(); renderDue(); renderWeek(); renderSchedule();
+    renderToday(); renderDue(); renderWeek(); renderSchedule(); renderBrief();
     $("#foot").textContent="Built with Claude · data flows from Canvas via sync";
   }
   document.querySelectorAll("nav button").forEach(function(b){
@@ -625,7 +943,7 @@
   $("#syncChip").addEventListener("click",function(){fetchFresh(true)});
 
   boot();
-  show((location.hash||"#today").slice(1) in {today:1,due:1,week:1,schedule:1} ? (location.hash||"#today").slice(1) : "today");
+  show((location.hash||"#today").slice(1) in {brief:1,today:1,due:1,week:1,schedule:1} ? (location.hash||"#today").slice(1) : "today");
 })();
 </script>
 </body>
