@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T07:12:00-04:00",
+  "generated": "2026-09-01T10:37-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -14,245 +14,153 @@
   "canvasUrl": "https://canvas.dccc.edu",
   "assignments": [
     {
-      "id": "1314521",
-      "title": "Textbook Overview - Chapter 2: Atoms and Elements",
-      "course": "CHE 110",
-      "due": "2026-08-30T23:59:59-04:00",
-      "points": 5,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342927",
-      "big": false,
-      "source": "Canvas"
+      "id": "discussion_topic-470322",
+      "title": "Week 1: Introduce yourself!",
+      "course": "BIO 110",
+      "due": "2026-08-24T00:00-04:00",
+      "points": null,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810/discussion_topics/470322",
+      "big": false
     },
     {
-      "id": "1314523",
-      "title": "EoC_1. End-of-Chapter Homework UPLOAD",
-      "course": "CHE 110",
-      "due": "2026-08-30T23:59:59-04:00",
-      "points": 5,
-      "status": "submitted",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314523",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "1325329",
+      "id": "assignment-1325329",
       "title": "Daily Opener - 8/24",
       "course": "CHE 110",
-      "due": "2026-08-24T23:59:59-04:00",
-      "points": 1,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1325329",
-      "big": false,
-      "source": "Canvas"
+      "due": "2026-08-24T23:59-04:00",
+      "points": 1.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1325329/submissions/106818",
+      "big": false
     },
     {
-      "id": "1326648",
+      "id": "quiz-342928",
+      "title": "Textbook Overview - Chapter 1: Matter, Measurement, and Problem Solving",
+      "course": "CHE 110",
+      "due": "2026-08-25T23:59-04:00",
+      "points": 5.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342928",
+      "big": false
+    },
+    {
+      "id": "assignment-1326648",
       "title": "Daily Opener - 8/26",
       "course": "CHE 110",
-      "due": "2026-08-26T23:59:59-04:00",
-      "points": 1,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1326648",
-      "big": false,
-      "source": "Canvas"
+      "due": "2026-08-26T23:59-04:00",
+      "points": 1.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1326648/submissions/106818",
+      "big": false
     },
     {
-      "id": "1327173",
+      "id": "assignment-1327173",
       "title": "Daily Opener - 8/28",
       "course": "CHE 110",
-      "due": "2026-08-28T23:59:59-04:00",
-      "points": 1,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1327173",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "pearson-section-1.1",
-      "title": "Section 1.1",
-      "course": "MAT 151",
-      "due": "2026-08-31T23:59:00-04:00",
-      "points": 17,
-      "status": "not_started",
-      "url": "https://mlm.pearson.com/",
-      "source": "Pearson",
+      "due": "2026-08-28T23:59-04:00",
+      "points": 1.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1327173/submissions/106818",
       "big": false
     },
     {
-      "id": "pearson-section-1.2",
-      "title": "Section 1.2",
-      "course": "MAT 151",
-      "due": "2026-08-31T23:59:00-04:00",
-      "points": 19,
-      "status": "not_started",
-      "url": "https://mlm.pearson.com/",
-      "source": "Pearson",
-      "big": false
-    },
-    {
-      "id": "342932",
-      "title": "EXP0 Lab Safety Rules quiz",
+      "id": "quiz-342927",
+      "title": "Textbook Overview - Chapter 2: Atoms and Elements",
       "course": "CHE 110",
-      "due": "2026-08-31T23:59:59-04:00",
-      "points": 2,
+      "due": "2026-08-30T23:59-04:00",
+      "points": 5.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342927",
+      "big": false
+    },
+    {
+      "id": "assignment-1314523",
+      "title": "EoC_1. End-of-Chapter Homework UPLOAD",
+      "course": "CHE 110",
+      "due": "2026-08-30T23:59-04:00",
+      "points": 5.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314523/submissions/106818",
+      "big": false
+    },
+    {
+      "id": "quiz-342932",
+      "title": "EXP0.Post.1of3, Laboratory Safety Rules [Required by EXP1], v24.09b",
+      "course": "CHE 110",
+      "due": "2026-08-31T23:59-04:00",
+      "points": 2.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342932",
-      "big": false,
-      "source": "Canvas"
+      "big": false
     },
     {
-      "id": "1325056",
+      "id": "assignment-1327898",
+      "title": "Daily Opener - 8/31",
+      "course": "CHE 110",
+      "due": "2026-08-31T23:59-04:00",
+      "points": 1.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1327898/submissions/106818",
+      "big": false
+    },
+    {
+      "id": "assignment-1325056",
       "title": "Aktiv 01 (EC.24.01)",
       "course": "CHE 110",
-      "due": "2026-09-01T00:00:00-04:00",
-      "points": 10,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1325056",
-      "big": true,
-      "source": "Canvas"
+      "due": "2026-09-01T00:00-04:00",
+      "points": 10.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1325056/submissions/106818",
+      "big": false
     },
     {
-      "id": "342929",
-      "title": "EXP0 Post-Lab Quiz 1: glassware & equipment",
+      "id": "quiz-342929",
+      "title": "EXP0. POST-LAB QUIZ 1: Basic glassware, equipment and techniques (~35 min), v21.06b",
       "course": "CHE 110",
-      "due": "2026-09-01T23:59:59-04:00",
-      "points": 5,
+      "due": "2026-09-01T23:59-04:00",
+      "points": 5.0,
       "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342929",
-      "big": false,
-      "source": "Canvas"
+      "big": false
     },
     {
-      "id": "342931",
-      "title": "EXP0 Post-Lab Quiz 2: Sig Figs & Sci Notation",
+      "id": "quiz-342931",
+      "title": "EXP0. POST-LAB QUIZ 2: Significant Figures & Scientific Notation, CHE 110, v22.01",
       "course": "CHE 110",
-      "due": "2026-09-01T23:59:59-04:00",
-      "points": 10,
+      "due": "2026-09-01T23:59-04:00",
+      "points": 10.0,
       "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342931",
-      "big": true,
-      "source": "Canvas"
-    },
-    {
-      "id": "pearson-section-1.3",
-      "title": "Section 1.3",
-      "course": "MAT 151",
-      "due": "2026-09-05T23:59:00-04:00",
-      "points": 17,
-      "status": "not_started",
-      "url": "https://mlm.pearson.com/",
-      "source": "Pearson",
       "big": false
     },
     {
-      "id": "pearson-section-1.4",
-      "title": "Section 1.4",
-      "course": "MAT 151",
-      "due": "2026-09-05T23:59:00-04:00",
-      "points": 18,
-      "status": "not_started",
-      "url": "https://mlm.pearson.com/",
-      "source": "Pearson",
-      "big": false
-    },
-    {
-      "id": "345846",
+      "id": "quiz-345846",
       "title": "Self Evaluation 20260827",
       "course": "BIO 110",
-      "due": "2026-09-05T23:59:59-04:00",
-      "points": 6,
+      "due": "2026-09-05T23:59-04:00",
+      "points": 6.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52810/quizzes/345846",
-      "big": false,
-      "source": "Canvas"
+      "big": false
     },
     {
-      "id": "1314524",
+      "id": "assignment-1314524",
       "title": "EoC_2. End-of-Chapter Homework UPLOAD",
       "course": "CHE 110",
-      "due": "2026-09-10T23:59:59-04:00",
-      "points": 5,
+      "due": "2026-09-10T23:59-04:00",
+      "points": 5.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314524",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "pearson-section-1.5",
-      "title": "Section 1.5",
-      "course": "MAT 151",
-      "due": "2026-09-12T23:59:00-04:00",
-      "points": 20,
-      "status": "not_started",
-      "url": "https://mlm.pearson.com/",
-      "source": "Pearson",
       "big": false
     },
     {
-      "id": "pearson-section-1.6",
-      "title": "Section 1.6",
-      "course": "MAT 151",
-      "due": "2026-09-12T23:59:00-04:00",
-      "points": 19,
+      "id": "quiz-345971",
+      "title": "Extra credit Week 2",
+      "course": "BIO 110",
+      "due": "2026-09-17T23:59-04:00",
+      "points": 2.0,
       "status": "not_started",
-      "url": "https://mlm.pearson.com/",
-      "source": "Pearson",
-      "big": false
-    },
-    {
-      "id": "pearson-section-2.1",
-      "title": "Section 2.1",
-      "course": "MAT 151",
-      "due": "2026-09-19T23:59:00-04:00",
-      "points": 8,
-      "status": "not_started",
-      "url": "https://mlm.pearson.com/",
-      "source": "Pearson",
-      "big": false
-    },
-    {
-      "id": "pearson-section-2.2",
-      "title": "Section 2.2",
-      "course": "MAT 151",
-      "due": "2026-09-19T23:59:00-04:00",
-      "points": 20,
-      "status": "not_started",
-      "url": "https://mlm.pearson.com/",
-      "source": "Pearson",
-      "big": false
-    },
-    {
-      "id": "pearson-review-test1",
-      "title": "Review Test1",
-      "course": "MAT 151",
-      "due": "2026-09-24T23:59:00-04:00",
-      "points": 23,
-      "status": "not_started",
-      "url": "https://mlm.pearson.com/",
-      "source": "Pearson",
-      "big": true
-    },
-    {
-      "id": "pearson-test-1",
-      "title": "Test 1",
-      "course": "MAT 151",
-      "due": "2026-09-24T23:59:00-04:00",
-      "points": 17,
-      "status": "not_started",
-      "url": "https://mlm.pearson.com/",
-      "source": "Pearson",
-      "big": true
-    },
-    {
-      "id": "pearson-section-2.3",
-      "title": "Section 2.3",
-      "course": "MAT 151",
-      "due": "2026-09-26T23:59:00-04:00",
-      "points": 24,
-      "status": "not_started",
-      "url": "https://mlm.pearson.com/",
-      "source": "Pearson",
+      "url": "https://canvas.dccc.edu/courses/52810/quizzes/345971",
       "big": false
     }
   ],
@@ -429,6 +337,61 @@
       "needsReply": false,
       "title": "Math is now tracked from Pearson",
       "body": "Saved your full Pearson schedule — 42 items, 680 points, through the Dec 8 final. Math assignments show a Pearson tag in the Due tab so you can tell them from Canvas work.\n\nI also logged the weekly in-class quiz. Since you said it falls Tuesday or Thursday, that confirms math meets Tue/Thu — which settles a mismatch I'd been carrying, since the MAT 151 syllabus PDF claimed MWF 8:45–10:00."
+    }
+  ],
+  "exams": [
+    {
+      "course": "MAT 151",
+      "title": "Exam 2",
+      "date": "2026-10-20",
+      "hasTime": false,
+      "studyStart": "2026-10-13",
+      "source": "syllabus",
+      "confirmed": false,
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/syllabus",
+      "context": "No class — Exam 2 (Ch 3) — 10/20 – 10/22 — Section 4.3 — Section 4.5/5.1",
+      "id": "mat-151-exam-2-2026-10-20"
+    },
+    {
+      "course": "MAT 151",
+      "title": "Exam 3",
+      "date": "2026-11-12",
+      "hasTime": false,
+      "studyStart": "2026-11-05",
+      "source": "syllabus",
+      "confirmed": false,
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/syllabus",
+      "context": "10–11/12 — Exam 3 (Ch 4/5) — Section 6.1/6.2 — 11/17–11/19 — Section 6.3",
+      "id": "mat-151-exam-3-2026-11-12"
+    },
+    {
+      "course": "MAT 151",
+      "title": "Final Exam",
+      "date": "2026-12-08",
+      "hasTime": false,
+      "studyStart": "2026-12-01",
+      "source": "syllabus",
+      "confirmed": false,
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/syllabus",
+      "context": "end Dec 8 Final Exam Schedule. This schedule is subject to change based",
+      "id": "mat-151-final-exam-2026-12-08"
+    }
+  ],
+  "syllabi": [
+    {
+      "course": "BIO 110",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/syllabus",
+      "hasContent": true
+    },
+    {
+      "course": "CHE 110",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/syllabus",
+      "hasContent": false
+    },
+    {
+      "course": "MAT 151",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/syllabus",
+      "hasContent": true
     }
   ]
 }
