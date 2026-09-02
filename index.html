@@ -993,7 +993,7 @@
   $("#syncChip").addEventListener("click",function(){fetchFresh(true)});
 
   boot();
-  show((location.hash||"#today").slice(1) in {brief:1,today:1,due:1,week:1,schedule:1} ? (location.hash||"#today").slice(1) : "today");
+  show((location.hash||"#brief").slice(1) in {brief:1,today:1,due:1,week:1,schedule:1} ? (location.hash||"#brief").slice(1) : "brief");
 })();
 </script>
 </body>
