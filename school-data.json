@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04T14:11-04:00",
+  "generated": "2026-09-04T18:20:00-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -14,102 +14,113 @@
   "canvasUrl": "https://canvas.dccc.edu",
   "assignments": [
     {
-      "id": "discussion_topic-470322",
-      "title": "Week 1: Introduce yourself!",
-      "course": "BIO 110",
-      "due": "2026-08-24T00:00-04:00",
-      "points": null,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52810/discussion_topics/470322",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1325329",
+      "id": "1325329",
       "title": "Daily Opener - 8/24",
       "course": "CHE 110",
-      "due": "2026-08-24T23:59-04:00",
-      "points": 1.0,
+      "due": "2026-08-24T23:59:59-04:00",
+      "points": 1,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1325329/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1325329",
       "big": false,
       "source": "Canvas"
     },
     {
-      "id": "quiz-342928",
-      "title": "Textbook Overview - Chapter 1: Matter, Measurement, and Problem Solving",
-      "course": "CHE 110",
-      "due": "2026-08-25T23:59-04:00",
-      "points": 5.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342928",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1326648",
+      "id": "1326648",
       "title": "Daily Opener - 8/26",
       "course": "CHE 110",
-      "due": "2026-08-26T23:59-04:00",
-      "points": 1.0,
+      "due": "2026-08-26T23:59:59-04:00",
+      "points": 1,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1326648/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1326648",
       "big": false,
       "source": "Canvas"
     },
     {
-      "id": "assignment-1327173",
+      "id": "1327173",
       "title": "Daily Opener - 8/28",
       "course": "CHE 110",
-      "due": "2026-08-28T23:59-04:00",
-      "points": 1.0,
+      "due": "2026-08-28T23:59:59-04:00",
+      "points": 1,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1327173/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1327173",
       "big": false,
       "source": "Canvas"
     },
     {
-      "id": "quiz-342927",
+      "id": "1314521",
       "title": "Textbook Overview - Chapter 2: Atoms and Elements",
       "course": "CHE 110",
-      "due": "2026-08-30T23:59-04:00",
-      "points": 5.0,
+      "due": "2026-08-30T23:59:59-04:00",
+      "points": 5,
       "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342927",
       "big": false,
       "source": "Canvas"
     },
     {
-      "id": "assignment-1314523",
+      "id": "1314523",
       "title": "EoC_1. End-of-Chapter Homework UPLOAD",
       "course": "CHE 110",
-      "due": "2026-08-30T23:59-04:00",
-      "points": 5.0,
+      "due": "2026-08-30T23:59:59-04:00",
+      "points": 5,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314523/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314523",
       "big": false,
       "source": "Canvas"
     },
     {
-      "id": "quiz-342932",
-      "title": "EXP0.Post.1of3, Laboratory Safety Rules [Required by EXP1], v24.09b",
+      "id": "342932",
+      "title": "EXP0 Lab Safety Rules quiz",
       "course": "CHE 110",
-      "due": "2026-08-31T23:59-04:00",
-      "points": 2.0,
+      "due": "2026-08-31T23:59:59-04:00",
+      "points": 2,
       "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342932",
       "big": false,
       "source": "Canvas"
     },
     {
-      "id": "assignment-1327898",
+      "id": "1327898",
       "title": "Daily Opener - 8/31",
       "course": "CHE 110",
-      "due": "2026-08-31T23:59-04:00",
-      "points": 1.0,
+      "due": "2026-09-01T23:59:59-04:00",
+      "points": 1,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1327898/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1327898",
       "big": false,
+      "source": "Canvas"
+    },
+    {
+      "id": "1325056",
+      "title": "Aktiv 01 (EC.24.01)",
+      "course": "CHE 110",
+      "due": "2026-09-01T00:00:00-04:00",
+      "points": 10,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1325056",
+      "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "342929",
+      "title": "EXP0 Post-Lab Quiz 1: glassware & equipment",
+      "course": "CHE 110",
+      "due": "2026-09-01T23:59:59-04:00",
+      "points": 5,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342929",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
+      "id": "342931",
+      "title": "EXP0 Post-Lab Quiz 2: Sig Figs & Sci Notation",
+      "course": "CHE 110",
+      "due": "2026-09-01T23:59:59-04:00",
+      "points": 10,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342931",
+      "big": true,
       "source": "Canvas"
     },
     {
@@ -135,39 +146,6 @@
       "source": "Pearson"
     },
     {
-      "id": "assignment-1325056",
-      "title": "Aktiv 01 (EC.24.01)",
-      "course": "CHE 110",
-      "due": "2026-09-01T00:00-04:00",
-      "points": 10.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1325056/submissions/106818",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "quiz-342929",
-      "title": "EXP0. POST-LAB QUIZ 1: Basic glassware, equipment and techniques (~35 min), v21.06b",
-      "course": "CHE 110",
-      "due": "2026-09-01T23:59-04:00",
-      "points": 5.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342929",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "quiz-342931",
-      "title": "EXP0. POST-LAB QUIZ 2: Significant Figures & Scientific Notation, CHE 110, v22.01",
-      "course": "CHE 110",
-      "due": "2026-09-01T23:59-04:00",
-      "points": 10.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342931",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
       "id": "pearson-section-1.3",
       "title": "Section 1.3",
       "course": "MAT 151",
@@ -190,10 +168,10 @@
       "source": "Pearson"
     },
     {
-      "id": "quiz-342930",
+      "id": "1314531",
       "title": "EXP1. POST-LAB QUIZ: Scientific Measurements & Density",
       "course": "CHE 110",
-      "due": "2026-09-08T23:59-04:00",
+      "due": "2026-09-08T23:59:59-04:00",
       "points": 7.5,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342930",
@@ -201,36 +179,47 @@
       "source": "Canvas"
     },
     {
-      "id": "assignment-1314536",
-      "title": "EXP1. REPORT UPLOAD: Scientific Measurements & Density.",
+      "id": "1314536",
+      "title": "EXP1. REPORT UPLOAD: Scientific Measurements & Density",
       "course": "CHE 110",
-      "due": "2026-09-08T23:59-04:00",
-      "points": 20.0,
+      "due": "2026-09-08T23:59:59-04:00",
+      "points": 20,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314536",
-      "big": false,
+      "big": true,
       "source": "Canvas"
     },
     {
-      "id": "assignment-1328375",
+      "id": "1328375",
       "title": "Aktiv 02 (EC.26.01)",
       "course": "CHE 110",
-      "due": "2026-09-10T23:59-04:00",
-      "points": 10.0,
+      "due": "2026-09-10T23:58:00-04:00",
+      "points": 10,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1328375",
       "big": false,
       "source": "Canvas"
     },
     {
-      "id": "assignment-1314524",
+      "id": "1314524",
       "title": "EoC_2. End-of-Chapter Homework UPLOAD",
       "course": "CHE 110",
-      "due": "2026-09-10T23:59-04:00",
-      "points": 5.0,
+      "due": "2026-09-10T23:59:59-04:00",
+      "points": 5,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314524",
       "big": false,
+      "source": "Canvas"
+    },
+    {
+      "id": "che-exam-1",
+      "title": "CHE 110 Exam 1 (Ch 1-2) - in class",
+      "course": "CHE 110",
+      "due": "2026-09-11T12:20:00-04:00",
+      "points": 0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358",
+      "big": true,
       "source": "Canvas"
     },
     {
@@ -256,11 +245,22 @@
       "source": "Pearson"
     },
     {
-      "id": "quiz-345971",
-      "title": "Extra credit Week 2",
+      "id": "bio-unit1-exam",
+      "title": "BIO 110 Unit 1 Exam - take-home 50 + in-class 50",
       "course": "BIO 110",
-      "due": "2026-09-17T23:59-04:00",
-      "points": 2.0,
+      "due": "2026-09-17T23:59:59-04:00",
+      "points": 100,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810",
+      "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "345971",
+      "title": "Extra credit Week 2 (optional)",
+      "course": "BIO 110",
+      "due": "2026-09-17T23:59:59-04:00",
+      "points": 2,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52810/quizzes/345971",
       "big": false,
@@ -591,6 +591,14 @@
       "needsReply": false,
       "title": "New BIO study pack from Scholz's actual lecture slides",
       "body": "Dr. Scholz posted her Week 2 lecture deck today (Chapter 2: atoms, electrons, the periodic table). Checking back, her Week 1 decks from 8/25 and 8/27 had never been turned into study material either.\n\nThat matters, because your existing BIO Unit 1 pack was built from the syllabus objective list, and her slides cover a lot the objective list never names: deductive vs. inductive reasoning, Pasteur's swan-neck experiment, reductionism and emergent properties, basic vs. applied research, the Darwin/Malthus chain, homologous vs. analogous structures, and the whole atomic-theory history from Aristotle to Dalton to Mendeleev. Slide 19 of her 8/25 deck is labeled \"sample exam questions,\" so this is exam material.\n\nBUILT (three new files in study/, also on Drive):\n- bio110-unit1-lectures-pack.md - NotebookLM source. Run an Audio Overview on this for the drive tomorrow; sections 2, 3 and 5 listen best.\n- bio110-unit1-lectures-study-guide.md - checklist, 8 diagrams to draw cold, and the 5 traps she planted in the slides.\n- bio110-unit1-lectures-cards.txt - 89 Anki cards.\n\nThis is for BIO Unit 1: take-home part (50 pts) posts Tue 9/8, in-person part (50 pts) Thu 9/17, review session in class Tue 9/15.\n\nKeep the older bio110-unit1-* files too. They cover the macromolecules block, which her lectures haven't reached yet.\n\nNothing here changes today's list. The 41 points before 4 AM tomorrow are still the priority."
+    },
+    {
+      "id": "m-2026-09-04-exp1-report",
+      "ts": "2026-09-04T18:20:00-04:00",
+      "kind": "alert",
+      "needsReply": false,
+      "title": "New: 20-pt chem lab report, due Tue 9/8 — needs your lab notebook",
+      "body": "Cacciavillani opened EXP1. REPORT UPLOAD this afternoon: 20 points, due Tue 9/8 11:59 PM. It's a scan/photo of your Scientific Measurements & Density write-up from your lab notebook plus the graph, uploaded as ONE file. Two attempts; the second is graded by default. Same night, the EXP1 post-lab quiz is also due — he cut that one from 10 points to 7.5. Neither can be done from the road: the report needs the physical notebook. Plan on Monday 9/7 after you land. Tuesday 9/8 is already loaded — BIO take-home posts, MAT quiz possible, both EXP1 items close. Nothing else changed today: no new files, no new announcements, no math date changes."
     }
   ]
 }
