@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04T10:05-04:00",
+  "generated": "2026-09-04T14:11-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -194,9 +194,20 @@
       "title": "EXP1. POST-LAB QUIZ: Scientific Measurements & Density",
       "course": "CHE 110",
       "due": "2026-09-08T23:59-04:00",
-      "points": 10.0,
+      "points": 7.5,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342930",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1314536",
+      "title": "EXP1. REPORT UPLOAD: Scientific Measurements & Density.",
+      "course": "CHE 110",
+      "due": "2026-09-08T23:59-04:00",
+      "points": 20.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314536",
       "big": false,
       "source": "Canvas"
     },
