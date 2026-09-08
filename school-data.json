@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07T18:38-04:00",
+  "generated": "2026-09-08T01:43-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -190,6 +190,17 @@
       "source": "Pearson"
     },
     {
+      "id": "assignment-1314506",
+      "title": "Qz2",
+      "course": "MAT 151",
+      "due": "2026-09-08T23:59-04:00",
+      "points": 100.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314506",
+      "big": true,
+      "source": "Canvas"
+    },
+    {
       "id": "quiz-342930",
       "title": "EXP1. POST-LAB QUIZ: Scientific Measurements & Density",
       "course": "CHE 110",
@@ -322,6 +333,17 @@
       "source": "Pearson"
     },
     {
+      "id": "assignment-1314514",
+      "title": "Test1",
+      "course": "MAT 151",
+      "due": "2026-09-24T23:59-04:00",
+      "points": 100.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314514",
+      "big": true,
+      "source": "Canvas"
+    },
+    {
       "id": "pearson-2026-09-24-review-test1",
       "title": "Review Test1",
       "course": "MAT 151",
@@ -364,6 +386,17 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
+    },
+    {
+      "id": "assignment-1314515",
+      "title": "Test2",
+      "course": "MAT 151",
+      "due": "2026-10-15T11:00-04:00",
+      "points": 100.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314515",
+      "big": true,
+      "source": "Canvas"
     },
     {
       "id": "pearson-2026-10-15-review-test-2",
@@ -419,6 +452,39 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
+    },
+    {
+      "id": "assignment-1314516",
+      "title": "Test3",
+      "course": "MAT 151",
+      "due": "2026-11-10T23:59-05:00",
+      "points": 100.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314516",
+      "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1314517",
+      "title": "Test4",
+      "course": "MAT 151",
+      "due": "2026-12-03T23:59-05:00",
+      "points": 100.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314517",
+      "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1314503",
+      "title": "Final",
+      "course": "MAT 151",
+      "due": "2026-12-08T11:00-05:00",
+      "points": 22.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314503",
+      "big": true,
+      "source": "Canvas"
     }
   ],
   "courses": [
