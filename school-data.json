@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08T19:34-04:00",
+  "generated": "2026-09-08T22:31-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -590,6 +590,27 @@
       "start": "",
       "end": "",
       "note": "CUT this week and next — CHE Exam 1 Fri 9/11, BIO Unit 1 Exam Thu 9/17"
+    },
+    {
+      "label": "Gym",
+      "day": "Mon",
+      "start": "14:35",
+      "end": "15:45",
+      "note": "Straight from chem on the 115 (DCCC -> Lansdowne Ave, 42 min). Bring the bag."
+    },
+    {
+      "label": "Gym",
+      "day": "Fri",
+      "start": "14:35",
+      "end": "15:45",
+      "note": "Same as Monday — 115 from campus, then 110/111 home, 14 min."
+    },
+    {
+      "label": "Gym",
+      "day": "Sat",
+      "start": "15:30",
+      "end": "17:00",
+      "note": "No class. 14 min from home on the 110/111, or a 28-min walk."
     }
   ],
   "weekPlan": {
@@ -732,10 +753,16 @@
           "trigger": "Rm 3403"
         },
         {
-          "start": "15:00",
-          "end": "15:30",
+          "start": "14:35",
+          "end": "15:45",
+          "task": "GYM — session 1 of 2 this week",
+          "trigger": "Catch the 115 outside DCCC right after the exam. Decompression, not a PR attempt."
+        },
+        {
+          "start": "16:15",
+          "end": "16:45",
           "task": "BIO Self-Eval — Experimental design (4 pts)",
-          "trigger": "Fisher / lady-tasting-tea PDFs are in your files"
+          "trigger": "At home after the gym. Fisher / lady-tasting-tea PDFs are in your files."
         }
       ],
       "Sat": [
@@ -750,6 +777,12 @@
           "end": "15:00",
           "task": "MAT Section 1.6 (19 pts)",
           "trigger": "Submit both by 6 PM, not midnight"
+        },
+        {
+          "start": "15:30",
+          "end": "17:00",
+          "task": "GYM — session 2 of 2",
+          "trigger": "Both math sections are in by 3. This is the reward, don't skip it."
         }
       ],
       "Sun": [
@@ -1043,6 +1076,22 @@
       "needsReply": false,
       "title": "New BIO study pack: bonds, water, pH, buffers",
       "body": "Scholz's Sept 3 lecture deck (Chapter 2) had never been turned into study material — it got pulled to your files folder this morning and sat there. Built three files from it: bio110-unit1-ch2-water-pack.md (NotebookLM source — load it and make an Audio Overview), bio110-unit1-ch2-water-study-guide.md (checklist, 8 diagrams to draw cold, her 5 traps, a 3-session plan), and bio110-unit1-ch2-water-cards.txt (66 Anki cards). Zero overlap with the Sept 3 pack, which stopped at atoms and the periodic table. This one runs from ionic/covalent bonding through water's properties to pH and buffers, and includes her slide-44 pH question worked out. Nothing here is for this week — chem Exam 1 Friday owns the week. First BIO session is Saturday Sept 12."
+    },
+    {
+      "id": "m-2026-09-08-gym-plan",
+      "ts": "2026-09-08T22:30:00-04:00",
+      "kind": "info",
+      "needsReply": false,
+      "title": "Gym is on the schedule now — Mon, Fri, Sat",
+      "body": "Three a week, built around the bus instead of fighting it. The trick is Route 115: it runs DCCC straight to Lansdowne Ave in 42 minutes, so on Mon and Fri the gym is on your way home from chem, not a second trip. Class ends 1:45, you're at the gym by 2:35, home by 4:15. Saturday is free-floating, 14 minutes from the house on the 110 or 111 (or a 28-minute walk, which counts). Never Tuesday — you're on campus 9 AM to 9:45 PM. Sunday is the backup if a day dies, not Wednesday, because chem lab plus your shifts keep landing there. This week only fits two sessions since Monday's already gone and Friday is Exam 1; that's fine, two beats zero. Bring the gym bag with you Mon and Fri — you go straight from campus."
+    },
+    {
+      "id": "m-2026-09-08-last-bus",
+      "ts": "2026-09-08T22:31:00-04:00",
+      "kind": "alert",
+      "needsReply": true,
+      "title": "How are you getting home Tuesdays? The last bus is 8 minutes after lab",
+      "body": "Looked up the schedules while setting up the gym plan and found something that matters more than the gym. The last trip out of DCCC leaves around 9:53 PM (115 to 111, or 118 to 110 at 10:12), getting you home about 11:07. BIO lab ends at 9:45. That is an eight-minute margin, and there is nothing after it — the next bus is 5:24 AM. So: have you been catching it, riding with someone, or has Scholz been letting out early? If it's the bus, Tuesday nights need a fallback on file, because one long lab and you're stranded in Marple. Everything else is fine — the 110/111 corridor between home, work and the gym runs to about midnight."
     }
   ]
 }
