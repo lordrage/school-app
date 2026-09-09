@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08T22:31-04:00",
+  "generated": "2026-09-09T01:48-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -206,7 +206,7 @@
       "course": "CHE 110",
       "due": "2026-09-08T23:59-04:00",
       "points": 7.5,
-      "status": "not_started",
+      "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52358/quizzes/342930",
       "big": false,
       "source": "Canvas"
@@ -217,8 +217,8 @@
       "course": "CHE 110",
       "due": "2026-09-08T23:59-04:00",
       "points": 20.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314536",
+      "status": "submitted",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314536/submissions/106818",
       "big": false,
       "source": "Canvas"
     },
@@ -228,7 +228,7 @@
       "course": "BIO 110",
       "due": "2026-09-09T23:59-04:00",
       "points": 10.0,
-      "status": "not_started",
+      "status": "submitted",
       "url": "https://canvas.dccc.edu/courses/52810/quizzes/346068",
       "big": false,
       "source": "Canvas"
@@ -239,7 +239,7 @@
       "course": "BIO 110",
       "due": "2026-09-09T23:59-04:00",
       "points": 10.0,
-      "status": "not_started",
+      "status": "submitted",
       "url": "https://canvas.dccc.edu/courses/52810/quizzes/346074",
       "big": false,
       "source": "Canvas"
@@ -298,6 +298,28 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
+    },
+    {
+      "id": "assignment-1314537",
+      "title": "EXP2. Post_1of2_Questions. Empirical Formula of a Hydrate.",
+      "course": "CHE 110",
+      "due": "2026-09-15T23:59-04:00",
+      "points": 10.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314537",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1314538",
+      "title": "EXP2. Post_2of2_ReportUpload. Empirical Formula of a Hydrate.",
+      "course": "CHE 110",
+      "due": "2026-09-15T23:59-04:00",
+      "points": 20.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314538",
+      "big": false,
+      "source": "Canvas"
     },
     {
       "id": "quiz-345971",
