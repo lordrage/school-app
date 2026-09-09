@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T10:15-04:00",
+  "generated": "2026-09-09T14:23-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -319,6 +319,28 @@
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314538",
       "big": false,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1320972",
+      "title": "Take-Home Part - Exam 1 Submission",
+      "course": "BIO 110",
+      "due": "2026-09-17T18:00-04:00",
+      "points": 25.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1320972",
+      "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "quiz-346100",
+      "title": "In-class Exam 1",
+      "course": "BIO 110",
+      "due": "2026-09-17T20:00-04:00",
+      "points": 30.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810/quizzes/346100",
+      "big": true,
       "source": "Canvas"
     },
     {
