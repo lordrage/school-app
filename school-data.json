@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11T01:42-04:00",
+  "generated": "2026-09-11T10:08-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -300,6 +300,17 @@
       "source": "Pearson"
     },
     {
+      "id": "quiz-346152",
+      "title": "Chapter 3: Molecules and Compounds - Warmup Quiz",
+      "course": "CHE 110",
+      "due": "2026-09-13T23:59-04:00",
+      "points": 5.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/quizzes/346152",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
       "id": "assignment-1314537",
       "title": "EXP2. Post_1of2_Questions. Empirical Formula of a Hydrate.",
       "course": "CHE 110",
@@ -323,7 +334,7 @@
     },
     {
       "id": "assignment-1320972",
-      "title": "Take-Home Part - Exam 1 Submission",
+      "title": "Take-Home Exam 1 Submission",
       "course": "BIO 110",
       "due": "2026-09-17T18:00-04:00",
       "points": 25.0,
