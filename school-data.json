@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T14:10-04:00",
+  "generated": "2026-09-18T07:11:29-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -13,61 +13,6 @@
   },
   "canvasUrl": "https://canvas.dccc.edu",
   "assignments": [
-    {
-      "id": "assignment-1327173",
-      "title": "Daily Opener - 8/28",
-      "course": "CHE 110",
-      "due": "2026-08-28T23:59-04:00",
-      "points": 1.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1327173/submissions/106818",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "quiz-342927",
-      "title": "Textbook Overview - Chapter 2: Atoms and Elements",
-      "course": "CHE 110",
-      "due": "2026-08-30T23:59-04:00",
-      "points": 5.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342927",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1314523",
-      "title": "EoC_1. End-of-Chapter Homework UPLOAD",
-      "course": "CHE 110",
-      "due": "2026-08-30T23:59-04:00",
-      "points": 5.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314523/submissions/106818",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "quiz-342932",
-      "title": "EXP0.Post.1of3, Laboratory Safety Rules [Required by EXP1], v24.09b",
-      "course": "CHE 110",
-      "due": "2026-08-31T23:59-04:00",
-      "points": 2.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342932",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1327898",
-      "title": "Daily Opener - 8/31",
-      "course": "CHE 110",
-      "due": "2026-08-31T23:59-04:00",
-      "points": 1.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1327898/submissions/106818",
-      "big": false,
-      "source": "Canvas"
-    },
     {
       "id": "pearson-Section-1.1",
       "title": "Section 1.1",
@@ -89,39 +34,6 @@
       "url": "https://mlm.pearson.com/",
       "big": true,
       "source": "Pearson"
-    },
-    {
-      "id": "assignment-1325056",
-      "title": "Aktiv 01 (EC.24.01)",
-      "course": "CHE 110",
-      "due": "2026-09-01T00:00-04:00",
-      "points": 10.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1325056/submissions/106818",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "quiz-342929",
-      "title": "EXP0. POST-LAB QUIZ 1: Basic glassware, equipment and techniques (~35 min), v21.06b",
-      "course": "CHE 110",
-      "due": "2026-09-01T23:59-04:00",
-      "points": 5.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342929",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "quiz-342931",
-      "title": "EXP0. POST-LAB QUIZ 2: Significant Figures & Scientific Notation, CHE 110, v22.01",
-      "course": "CHE 110",
-      "due": "2026-09-01T23:59-04:00",
-      "points": 10.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342931",
-      "big": false,
-      "source": "Canvas"
     },
     {
       "id": "pearson-Section-1.3",
@@ -146,24 +58,13 @@
       "source": "Pearson"
     },
     {
-      "id": "assignment-1314506",
-      "title": "Qz2",
-      "course": "MAT 151",
-      "due": "2026-09-08T23:59-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314506/submissions/106818",
-      "big": true,
-      "source": "Canvas"
-    },
-    {
-      "id": "quiz-342930",
+      "id": "assignment-1314531",
       "title": "EXP1. POST-LAB QUIZ: Scientific Measurements & Density",
       "course": "CHE 110",
-      "due": "2026-09-08T23:59-04:00",
+      "due": "2026-09-08T23:59:59-04:00",
       "points": 7.5,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342930",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314531",
       "big": false,
       "source": "Canvas"
     },
@@ -171,21 +72,32 @@
       "id": "assignment-1314536",
       "title": "EXP1. REPORT UPLOAD: Scientific Measurements & Density.",
       "course": "CHE 110",
-      "due": "2026-09-08T23:59-04:00",
+      "due": "2026-09-08T23:59:59-04:00",
       "points": 20.0,
+      "status": "submitted",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314536",
+      "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1314506",
+      "title": "Qz2",
+      "course": "MAT 151",
+      "due": "2026-09-08T23:59:59-04:00",
+      "points": 100.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314536/submissions/106818",
-      "big": false,
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314506",
+      "big": true,
       "source": "Canvas"
     },
     {
       "id": "assignment-1328375",
       "title": "Aktiv 02 (EC.26.01)",
       "course": "CHE 110",
-      "due": "2026-09-10T23:59-04:00",
+      "due": "2026-09-10T23:59:00-04:00",
       "points": 10.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1328375/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1328375",
       "big": false,
       "source": "Canvas"
     },
@@ -193,55 +105,44 @@
       "id": "assignment-1314524",
       "title": "EoC_2. End-of-Chapter Homework UPLOAD",
       "course": "CHE 110",
-      "due": "2026-09-10T23:59-04:00",
+      "due": "2026-09-10T23:59:59-04:00",
       "points": 5.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314524/submissions/106818",
+      "status": "submitted",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314524",
       "big": false,
       "source": "Canvas"
     },
     {
-      "id": "quiz-346068",
+      "id": "assignment-1328581",
       "title": "Self-Eval Quiz Week 1",
       "course": "BIO 110",
-      "due": "2026-09-10T23:59-04:00",
+      "due": "2026-09-10T23:59:59-04:00",
       "points": 10.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52810/quizzes/346068",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1328581",
       "big": false,
       "source": "Canvas"
     },
     {
-      "id": "quiz-346074",
+      "id": "assignment-1328687",
       "title": "Self-Eval Quiz Week 2: Atoms, molecules, bonds",
       "course": "BIO 110",
-      "due": "2026-09-10T23:59-04:00",
+      "due": "2026-09-10T23:59:59-04:00",
       "points": 10.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52810/quizzes/346074",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1328687",
       "big": false,
       "source": "Canvas"
     },
     {
-      "id": "quiz-346076",
+      "id": "assignment-1328693",
       "title": "Self-Eval - Experimental design ",
       "course": "BIO 110",
-      "due": "2026-09-11T23:59-04:00",
+      "due": "2026-09-11T23:59:59-04:00",
       "points": 4.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52810/quizzes/346076",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1328693",
       "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1330451",
-      "title": "Exam 1 (Chapters 1-2)",
-      "course": "CHE 110",
-      "due": "2026-09-11T23:59-04:00",
-      "points": 100.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1330451",
-      "big": true,
       "source": "Canvas"
     },
     {
@@ -267,13 +168,13 @@
       "source": "Pearson"
     },
     {
-      "id": "quiz-346152",
+      "id": "assignment-1329270",
       "title": "Chapter 3: Molecules and Compounds - Warmup Quiz",
       "course": "CHE 110",
-      "due": "2026-09-13T23:59-04:00",
+      "due": "2026-09-13T23:59:59-04:00",
       "points": 5.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/346152",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1329270",
       "big": false,
       "source": "Canvas"
     },
@@ -281,10 +182,10 @@
       "id": "assignment-1314537",
       "title": "EXP2. Post_1of2_Questions. Empirical Formula of a Hydrate.",
       "course": "CHE 110",
-      "due": "2026-09-15T23:59-04:00",
+      "due": "2026-09-15T23:59:59-04:00",
       "points": 10.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314537/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314537",
       "big": false,
       "source": "Canvas"
     },
@@ -292,21 +193,21 @@
       "id": "assignment-1314538",
       "title": "EXP2. Post_2of2_ReportUpload. Empirical Formula of a Hydrate.",
       "course": "CHE 110",
-      "due": "2026-09-15T23:59-04:00",
+      "due": "2026-09-15T23:59:59-04:00",
       "points": 20.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314538/submissions/106818",
-      "big": false,
+      "status": "submitted",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314538",
+      "big": true,
       "source": "Canvas"
     },
     {
       "id": "assignment-1330055",
       "title": "Qz3",
       "course": "MAT 151",
-      "due": "2026-09-15T23:59-04:00",
+      "due": "2026-09-15T23:59:59-04:00",
       "points": 100.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1330055/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1330055",
       "big": true,
       "source": "Canvas"
     },
@@ -314,32 +215,32 @@
       "id": "assignment-1320972",
       "title": "Take-Home Exam 1 Submission",
       "course": "BIO 110",
-      "due": "2026-09-17T18:00-04:00",
+      "due": "2026-09-17T18:00:00-04:00",
       "points": 25.0,
       "status": "submitted",
-      "url": "https://canvas.dccc.edu/courses/52810/assignments/1320972/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1320972",
       "big": true,
       "source": "Canvas"
     },
     {
-      "id": "quiz-346100",
+      "id": "assignment-1328921",
       "title": "In-class Exam 1",
       "course": "BIO 110",
-      "due": "2026-09-17T20:00-04:00",
+      "due": "2026-09-17T20:00:00-04:00",
       "points": 30.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52810/quizzes/346100",
+      "status": "submitted",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1328921",
       "big": true,
       "source": "Canvas"
     },
     {
-      "id": "quiz-345971",
+      "id": "assignment-1328034",
       "title": "Extra credit Week 2",
       "course": "BIO 110",
-      "due": "2026-09-17T23:59-04:00",
+      "due": "2026-09-17T23:59:59-04:00",
       "points": 2.0,
-      "status": "submitted",
-      "url": "https://canvas.dccc.edu/courses/52810/quizzes/345971",
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1328034",
       "big": false,
       "source": "Canvas"
     },
@@ -369,7 +270,7 @@
       "id": "assignment-1329753",
       "title": "Aktiv 03.1 v23.06 [nomenclature]",
       "course": "CHE 110",
-      "due": "2026-09-20T23:59-04:00",
+      "due": "2026-09-20T23:59:00-04:00",
       "points": 10.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1329753",
@@ -380,7 +281,7 @@
       "id": "assignment-1329754",
       "title": "Aktiv 03.2 v23.06 [computation]",
       "course": "CHE 110",
-      "due": "2026-09-22T23:59-04:00",
+      "due": "2026-09-22T23:59:00-04:00",
       "points": 10.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1329754",
@@ -388,10 +289,21 @@
       "source": "Canvas"
     },
     {
+      "id": "assignment-1314540",
+      "title": "EXP3. 🟡🟡Post_2of2_ReportUpload. Empirical Formula & Separation Techniques. [20] v.23.06a",
+      "course": "CHE 110",
+      "due": "2026-09-22T23:59:59-04:00",
+      "points": 20.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314540",
+      "big": true,
+      "source": "Canvas"
+    },
+    {
       "id": "assignment-1314539",
       "title": "EXP3. 🟡Post_1of2_Questions. Empirical Formula & Separation Techniques. [10] v.23.06a",
       "course": "CHE 110",
-      "due": "2026-09-22T23:59-04:00",
+      "due": "2026-09-22T23:59:59-04:00",
       "points": 10.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314539",
@@ -399,21 +311,10 @@
       "source": "Canvas"
     },
     {
-      "id": "assignment-1314540",
-      "title": "EXP3. 🟡🟡Post_2of2_ReportUpload. Empirical Formula & Separation Techniques. [20] v.23.06a",
-      "course": "CHE 110",
-      "due": "2026-09-22T23:59-04:00",
-      "points": 20.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314540",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
       "id": "assignment-1317058",
       "title": "Textbook Week 4",
       "course": "BIO 110",
-      "due": "2026-09-22T23:59-04:00",
+      "due": "2026-09-22T23:59:59-04:00",
       "points": null,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52810/assignments/1317058",
@@ -424,22 +325,11 @@
       "id": "assignment-1317255",
       "title": "Textbook Week 5",
       "course": "BIO 110",
-      "due": "2026-09-22T23:59-04:00",
+      "due": "2026-09-22T23:59:59-04:00",
       "points": null,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52810/assignments/1317255",
       "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1314514",
-      "title": "Test1",
-      "course": "MAT 151",
-      "due": "2026-09-24T23:59-04:00",
-      "points": 100.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314514",
-      "big": true,
       "source": "Canvas"
     },
     {
@@ -465,6 +355,17 @@
       "source": "Pearson"
     },
     {
+      "id": "assignment-1314514",
+      "title": "Test1",
+      "course": "MAT 151",
+      "due": "2026-09-24T23:59:59-04:00",
+      "points": 100.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314514",
+      "big": true,
+      "source": "Canvas"
+    },
+    {
       "id": "pearson-Section-2.3",
       "title": "Section 2.3",
       "course": "MAT 151",
@@ -474,17 +375,6 @@
       "url": "https://mlm.pearson.com/",
       "big": true,
       "source": "Pearson"
-    },
-    {
-      "id": "assignment-1330452",
-      "title": "Exam 2 (Chapters 3 - 4)",
-      "course": "CHE 110",
-      "due": "2026-10-02T23:59-04:00",
-      "points": 100.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1330452",
-      "big": true,
-      "source": "Canvas"
     },
     {
       "id": "pearson-Section-2.4",
@@ -501,7 +391,7 @@
       "id": "assignment-1314515",
       "title": "Test2",
       "course": "MAT 151",
-      "due": "2026-10-15T11:00-04:00",
+      "due": "2026-10-15T11:00:00-04:00",
       "points": 100.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52253/assignments/1314515",
@@ -562,72 +452,6 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
-    },
-    {
-      "id": "assignment-1330453",
-      "title": "Exam 3 (Chapters 5 - 6)",
-      "course": "CHE 110",
-      "due": "2026-10-23T23:59-04:00",
-      "points": 100.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1330453",
-      "big": true,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1314516",
-      "title": "Test3",
-      "course": "MAT 151",
-      "due": "2026-11-10T23:59-05:00",
-      "points": 100.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314516",
-      "big": true,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1330454",
-      "title": "Exam 4 (Chapters 7 - 8)",
-      "course": "CHE 110",
-      "due": "2026-11-13T23:59-05:00",
-      "points": 100.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1330454",
-      "big": true,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1330455",
-      "title": "Exam 5 (Chapters 9 - 10)",
-      "course": "CHE 110",
-      "due": "2026-12-02T23:59-05:00",
-      "points": 100.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1330455",
-      "big": true,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1314517",
-      "title": "Test4",
-      "course": "MAT 151",
-      "due": "2026-12-03T23:59-05:00",
-      "points": 100.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314517",
-      "big": true,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1314503",
-      "title": "Final",
-      "course": "MAT 151",
-      "due": "2026-12-08T11:00-05:00",
-      "points": 22.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314503",
-      "big": true,
-      "source": "Canvas"
     }
   ],
   "courses": [
@@ -786,6 +610,14 @@
     ]
   },
   "messages": [
+    {
+      "id": "m-2026-09-18-mat-2_3-2_4-pack",
+      "ts": "2026-09-18T16:20:00-04:00",
+      "kind": "info",
+      "needsReply": false,
+      "title": "New math pack: sections 2.3 and 2.4 (lines and circles)",
+      "body": "Afternoon check: no new Canvas deltas beyond what this morning's brief already had -- Abebe's Fri 9/17 announcement about Quiz 4 (Tue 9/22, covers 2.1-2.3) and Test 1 (Thu 9/24, bring a laptop) was already folded into today's digest. CHE also picked up a batch of grades overnight -- EXP1 report, EXP2 report, and EoC_2 all landed at 100%, pulling CHE up to 96.72%. Neither CHE Exam 1 nor the BIO Unit 1 exam is graded yet.\n\nSo the actual work this run went to math. Sections 2.3 (lines) and 2.4 (circles) have been sitting in your files folder since 8/19 and never turned into study material -- Abebe's own slides, never read until today. Quiz 4 needs 2.3, Test 1 needs both. Four new files in study/ and on Drive: mat151-2_3-2_4-pack.md (NotebookLM source), mat151-2_3-2_4-study-guide.md (checklist, traps, a 3-session plan before Tuesday), mat151-2_3-2_4-practice.md (15 problems, fresh numbers, every answer checked with sympy), and mat151-2_3-2_4-cards.txt (36 Anki cards). Biggest trap on these two sections: vertical lines have undefined slope, not \"no slope,\" and perpendicular slopes need both a flip and a sign change, not just one.\n\nStill open from before: the Qz2 zero, the last-bus question, the Tuesday shift conflict, and the study-method debrief -- all still waiting on you, nothing new asked here."
+    },
     {
       "id": "m-2026-09-18-morning",
       "ts": "2026-09-18T07:11:29-04:00",
