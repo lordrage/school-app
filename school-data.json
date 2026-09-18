@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-17T18:44-04:00",
+  "generated": "2026-09-17T22:06:03-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
-  "oneThing": "",
-  "oneThingTs": "2026-09-08T19:30:00-04:00",
+  "oneThing": "Extra credit Week 2 (BIO, 2 pts) is still open — a 200-word carbon-dating answer, closes 11:59 PM tonight. About 2 hours left as of 10 PM. Optional, but it's short and it's free points.",
+  "oneThingTs": "2026-09-17T22:06:03-04:00",
   "semester": {
     "name": "Fall/Winter 2026",
     "start": "2026-08-24",
@@ -14,61 +14,6 @@
   "canvasUrl": "https://canvas.dccc.edu",
   "assignments": [
     {
-      "id": "assignment-1327173",
-      "title": "Daily Opener - 8/28",
-      "course": "CHE 110",
-      "due": "2026-08-28T23:59-04:00",
-      "points": 1.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1327173/submissions/106818",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "quiz-342927",
-      "title": "Textbook Overview - Chapter 2: Atoms and Elements",
-      "course": "CHE 110",
-      "due": "2026-08-30T23:59-04:00",
-      "points": 5.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342927",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1314523",
-      "title": "EoC_1. End-of-Chapter Homework UPLOAD",
-      "course": "CHE 110",
-      "due": "2026-08-30T23:59-04:00",
-      "points": 5.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314523/submissions/106818",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "quiz-342932",
-      "title": "EXP0.Post.1of3, Laboratory Safety Rules [Required by EXP1], v24.09b",
-      "course": "CHE 110",
-      "due": "2026-08-31T23:59-04:00",
-      "points": 2.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342932",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1327898",
-      "title": "Daily Opener - 8/31",
-      "course": "CHE 110",
-      "due": "2026-08-31T23:59-04:00",
-      "points": 1.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1327898/submissions/106818",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
       "id": "pearson-Section-1.1",
       "title": "Section 1.1",
       "course": "MAT 151",
@@ -76,7 +21,7 @@
       "points": 17,
       "status": "done",
       "url": "https://mlm.pearson.com/",
-      "big": false,
+      "big": true,
       "source": "Pearson"
     },
     {
@@ -87,41 +32,8 @@
       "points": 19,
       "status": "done",
       "url": "https://mlm.pearson.com/",
-      "big": false,
+      "big": true,
       "source": "Pearson"
-    },
-    {
-      "id": "assignment-1325056",
-      "title": "Aktiv 01 (EC.24.01)",
-      "course": "CHE 110",
-      "due": "2026-09-01T00:00-04:00",
-      "points": 10.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1325056/submissions/106818",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "quiz-342929",
-      "title": "EXP0. POST-LAB QUIZ 1: Basic glassware, equipment and techniques (~35 min), v21.06b",
-      "course": "CHE 110",
-      "due": "2026-09-01T23:59-04:00",
-      "points": 5.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342929",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "quiz-342931",
-      "title": "EXP0. POST-LAB QUIZ 2: Significant Figures & Scientific Notation, CHE 110, v22.01",
-      "course": "CHE 110",
-      "due": "2026-09-01T23:59-04:00",
-      "points": 10.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342931",
-      "big": false,
-      "source": "Canvas"
     },
     {
       "id": "pearson-Section-1.3",
@@ -131,7 +43,7 @@
       "points": 17,
       "status": "done",
       "url": "https://mlm.pearson.com/",
-      "big": false,
+      "big": true,
       "source": "Pearson"
     },
     {
@@ -142,28 +54,17 @@
       "points": 18,
       "status": "done",
       "url": "https://mlm.pearson.com/",
-      "big": false,
+      "big": true,
       "source": "Pearson"
     },
     {
-      "id": "assignment-1314506",
-      "title": "Qz2",
-      "course": "MAT 151",
-      "due": "2026-09-08T23:59-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314506/submissions/106818",
-      "big": true,
-      "source": "Canvas"
-    },
-    {
-      "id": "quiz-342930",
+      "id": "assignment-1314531",
       "title": "EXP1. POST-LAB QUIZ: Scientific Measurements & Density",
       "course": "CHE 110",
-      "due": "2026-09-08T23:59-04:00",
+      "due": "2026-09-08T23:59:59-04:00",
       "points": 7.5,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342930",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314531",
       "big": false,
       "source": "Canvas"
     },
@@ -171,21 +72,32 @@
       "id": "assignment-1314536",
       "title": "EXP1. REPORT UPLOAD: Scientific Measurements & Density.",
       "course": "CHE 110",
-      "due": "2026-09-08T23:59-04:00",
+      "due": "2026-09-08T23:59:59-04:00",
       "points": 20.0,
       "status": "submitted",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314536/submissions/106818",
-      "big": false,
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314536",
+      "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1314506",
+      "title": "Qz2",
+      "course": "MAT 151",
+      "due": "2026-09-08T23:59:59-04:00",
+      "points": 100.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314506",
+      "big": true,
       "source": "Canvas"
     },
     {
       "id": "assignment-1328375",
       "title": "Aktiv 02 (EC.26.01)",
       "course": "CHE 110",
-      "due": "2026-09-10T23:59-04:00",
+      "due": "2026-09-10T23:59:00-04:00",
       "points": 10.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1328375/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1328375",
       "big": false,
       "source": "Canvas"
     },
@@ -193,43 +105,43 @@
       "id": "assignment-1314524",
       "title": "EoC_2. End-of-Chapter Homework UPLOAD",
       "course": "CHE 110",
-      "due": "2026-09-10T23:59-04:00",
+      "due": "2026-09-10T23:59:59-04:00",
       "points": 5.0,
       "status": "submitted",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314524/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314524",
       "big": false,
       "source": "Canvas"
     },
     {
-      "id": "quiz-346068",
+      "id": "assignment-1328581",
       "title": "Self-Eval Quiz Week 1",
       "course": "BIO 110",
-      "due": "2026-09-10T23:59-04:00",
+      "due": "2026-09-10T23:59:59-04:00",
       "points": 10.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52810/quizzes/346068",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1328581",
       "big": false,
       "source": "Canvas"
     },
     {
-      "id": "quiz-346074",
+      "id": "assignment-1328687",
       "title": "Self-Eval Quiz Week 2: Atoms, molecules, bonds",
       "course": "BIO 110",
-      "due": "2026-09-10T23:59-04:00",
+      "due": "2026-09-10T23:59:59-04:00",
       "points": 10.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52810/quizzes/346074",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1328687",
       "big": false,
       "source": "Canvas"
     },
     {
-      "id": "quiz-346076",
+      "id": "assignment-1328693",
       "title": "Self-Eval - Experimental design ",
       "course": "BIO 110",
-      "due": "2026-09-11T23:59-04:00",
+      "due": "2026-09-11T23:59:59-04:00",
       "points": 4.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52810/quizzes/346076",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1328693",
       "big": false,
       "source": "Canvas"
     },
@@ -252,17 +164,17 @@
       "points": 19,
       "status": "not_started",
       "url": "https://mlm.pearson.com/",
-      "big": false,
+      "big": true,
       "source": "Pearson"
     },
     {
-      "id": "quiz-346152",
+      "id": "assignment-1329270",
       "title": "Chapter 3: Molecules and Compounds - Warmup Quiz",
       "course": "CHE 110",
-      "due": "2026-09-13T23:59-04:00",
+      "due": "2026-09-13T23:59:59-04:00",
       "points": 5.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/346152",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1329270",
       "big": false,
       "source": "Canvas"
     },
@@ -270,10 +182,10 @@
       "id": "assignment-1314537",
       "title": "EXP2. Post_1of2_Questions. Empirical Formula of a Hydrate.",
       "course": "CHE 110",
-      "due": "2026-09-15T23:59-04:00",
+      "due": "2026-09-15T23:59:59-04:00",
       "points": 10.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314537/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314537",
       "big": false,
       "source": "Canvas"
     },
@@ -281,21 +193,21 @@
       "id": "assignment-1314538",
       "title": "EXP2. Post_2of2_ReportUpload. Empirical Formula of a Hydrate.",
       "course": "CHE 110",
-      "due": "2026-09-15T23:59-04:00",
+      "due": "2026-09-15T23:59:59-04:00",
       "points": 20.0,
       "status": "submitted",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314538/submissions/106818",
-      "big": false,
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314538",
+      "big": true,
       "source": "Canvas"
     },
     {
       "id": "assignment-1330055",
       "title": "Qz3",
       "course": "MAT 151",
-      "due": "2026-09-15T23:59-04:00",
+      "due": "2026-09-15T23:59:59-04:00",
       "points": 100.0,
       "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1330055/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1330055",
       "big": true,
       "source": "Canvas"
     },
@@ -303,32 +215,32 @@
       "id": "assignment-1320972",
       "title": "Take-Home Exam 1 Submission",
       "course": "BIO 110",
-      "due": "2026-09-17T18:00-04:00",
+      "due": "2026-09-17T18:00:00-04:00",
       "points": 25.0,
       "status": "submitted",
-      "url": "https://canvas.dccc.edu/courses/52810/assignments/1320972/submissions/106818",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1320972",
       "big": true,
       "source": "Canvas"
     },
     {
-      "id": "quiz-346100",
+      "id": "assignment-1328921",
       "title": "In-class Exam 1",
       "course": "BIO 110",
-      "due": "2026-09-17T20:00-04:00",
+      "due": "2026-09-17T20:00:00-04:00",
       "points": 30.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52810/quizzes/346100",
+      "status": "submitted",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1328921",
       "big": true,
       "source": "Canvas"
     },
     {
-      "id": "quiz-345971",
+      "id": "assignment-1328034",
       "title": "Extra credit Week 2",
       "course": "BIO 110",
-      "due": "2026-09-17T23:59-04:00",
+      "due": "2026-09-17T23:59:59-04:00",
       "points": 2.0,
       "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52810/quizzes/345971",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1328034",
       "big": false,
       "source": "Canvas"
     },
@@ -358,7 +270,7 @@
       "id": "assignment-1329753",
       "title": "Aktiv 03.1 v23.06 [nomenclature]",
       "course": "CHE 110",
-      "due": "2026-09-20T23:59-04:00",
+      "due": "2026-09-20T23:59:00-04:00",
       "points": 10.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1329753",
@@ -369,7 +281,7 @@
       "id": "assignment-1329754",
       "title": "Aktiv 03.2 v23.06 [computation]",
       "course": "CHE 110",
-      "due": "2026-09-22T23:59-04:00",
+      "due": "2026-09-22T23:59:00-04:00",
       "points": 10.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1329754",
@@ -377,10 +289,21 @@
       "source": "Canvas"
     },
     {
+      "id": "assignment-1314540",
+      "title": "EXP3. 🟡🟡Post_2of2_ReportUpload. Empirical Formula & Separation Techniques. [20] v.23.06a",
+      "course": "CHE 110",
+      "due": "2026-09-22T23:59:59-04:00",
+      "points": 20.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314540",
+      "big": true,
+      "source": "Canvas"
+    },
+    {
       "id": "assignment-1314539",
       "title": "EXP3. 🟡Post_1of2_Questions. Empirical Formula & Separation Techniques. [10] v.23.06a",
       "course": "CHE 110",
-      "due": "2026-09-22T23:59-04:00",
+      "due": "2026-09-22T23:59:59-04:00",
       "points": 10.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314539",
@@ -388,21 +311,10 @@
       "source": "Canvas"
     },
     {
-      "id": "assignment-1314540",
-      "title": "EXP3. 🟡🟡Post_2of2_ReportUpload. Empirical Formula & Separation Techniques. [20] v.23.06a",
-      "course": "CHE 110",
-      "due": "2026-09-22T23:59-04:00",
-      "points": 20.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314540",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
       "id": "assignment-1317058",
       "title": "Textbook Week 4",
       "course": "BIO 110",
-      "due": "2026-09-22T23:59-04:00",
+      "due": "2026-09-22T23:59:59-04:00",
       "points": null,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52810/assignments/1317058",
@@ -413,7 +325,7 @@
       "id": "assignment-1317255",
       "title": "Textbook Week 5",
       "course": "BIO 110",
-      "due": "2026-09-22T23:59-04:00",
+      "due": "2026-09-22T23:59:59-04:00",
       "points": null,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52810/assignments/1317255",
@@ -421,19 +333,8 @@
       "source": "Canvas"
     },
     {
-      "id": "assignment-1314514",
-      "title": "Test1",
-      "course": "MAT 151",
-      "due": "2026-09-24T23:59-04:00",
-      "points": 100.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314514",
-      "big": true,
-      "source": "Canvas"
-    },
-    {
       "id": "pearson-Review-Test1",
-      "title": "Review Test1 (MyLab)",
+      "title": "Review Test1",
       "course": "MAT 151",
       "due": "2026-09-24T23:59:00-04:00",
       "points": 23,
@@ -444,7 +345,7 @@
     },
     {
       "id": "pearson-Test-1",
-      "title": "Test 1 (MyLab)",
+      "title": "Test 1",
       "course": "MAT 151",
       "due": "2026-09-24T23:59:00-04:00",
       "points": 17,
@@ -452,6 +353,17 @@
       "url": "https://mlm.pearson.com/",
       "big": true,
       "source": "Pearson"
+    },
+    {
+      "id": "assignment-1314514",
+      "title": "Test1",
+      "course": "MAT 151",
+      "due": "2026-09-24T23:59:59-04:00",
+      "points": 100.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314514",
+      "big": true,
+      "source": "Canvas"
     },
     {
       "id": "pearson-Section-2.3",
@@ -479,7 +391,7 @@
       "id": "assignment-1314515",
       "title": "Test2",
       "course": "MAT 151",
-      "due": "2026-10-15T11:00-04:00",
+      "due": "2026-10-15T11:00:00-04:00",
       "points": 100.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52253/assignments/1314515",
@@ -488,7 +400,7 @@
     },
     {
       "id": "pearson-Review-Test-2",
-      "title": "Review Test 2 (MyLab)",
+      "title": "Review Test 2",
       "course": "MAT 151",
       "due": "2026-10-15T23:59:00-04:00",
       "points": 15,
@@ -499,7 +411,7 @@
     },
     {
       "id": "pearson-Test-2",
-      "title": "Test 2 (MyLab)",
+      "title": "Test 2",
       "course": "MAT 151",
       "due": "2026-10-15T23:59:00-04:00",
       "points": 15,
@@ -540,39 +452,6 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
-    },
-    {
-      "id": "assignment-1314516",
-      "title": "Test3",
-      "course": "MAT 151",
-      "due": "2026-11-10T23:59-05:00",
-      "points": 100.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314516",
-      "big": true,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1314517",
-      "title": "Test4",
-      "course": "MAT 151",
-      "due": "2026-12-03T23:59-05:00",
-      "points": 100.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314517",
-      "big": true,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1314503",
-      "title": "Final",
-      "course": "MAT 151",
-      "due": "2026-12-08T11:00-05:00",
-      "points": 22.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314503",
-      "big": true,
-      "source": "Canvas"
     }
   ],
   "courses": [
@@ -657,28 +536,8 @@
       ]
     }
   ],
-  "shifts": [
-    {
-      "date": "2026-09-09",
-      "start": "16:00",
-      "end": "20:00",
-      "label": "Work"
-    },
-    {
-      "date": "2026-09-10",
-      "start": "12:00",
-      "end": "16:00",
-      "label": "Work"
-    }
-  ],
+  "shifts": [],
   "personalBlocks": [
-    {
-      "label": "Trading review",
-      "day": "Sun",
-      "start": "",
-      "end": "",
-      "note": "CUT this week and next — CHE Exam 1 Fri 9/11, BIO Unit 1 Exam Thu 9/17"
-    },
     {
       "label": "Gym",
       "day": "Mon",
@@ -701,238 +560,82 @@
       "note": "No class. 14 min from home on the 110/111, or a 28-min walk."
     }
   ],
-  "weekPlan": {
-    "weekOf": "2026-09-07",
-    "protect": "The CHE EXP1 lab report — 20 pts, closes tonight, needs the physical notebook and cannot be rebuilt late",
-    "days": {
-      "Mon": [
-        {
-          "start": "07:00",
-          "end": "12:00",
-          "task": "Home, unpack, eat, rest",
-          "trigger": "Off the road at 7"
-        },
-        {
-          "start": "13:00",
-          "end": "15:30",
-          "task": "CHE EXP1 lab report — notebook + density graph, ONE file, upload",
-          "trigger": "20 pts, closes Tue 11:59 PM"
-        },
-        {
-          "start": "15:30",
-          "end": "16:00",
-          "task": "CHE EXP1 post-lab quiz",
-          "trigger": "Do it straight off the report"
-        },
-        {
-          "start": "19:00",
-          "end": "19:20",
-          "task": "BIO Self-Eval Quiz Week 1",
-          "trigger": "Answer key already posted — 10 pts, 3 attempts"
-        },
-        {
-          "start": "19:30",
-          "end": "21:00",
-          "task": "Pearson — check 1.1-1.4, finish whatever is still open",
-          "trigger": "1.3/1.4 is quiz material"
-        }
-      ],
-      "Tue": [
-        {
-          "start": "09:00",
-          "end": "11:00",
-          "task": "MAT 151 — Qz2, the weekly quiz (1.3/1.4)",
-          "trigger": "Rm 2402 · 20 min of review before you walk in"
-        },
-        {
-          "start": "11:15",
-          "end": "11:45",
-          "task": "Download the BIO Unit 1 take-home exam, skim only",
-          "trigger": "Week 3 module"
-        },
-        {
-          "start": "12:00",
-          "end": "16:30",
-          "task": "CHE EXP1 lab report — notebook + density graph, ONE file, upload",
-          "trigger": "20 pts, closes 11:59 tonight. This is today."
-        },
-        {
-          "start": "16:30",
-          "end": "17:00",
-          "task": "CHE EXP1 post-lab quiz",
-          "trigger": "7.5 pts · straight off the report"
-        },
-        {
-          "start": "18:00",
-          "end": "21:45",
-          "task": "BIO 110 class + lab",
-          "trigger": "Rm 2402 / 2411"
-        }
-      ],
-      "Wed": [
-        {
-          "start": "12:20",
-          "end": "15:20",
-          "task": "CHE 110 lab",
-          "trigger": "Rm 3413"
-        },
-        {
-          "start": "15:30",
-          "end": "16:00",
-          "task": "BIO Self-Eval Week 1 + Week 2 if not already in",
-          "trigger": "20 pts, both close 11:59 tonight — do it before the shift"
-        },
-        {
-          "start": "16:00",
-          "end": "20:00",
-          "task": "Work",
-          "trigger": "Shift"
-        },
-        {
-          "start": "20:30",
-          "end": "22:30",
-          "task": "CHE Aktiv 02 + EoC_2",
-          "trigger": "Both close 11:58 PM Thu; Thursday is half shift, don't push them"
-        }
-      ],
-      "Thu": [
-        {
-          "start": "09:00",
-          "end": "11:00",
-          "task": "MAT 151 — second possible quiz slot",
-          "trigger": "Rm 2402"
-        },
-        {
-          "start": "12:00",
-          "end": "16:00",
-          "task": "Work",
-          "trigger": "Shift"
-        },
-        {
-          "start": "16:00",
-          "end": "17:45",
-          "task": "CHE Exam 1 review 1a: Chapter 1",
-          "trigger": "Work problems, don't re-read notes"
-        },
-        {
-          "start": "18:00",
-          "end": "19:30",
-          "task": "BIO 110 class (no lab Thursday)",
-          "trigger": "Rm 2402"
-        },
-        {
-          "start": "20:00",
-          "end": "21:30",
-          "task": "CHE Exam 1 review 1b: finish Chapter 1",
-          "trigger": "Mark what you missed — Friday morning starts there"
-        }
-      ],
-      "Fri": [
-        {
-          "start": "08:30",
-          "end": "11:30",
-          "task": "CHE Exam 1 review, session 2: Chapter 2",
-          "trigger": "Last 45 min: redo Thursday's misses"
-        },
-        {
-          "start": "12:20",
-          "end": "13:45",
-          "task": "CHE 110 EXAM 1",
-          "trigger": "Rm 3403"
-        },
-        {
-          "start": "14:35",
-          "end": "15:45",
-          "task": "GYM — session 1 of 2 this week",
-          "trigger": "Catch the 115 outside DCCC right after the exam. Decompression, not a PR attempt."
-        },
-        {
-          "start": "16:15",
-          "end": "16:45",
-          "task": "BIO Self-Eval — Experimental design (4 pts)",
-          "trigger": "At home after the gym. Fisher / lady-tasting-tea PDFs are in your files."
-        }
-      ],
-      "Sat": [
-        {
-          "start": "10:00",
-          "end": "12:00",
-          "task": "MAT Section 1.5 (20 pts)",
-          "trigger": "Pearson"
-        },
-        {
-          "start": "13:00",
-          "end": "15:00",
-          "task": "MAT Section 1.6 (19 pts)",
-          "trigger": "Submit both by 6 PM, not midnight"
-        },
-        {
-          "start": "15:30",
-          "end": "17:00",
-          "task": "GYM — session 2 of 2",
-          "trigger": "Both math sections are in by 3. This is the reward, don't skip it."
-        }
-      ],
-      "Sun": [
-        {
-          "start": "14:00",
-          "end": "16:00",
-          "task": "BIO Unit 1 take-home exam, first block",
-          "trigger": "Due Thu 9/17, cite every source"
-        }
-      ]
-    }
-  },
+  "weekPlan": null,
   "digest": {
     "label": "Today's brief",
-    "generated": "2026-09-08T07:13:17-04:00",
-    "headline": "The chem lab report never went in. 27.5 points close at 11:59 tonight and your only clear window is 11 AM to 5:30 PM.",
+    "generated": "2026-09-17T22:06:03-04:00",
+    "headline": "Two BIO exams down today. Sandbox access came back tonight after being down since 9/9 — this is a fresh, live sync.",
     "sections": [
       {
         "h": "Due tonight",
         "empty": false,
         "lines": [
-          "CHE EXP1 Report Upload — 20 pts, Canvas. Still shows nothing submitted.",
-          "CHE EXP1 Post-Lab Quiz — 7.5 pts, Canvas. Not started.",
-          "MAT Qz2 — the weekly quiz, in class this morning. Abebe logs it in Canvas the same night.",
-          "Report needs the notebook pages photographed plus the density graph, merged into ONE file. Two attempts; the second one is what gets graded."
+          "Extra credit Week 2 (BIO, 2 pts) — carbon dating, ~200 words. Optional, closes 11:59 PM, about 2 hours left."
         ]
       },
       {
-        "h": "Today's calendar — Tue 9/8",
+        "h": "Today",
         "empty": false,
         "lines": [
-          "9:00–11:00 AM — MAT 151, Rm 2402. Quiz on 1.3/1.4.",
-          "11:00 AM–5:30 PM — open. This is the whole window for the chem report.",
-          "6:00–7:30 PM — BIO 110 class, Rm 2402.",
-          "7:45–9:45 PM — BIO 110 lab, Rm 2411. Home ~10 PM, ~2 hours before the deadline.",
-          "Shifts for this work week still aren't on file."
+          "BIO Take-Home Exam 1 (25 pts) — submitted.",
+          "BIO In-Person Exam 1 (30 pts) — taken in class 6–8 PM. Canvas shows it unsubmitted because it's a paper-exam placeholder, not a real gap — Scholz grades it by hand.",
+          "21 new course files pulled tonight — BIO Wk2/Wk3 lecture decks, CHE Chapter 3 notes, MAT 2.2–2.4 slides, Review Test1.pdf."
         ]
       },
       {
-        "h": "Rest of the week",
+        "h": "This week",
         "empty": false,
         "lines": [
-          "Wed 9/9 — BIO Self-Eval Week 1 + Week 2, 20 pts. Week 1's answer key is already posted.",
-          "Thu 9/10 — CHE Aktiv 02 (10) + EoC_2 upload (5). Aktiv closes 11:58, one minute early.",
-          "Fri 9/11 — CHE 110 Exam 1, in class, Ch 1–2. Practice test B is in your study folder.",
-          "Fri 9/11 — BIO Self-Eval, Experimental design, 4 pts.",
-          "Sat 9/12 — MAT 1.5 + 1.6 on Pearson, 39 pts. Study pack built Sunday."
+          "MAT Sections 2.1 (8 pts) + 2.2 (20 pts) — Pearson, Sat 9/19 11:59 PM.",
+          "CHE Aktiv 03.1 [nomenclature] — Sun 9/20 11:59 PM, 10 pts.",
+          "Work shifts for Sep 13–19 were never sent — still no record for the rest of this week."
         ]
       },
       {
         "h": "Watch",
         "empty": false,
         "lines": [
-          "BIO Unit 1 take-home posts to the Week 3 module today. Canvas still lists it with no due date and 0 points — download it anyway.",
-          "Pearson 1.1–1.4 are still 71 points I can't see. Two minutes in MyLab settles it.",
-          "Last Tuesday's 6–11 PM shift landed on BIO class and lab and never got resolved. If it repeats today, the first missed lab costs 25 points.",
-          "New file pulled: BIO110 Wk2 09_03.pdf."
+          "MAT Sections 1.5 + 1.6 (39 pts, Pearson) — due Sat 9/12, still not confirmed done. Only your word clears them.",
+          "MAT Test1 in class Thu 9/24, plus Pearson Review Test1 + Test 1 the same night.",
+          "CHE EXP3 (two parts, 30 pts) + Aktiv 03.2 — Tue 9/22.",
+          "No weekly plan covers the current week — say the word and I'll build one."
         ]
       }
     ]
   },
   "messages": [
+    {
+      "id": "m-2026-09-17-sync-restored",
+      "ts": "2026-09-17T22:06:03-04:00",
+      "kind": "alert",
+      "needsReply": false,
+      "title": "Sync is back — live Canvas read after more than a week down",
+      "body": "My sandbox access came back tonight; it had been broken since about 9/9 (a Windows update on your machine broke my file/network access, same issue noted 9/10–9/12). Everything below is a fresh, direct Canvas read, not a guess.\n\nBoth BIO exams are handled: the take-home (25 pts) is submitted, and the in-person part (30 pts) was taken in class tonight 6–8 PM — Canvas will show it as unsubmitted until Scholz grades the paper copy by hand, that's normal, not a gap.\n\nCHE EXP2 (30 pts) and the Chapter 3 Warmup Quiz (5 pts) are both in and graded. This Tuesday's MAT quiz (Qz3) is graded too.\n\nTwo things still open: MAT Pearson Sections 1.5 and 1.6 (39 pts, due back on 9/12) are still not marked done anywhere I can see — tell me if you finished them and I'll clear them for good. And the extra-credit BIO quiz (2 pts) is still sitting open, closes tonight at 11:59.\n\nAlso pulled 21 new files while I was back online — lecture decks, the take-home exam PDF, and MAT slides through section 2.4 — all in your files folder now.\n\nOne more gap: your shifts for this week (Sep 13–19) never came through, so I still don't know your work schedule for the rest of this week."
+    },
+    {
+      "id": "m-2026-09-12-outage-day4",
+      "ts": "2026-09-12T00:00:00-04:00",
+      "kind": "alert",
+      "needsReply": false,
+      "title": "Sync still down — day 4. Grades and due dates below are current; no new packs today.",
+      "body": "Same Windows-update sandbox issue as Wed-Fri, now a fourth straight day, so I still can't extract PDFs, run PowerPoint parsing, verify math, or publish this live. I could still reach Canvas directly and edit this file by hand, so here's what's actually current as of tonight:\n\nGrades: BIO 102.5%, CHE 95.7% (CHE Exam 1 from Friday isn't graded yet), MAT still 45.0% (no new grades since Qz1). No change in any of the three since Thursday.\n\nDue this week: CHE Chapter 3 Warmup Quiz, 5 pts, Sat night (9/14 close) — Chapter 3 materials posted Wed, I haven't built a pack for it yet, blocked on the same PDF-reading issue. BIO Self-Eval - Experimental Design (4 pts) is already submitted and graded, that one's done. CHE EXP2 (two parts, 30 pts) due Tue 9/15. BIO Unit 1 Exam is Thu 9/17 - the take-home part posted last week and I still haven't been able to read it into a study pack.\n\nIf this is still broken tomorrow I'd take that as worth a direct look at the sandbox rather than waiting on another silent retry - four days is longer than a transient blip."
+    },
+    {
+      "id": "m-2026-09-11-morning",
+      "ts": "2026-09-11T07:15:00-04:00",
+      "kind": "alert",
+      "needsReply": false,
+      "title": "Sync failed this morning — Windows update broke my file/network access",
+      "body": "Couldn't reach Canvas, couldn't run the file pull, and couldn't publish this update live — a known issue on my end (a Sep 8 Windows update broke my sandbox's connection to your files). This message and today's digest are only reaching you because I could still edit the file directly; the app itself won't show this until a sync goes through successfully.\n\nWhat you should know today, from Thursday's last good check: CHE Aktiv 02 (10 pts) and EoC_2 (5 pts) were still unsubmitted then — worth a direct Canvas check before the exam, since I can't confirm either way. BIO Self-Eval — Experimental design (4 pts) closes tonight 11:59 PM. CHE Exam 1 is in class today, 12:20 PM, Rm 3403, Ch 1–2.\n\nEverything else — Saturday's MAT sections, the Watch items — is unchanged from yesterday's brief."
+    },
+    {
+      "id": "m-2026-09-10-morning",
+      "ts": "2026-09-10T07:15:00-04:00",
+      "kind": "alert",
+      "needsReply": false,
+      "title": "Aktiv 02 + EoC_2 still open — Wednesday's plan didn't happen",
+      "body": "Checked Canvas directly this morning. Both chem items (15 pts) are still unsubmitted and close tonight 11:59 PM. Best real window today is 4:00-6:00 PM, after work and before BIO — leaves the evening free for CHE Exam 1 review since the exam is tomorrow.\n\nGood news: EXP1 report and post-lab quiz from last week are both in (report's submitted, awaiting grade; quiz is graded). BIO Self-Eval Weeks 1 and 2 are also submitted and graded — that's 20 points off the board since last check.\n\nCanvas also filled in two things that were placeholders before: the BIO Unit 1 Exam now has real numbers — take-home part 25 pts due Thu 9/17 6 PM, in-person part 30 pts same day/time start. And there's a new CHE item, EXP2 (Empirical Formula of a Hydrate), two parts worth 30 pts total, due Tue 9/15.\n\nOne technical note: my file-pulling script couldn't run this morning (a sandbox issue on my end, not Canvas). If anything new got posted to your courses, I'll pick it up next sync — nothing should be missing for more than a day."
+    },
     {
       "id": "m-2026-09-08-mat-2_1-2_2-pack",
       "ts": "2026-09-08T16:20:00-04:00",
@@ -980,14 +683,6 @@
       "needsReply": false,
       "title": "Scholz posted two more Self-Eval quizzes last night — 14 points the plan didn't have",
       "body": "Announcement went up 9:21 PM Sunday. On top of Self-Eval Week 1 (10 pts, due Wed 9/9), there are now:\n\n• Self-Eval Week 2 — atoms, molecules, bonds. 10 pts, due Wed 9/9 11:59 PM.\n• Self-Eval — Experimental design. 4 pts, due Fri 9/11 11:59 PM.\n\nAll of them are graded now, and the point of them is feedback before the Unit 1 Exam on Thu 9/17. Week 1 is the easy one — the answer key is already out, 3 attempts, 60 minutes total.\n\nI also pulled the reading behind the experimental-design quiz into your files: the two lady-tasting-tea PDFs and Fisher Chapter 6, plus Scholz's Week 2 lecture slides. There are new videos in the Week 2 module too.\n\nI've slotted Week 1 into tonight, Week 2 into Wednesday evening after chem lab, and Experimental design into Friday after the exam."
-    },
-    {
-      "id": "m-2026-09-07-pearson-status",
-      "ts": "2026-09-07T07:17:00-04:00",
-      "kind": "question",
-      "needsReply": true,
-      "title": "What actually went in on Pearson 1.1 through 1.4?",
-      "body": "This is the one number I can't see and it's the biggest one on the board — 71 points across four sections:\n\n• 1.1 (17) and 1.2 (19), closed Mon 8/31\n• 1.3 (17) and 1.4 (18), closed Sat 9/5 while you were away\n\nOpen MyLab today and just tell me which ones are done. If 1.3/1.4 landed, the overdue pile is 36 points, not 71, and tonight's Pearson block goes to 1.1/1.2 instead. If they didn't, 1.3/1.4 comes first — that's the material this week's in-class quiz covers, so finishing it does double duty.\n\nNo judgment either way. I just need the real number to plan against."
     },
     {
       "id": "m-2026-09-06-morning",
@@ -1054,14 +749,6 @@
       "body": "You leave at 4 AM Friday and you said you want the trip school-free. Everything below is due Sat 9/5 or lands right after, and all of it can be finished today.\n\nTHE LIST, in the order that costs you the least:\n1. BIO 110 Self Evaluation (6 pts, Canvas quiz) — shortest. Get it off the board first.\n2. MAT 151 Section 1.3 (17 pts, Pearson) — complex numbers.\n3. MAT 151 Section 1.4 (18 pts, Pearson) — radical and quadratic-in-form equations.\nYour real window is 11 AM to 6 PM, after math and before bio. That's enough for all three without rushing.\n\nWORTH DOING IF YOU HAVE ROOM: CHE EXP1 Post-Lab Quiz, 10 pts, due Tue 9/8 — the day after you land. It allows a second attempt with the higher score counting, so an attempt today is free and takes it off next week.\n\nSTILL OVERDUE: Pearson 1.1 and 1.2, 36 pts. Last on the list today only because the other work still has a deadline you can protect.\n\nNEW SINCE YESTERDAY: CHE Aktiv 02 (EC.26.01), 10 pts, due Thu 9/10. And two files landed — the CHE Unit 1 sample exam questions KEY and the Chapter 2 self-test answers. Both are Exam 1 material (Fri 9/11); they're in your files folder and on Drive.\n\nTrip packet for the 2-3 h/day you have while away: study/trip-packet-2026-09-04.md."
     },
     {
-      "id": "m-2026-09-03-shifts-next-week",
-      "ts": "2026-09-03T07:15:00-04:00",
-      "kind": "question",
-      "needsReply": true,
-      "title": "Next week's shifts post tomorrow, while you're gone",
-      "body": "Your work schedule drops Friday and covers Sun 9/6 - Sat 9/12. You'll be traveling when it posts.\n\nSend it to me whenever you see it and I'll build the week around it. That week is heavy: CHE Exam 1 on Fri 9/11, Aktiv 02 and EoC_2 both due Thu 9/10, Pearson 1.5 and 1.6 due Sat 9/12, and the BIO Unit 1 take-home posts Tue 9/8. I'd rather place the study blocks around your real shifts than guess."
-    },
-    {
       "id": "m-2026-09-02-evening",
       "ts": "2026-09-02T20:10:00-04:00",
       "kind": "alert",
@@ -1076,30 +763,6 @@
       "needsReply": true,
       "title": "Your Tuesday shift lands on top of BIO class and lab",
       "body": "You said you work Tue 6–11 PM. BIO 110 meets Tue 6:00–7:30 PM and the Tuesday-only lab runs 7:45–9:45 PM. Scholz docks 25 points for the first missed lab, so this one is expensive.\n\nWhich is it: did the shift change, is BIO meeting at a different time than I have on file, or are you planning to miss the lab? Tell me and I'll rebuild Tuesday around the real answer. That Tuesday has now passed — let me know how it actually went so future Tuesdays don't repeat the same guesswork."
-    },
-    {
-      "id": "m-2026-08-31-setup",
-      "ts": "2026-08-31T14:30:00-04:00",
-      "kind": "info",
-      "needsReply": false,
-      "title": "Everything now lands here instead of the chat",
-      "body": "This Brief tab is the new home for your morning digest and anything I need to tell you — check here, not the chat. The badge on the tab shows unread messages.\n\nYour study guides are also synced to Google Drive, in a folder called \"School — Study Guides\". Every guide, flashcard deck and practice set is there, and it re-syncs on its own each day, so it opens on your phone, laptop, or anything you sign into. The three files starting with READABLE are cleaned-up Google Docs, easiest to read on a phone.\n\nOne limit worth knowing: this app is a static page, so messages only go one direction. When something is tagged QUESTION it needs an actual answer from you in a chat — everything else is just me keeping you posted."
-    },
-    {
-      "id": "m-2026-08-31-pearson",
-      "ts": "2026-08-31T14:30:00-04:00",
-      "kind": "info",
-      "needsReply": false,
-      "title": "Math is now tracked from Pearson",
-      "body": "Saved your full Pearson schedule — 42 items, 680 points, through the Dec 8 final. Math assignments show a Pearson tag in the Due tab so you can tell them from Canvas work.\n\nI also logged the weekly in-class quiz. Since you said it falls Tuesday or Thursday, that confirms math meets Tue/Thu — which settles a mismatch I'd been carrying, since the MAT 151 syllabus PDF claimed MWF 8:45–10:00."
-    },
-    {
-      "id": "m-2026-09-02-trip-packet",
-      "ts": "2026-09-02T16:20:00-04:00",
-      "kind": "info",
-      "needsReply": false,
-      "title": "Trip packet is ready — 4 things to close before 4 AM Friday",
-      "body": "Built a single Trip Packet for the Sep 4-7 window: MAT 1.3 (complex numbers) and 1.4 (radical / quadratic-in-form) rules plus 12 worked problems, and a CHE significant-figures / density refresher with 10 worked problems. All answers verified. Files: study/trip-packet-2026-09-04.md and study/trip-packet-cards.txt (Anki), both mirrored to Google Drive so you can open them on your phone.\n\nWhat has to close: MAT Section 1.3 and 1.4 (Pearson, due Sat 9/5), BIO Self Evaluation (Canvas, due Sat 9/5), and one new item -- CHE EXP1 Post-Lab Quiz: Scientific Measurements & Density (10 pts) went live today after your lab, due Tue 9/8. It allows 2 attempts and the higher score counts, so taking a shot at it tonight or tomorrow costs you nothing and gets it off the trip.\n\nStill overdue: Pearson 1.1 and 1.2 (36 pts)."
     },
     {
       "id": "m-2026-09-02-bio-exam1-format",
