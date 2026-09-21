@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T12:20-04:00",
+  "generated": "2026-09-21T19:04-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -283,7 +283,7 @@
       "course": "BIO 110",
       "due": "2026-09-17T18:00-04:00",
       "points": 25.0,
-      "status": "submitted",
+      "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52810/assignments/1320972/submissions/106818",
       "big": true,
       "source": "Canvas"
