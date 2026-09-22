@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22T14:37-04:00",
+  "generated": "2026-09-22T18:48-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -300,17 +300,6 @@
       "source": "Pearson"
     },
     {
-      "id": "assignment-1330852",
-      "title": "Take-Home Exam 2 Submission",
-      "course": "BIO 110",
-      "due": "2026-09-20T18:00-04:00",
-      "points": 25.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52810/assignments/1330852",
-      "big": true,
-      "source": "Canvas"
-    },
-    {
       "id": "assignment-1314539",
       "title": "EXP3. 🟡Post_1of2_Questions. Empirical Formula & Separation Techniques. [10] v.23.06a",
       "course": "CHE 110",
@@ -562,6 +551,17 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
+    },
+    {
+      "id": "assignment-1330852",
+      "title": "Take-Home Exam 2 Submission",
+      "course": "BIO 110",
+      "due": "2026-10-22T18:00-04:00",
+      "points": 25.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1330852",
+      "big": true,
+      "source": "Canvas"
     },
     {
       "id": "quiz-346531",
