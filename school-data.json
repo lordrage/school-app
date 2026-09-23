@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22T22:31-04:00",
+  "generated": "2026-09-22T22:45-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -624,7 +624,22 @@
       ]
     }
   ],
-  "shifts": [],
+  "shifts": [
+    {
+      "day": "Wed",
+      "date": "2026-09-23",
+      "start": "16:00",
+      "end": "20:00",
+      "note": "Confirmed by Mckay 9/22. Single direct bus from school -- faster than the school-home leg, confirmed workable right after CHE lab (ends 3:20 PM)."
+    },
+    {
+      "day": "Thu",
+      "date": "2026-09-24",
+      "start": "12:00",
+      "end": "16:00",
+      "note": "Confirmed by Mckay 9/22. Lands right after Test1 (ends 11 AM) -- same single-bus route, confirmed workable."
+    }
+  ],
   "personalBlocks": [
     {
       "label": "Gym",
@@ -707,6 +722,14 @@
     ]
   },
   "messages": [
+    {
+      "id": "m-2026-09-22-shifts-confirmed",
+      "ts": "2026-09-22T22:45:00-04:00",
+      "kind": "info",
+      "needsReply": false,
+      "title": "Wed and Thu shifts confirmed -- Test1 review moved to 8:15 PM",
+      "body": "You confirmed Wed 4-8 PM and Thu 12-4 PM, both a single direct bus from school -- faster than the two-bus school-home route, so both are workable right after CHE lab and Test1.\n\nWed: the Test1 review block moves from 5-7 PM to 8:15-9:15 PM, after the shift. Morning diagnostic before lab is unchanged.\n\nThu: Test1 still fits 9-11 AM before the shift. The Pearson Review Test1 + Test 1 submissions (both close 11:59 PM) move out of the old 11 AM-6 PM campus gap -- do them either right before BIO class (~5:15-6 PM) or after you're home from lab-free Thursday (~8:15-9 PM). Section 2.3 (due Sat) can wait until Friday if tonight's too packed.\n\nRest of the Sep 20-26 work week (Sun, Mon, Tue, Fri, Sat) is still unposted -- only these two days are confirmed."
+    },
     {
       "id": "m-2026-09-22-late-sync",
       "ts": "2026-09-22T22:30:00-04:00",
