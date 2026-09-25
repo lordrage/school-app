@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T19:06-04:00",
+  "generated": "2026-09-25T01:58-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -382,8 +382,8 @@
       "course": "CHE 110",
       "due": "2026-09-23T23:59-04:00",
       "points": 10.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1329754",
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1329754/submissions/106818",
       "big": false,
       "source": "Canvas"
     },
@@ -393,8 +393,8 @@
       "course": "MAT 151",
       "due": "2026-09-24T23:59-04:00",
       "points": 100.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314514",
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314514/submissions/106818",
       "big": true,
       "source": "Canvas"
     },
