@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-29T19:32-04:00",
+  "generated": "2026-09-30T02:26-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
-  "oneThing": "Short gym after chem (out by 3:15), work 3:30-6:30, then the CHE EoC_3 upload at 7 PM. It's due tomorrow night and Tuesday has no free evening.",
+  "oneThing": "",
   "oneThingTs": "2026-09-28T13:15:00-04:00",
   "semester": {
     "name": "Fall/Winter 2026",
@@ -56,39 +56,6 @@
       "url": "https://mlm.pearson.com/",
       "big": true,
       "source": "Pearson"
-    },
-    {
-      "id": "assignment-1314506",
-      "title": "Qz2",
-      "course": "MAT 151",
-      "due": "2026-09-08T23:59-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1314506/submissions/106818",
-      "big": true,
-      "source": "Canvas"
-    },
-    {
-      "id": "quiz-342930",
-      "title": "EXP1. POST-LAB QUIZ: Scientific Measurements & Density",
-      "course": "CHE 110",
-      "due": "2026-09-08T23:59-04:00",
-      "points": 7.5,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/quizzes/342930",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1314536",
-      "title": "EXP1. REPORT UPLOAD: Scientific Measurements & Density.",
-      "course": "CHE 110",
-      "due": "2026-09-08T23:59-04:00",
-      "points": 20.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314536/submissions/106818",
-      "big": false,
-      "source": "Canvas"
     },
     {
       "id": "assignment-1328375",
@@ -404,8 +371,8 @@
       "course": "CHE 110",
       "due": "2026-09-29T23:59-04:00",
       "points": 5.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314525",
+      "status": "submitted",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314525/submissions/106818",
       "big": false,
       "source": "Canvas"
     },
