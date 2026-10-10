@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T19:53-04:00",
+  "generated": "2026-10-10T02:49-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -441,6 +441,17 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
+    },
+    {
+      "id": "assignment-1334543",
+      "title": "Aktiv 06 v23.06",
+      "course": "CHE 110",
+      "due": "2026-10-21T23:59-04:00",
+      "points": 10.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1334543",
+      "big": false,
+      "source": "Canvas"
     },
     {
       "id": "assignment-1330852",
