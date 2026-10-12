@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T19:30-04:00",
+  "generated": "2026-10-12T03:05-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -327,7 +327,7 @@
       "course": "BIO 110",
       "due": "2026-10-10T23:59-04:00",
       "points": 16.0,
-      "status": "not_started",
+      "status": "submitted",
       "url": "https://canvas.dccc.edu/courses/52810/quizzes/346588",
       "big": false,
       "source": "Canvas"
@@ -349,7 +349,7 @@
       "course": "BIO 110",
       "due": "2026-10-11T23:59-04:00",
       "points": 12.0,
-      "status": "not_started",
+      "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52810/quizzes/346888",
       "big": false,
       "source": "Canvas"
