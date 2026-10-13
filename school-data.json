@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13T13:26-04:00",
+  "generated": "2026-10-13T19:39-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -294,8 +294,8 @@
       "course": "CHE 110",
       "due": "2026-10-06T23:59-04:00",
       "points": 20.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314543",
+      "status": "submitted",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314543/submissions/106818",
       "big": false,
       "source": "Canvas"
     },
@@ -495,6 +495,17 @@
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1330453",
       "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "quiz-347270",
+      "title": "Lab Quiz 2 ",
+      "course": "BIO 110",
+      "due": "2026-10-23T23:59-04:00",
+      "points": 24.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810/quizzes/347270",
+      "big": false,
       "source": "Canvas"
     },
     {
