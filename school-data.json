@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T15:41-04:00",
+  "generated": "2026-10-12T21:54-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -454,6 +454,17 @@
       "source": "Pearson"
     },
     {
+      "id": "assignment-1334543",
+      "title": "Aktiv 06 v23.06",
+      "course": "CHE 110",
+      "due": "2026-10-21T23:59-04:00",
+      "points": 10.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1334543",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
       "id": "assignment-1330852",
       "title": "Take-Home Exam 2 Submission",
       "course": "BIO 110",
@@ -462,17 +473,6 @@
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52810/assignments/1330852",
       "big": true,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1334543",
-      "title": "Aktiv 06 v23.06",
-      "course": "CHE 110",
-      "due": "2026-10-22T23:59-04:00",
-      "points": 10.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1334543",
-      "big": false,
       "source": "Canvas"
     },
     {
