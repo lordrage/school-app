@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T10:39-04:00",
+  "generated": "2026-10-16T14:40-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -151,7 +151,7 @@
       "course": "CHE 110",
       "due": "2026-09-29T23:59-04:00",
       "points": 5.0,
-      "status": "submitted",
+      "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314525/submissions/106818",
       "big": false,
       "source": "Canvas"
@@ -173,8 +173,8 @@
       "course": "CHE 110",
       "due": "2026-10-01T23:59-04:00",
       "points": 5.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314526",
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314526/submissions/106818",
       "big": false,
       "source": "Canvas"
     },
@@ -217,7 +217,7 @@
       "course": "CHE 110",
       "due": "2026-10-06T23:59-04:00",
       "points": 20.0,
-      "status": "submitted",
+      "status": "graded",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1314543/submissions/106818",
       "big": false,
       "source": "Canvas"
@@ -344,6 +344,17 @@
       "source": "Canvas"
     },
     {
+      "id": "assignment-1336240",
+      "title": "Daily Opener 10/16",
+      "course": "CHE 110",
+      "due": "2026-10-16T23:59-04:00",
+      "points": 1.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1336240/submissions/106818",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
       "id": "pearson-Section-3.1",
       "title": "Section 3.1",
       "course": "MAT 151",
@@ -377,6 +388,17 @@
       "source": "Pearson"
     },
     {
+      "id": "assignment-1314527",
+      "title": "EoC_5. End-of-Chapter Homework UPLOAD",
+      "course": "CHE 110",
+      "due": "2026-10-20T23:59-04:00",
+      "points": 5.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314527",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
       "id": "assignment-1334543",
       "title": "Aktiv 06 v23.06",
       "course": "CHE 110",
@@ -396,6 +418,17 @@
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52810/assignments/1330852",
       "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1314528",
+      "title": "EoC_6. End-of-Chapter Homework UPLOAD ",
+      "course": "CHE 110",
+      "due": "2026-10-22T23:59-04:00",
+      "points": 5.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314528",
+      "big": false,
       "source": "Canvas"
     },
     {
