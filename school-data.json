@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T12:51-04:00",
+  "generated": "2026-10-19T19:27-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -140,8 +140,8 @@
       "course": "CHE 110",
       "due": "2026-09-28T23:59-04:00",
       "points": 1.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1332051",
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1332051/submissions/106818",
       "big": false,
       "source": "Canvas"
     },
