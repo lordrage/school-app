@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T10:56-04:00",
+  "generated": "2026-10-21T15:12-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -465,6 +465,28 @@
       "source": "Pearson"
     },
     {
+      "id": "assignment-1314546",
+      "title": "EXP6. Post Lab - Report Upload. Mass of Hydrogen, Gas Collection by Water Displacement",
+      "course": "CHE 110",
+      "due": "2026-10-27T23:59-04:00",
+      "points": 20.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314546",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1314547",
+      "title": "EXP7. -Report Upload. Heat & Temperature. Calorimetry",
+      "course": "CHE 110",
+      "due": "2026-10-27T23:59-04:00",
+      "points": 20.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314547",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
       "id": "pearson-Section-4.3",
       "title": "Section 4.3",
       "course": "MAT 151",
@@ -496,6 +518,17 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
+    },
+    {
+      "id": "assignment-1314549",
+      "title": "EXP8. Report Upload. Hess’s Law & Enthalpy of Reaction. Calorimetry.",
+      "course": "CHE 110",
+      "due": "2026-11-03T23:59-05:00",
+      "points": 20.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314549",
+      "big": false,
+      "source": "Canvas"
     },
     {
       "id": "assignment-1314516",
