@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T19:02-04:00",
+  "generated": "2026-10-21T01:48-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -133,17 +133,6 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
-    },
-    {
-      "id": "assignment-1314525",
-      "title": "EoC_3. End-of-Chapter Homework UPLOAD",
-      "course": "CHE 110",
-      "due": "2026-09-29T23:59-04:00",
-      "points": 5.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314525/submissions/106818",
-      "big": false,
-      "source": "Canvas"
     },
     {
       "id": "assignment-1331402",
