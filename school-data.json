@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T19:04-04:00",
+  "generated": "2026-10-23T01:49-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -133,39 +133,6 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
-    },
-    {
-      "id": "assignment-1331402",
-      "title": "Aktiv 04 v23.06",
-      "course": "CHE 110",
-      "due": "2026-10-01T23:59-04:00",
-      "points": 10.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1331402/submissions/106818",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1314526",
-      "title": "EoC_4. End-of-Chapter Homework UPLOAD",
-      "course": "CHE 110",
-      "due": "2026-10-01T23:59-04:00",
-      "points": 5.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314526/submissions/106818",
-      "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1333875",
-      "title": "Qz4",
-      "course": "MAT 151",
-      "due": "2026-10-01T23:59-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1333875/submissions/106818",
-      "big": true,
-      "source": "Canvas"
     },
     {
       "id": "assignment-1330452",
@@ -393,8 +360,8 @@
       "course": "CHE 110",
       "due": "2026-10-21T23:59-04:00",
       "points": 10.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1334543",
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1334543/submissions/106818",
       "big": false,
       "source": "Canvas"
     },
@@ -404,8 +371,8 @@
       "course": "BIO 110",
       "due": "2026-10-22T23:30-04:00",
       "points": 30.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52810/assignments/1330852",
+      "status": "submitted",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1330852/submissions/106818",
       "big": true,
       "source": "Canvas"
     },
