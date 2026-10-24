@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T18:57-04:00",
+  "generated": "2026-10-24T01:32-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -133,17 +133,6 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
-    },
-    {
-      "id": "assignment-1330452",
-      "title": "Exam 2 (Chapters 3 - 4)",
-      "course": "CHE 110",
-      "due": "2026-10-02T23:59-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1330452/submissions/106818",
-      "big": true,
-      "source": "Canvas"
     },
     {
       "id": "assignment-1314542",
@@ -509,6 +498,17 @@
       "source": "Pearson"
     },
     {
+      "id": "assignment-1337743",
+      "title": "Aktiv 07 v23.06",
+      "course": "CHE 110",
+      "due": "2026-11-03T23:59-05:00",
+      "points": 10.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1337743",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
       "id": "assignment-1314549",
       "title": "EXP8. Report Upload. Hess’s Law & Enthalpy of Reaction. Calorimetry.",
       "course": "CHE 110",
@@ -528,6 +528,17 @@
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52253/assignments/1314516",
       "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1337744",
+      "title": "Aktiv 08 v23.06",
+      "course": "CHE 110",
+      "due": "2026-11-12T23:59-05:00",
+      "points": 10.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1337744",
+      "big": false,
       "source": "Canvas"
     },
     {
