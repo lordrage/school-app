@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T01:51-04:00",
+  "generated": "2026-10-26T12:39-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -432,6 +432,17 @@
       "source": "Pearson"
     },
     {
+      "id": "assignment-1337934",
+      "title": "Daily Opener 10/26",
+      "course": "CHE 110",
+      "due": "2026-10-26T23:59-04:00",
+      "points": 1.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1337934",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
       "id": "assignment-1337554",
       "title": "Lab Practical #1",
       "course": "BIO 110",
@@ -496,6 +507,17 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
+    },
+    {
+      "id": "assignment-1314529",
+      "title": "EoC_7. End-of-Chapter Homework UPLOAD",
+      "course": "CHE 110",
+      "due": "2026-11-02T23:59-05:00",
+      "points": 5.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314529",
+      "big": false,
+      "source": "Canvas"
     },
     {
       "id": "assignment-1337743",
