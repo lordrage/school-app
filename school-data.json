@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T19:50-04:00",
+  "generated": "2026-10-30T02:54-04:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -143,17 +143,6 @@
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52810/quizzes/346702",
       "big": false,
-      "source": "Canvas"
-    },
-    {
-      "id": "assignment-1337617",
-      "title": "Qz5",
-      "course": "MAT 151",
-      "due": "2026-10-08T23:59-04:00",
-      "points": 100.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52253/assignments/1337617/submissions/106818",
-      "big": true,
       "source": "Canvas"
     },
     {
@@ -371,8 +360,8 @@
       "course": "CHE 110",
       "due": "2026-10-23T23:59-04:00",
       "points": 100.0,
-      "status": "not_started",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1330453",
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1330453/submissions/106818",
       "big": true,
       "source": "Canvas"
     },
