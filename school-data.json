@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T19:28-05:00",
+  "generated": "2026-11-04T02:20-05:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -144,17 +144,6 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
-    },
-    {
-      "id": "assignment-1333862",
-      "title": "Aktiv 05 v23.06",
-      "course": "CHE 110",
-      "due": "2026-10-13T23:59-04:00",
-      "points": 10.0,
-      "status": "graded",
-      "url": "https://canvas.dccc.edu/courses/52358/assignments/1333862/submissions/106818",
-      "big": false,
-      "source": "Canvas"
     },
     {
       "id": "assignment-1314515",
@@ -528,6 +517,17 @@
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52253/assignments/1314516",
       "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1314550",
+      "title": "EXP9. Post Lab: Report Upload. Emission Spectra & Apparatus Calibration. [20] v.23.06a ",
+      "course": "CHE 110",
+      "due": "2026-11-10T23:59-05:00",
+      "points": 20.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314550",
+      "big": false,
       "source": "Canvas"
     },
     {
