@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T12:33-05:00",
+  "generated": "2026-11-10T07:16:00-05:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -979,6 +979,14 @@
       "needsReply": true,
       "title": "Any word on next week's shifts?",
       "body": "Sun 9/27-Sat 10/3 shifts haven't shown up yet -- schedule.md says they usually post Friday. Send them over whenever they land so I can slot them into the week and flag any conflicts early."
+    },
+    {
+      "id": "m-2026-11-10-che-exam4-pack",
+      "ts": "2026-11-10T16:15:00-05:00",
+      "kind": "info",
+      "needsReply": false,
+      "title": "CHE Exam 4 (Ch 7-8) pack is ready for Friday",
+      "body": "Built from Cacciavillani's Ch 7 and Ch 8 outlines, the Hess's Law handout, the Ch 7 Test Review, the Ch 8 Self Test and the Group Practice 7-8. Four files in study/ and in Drive (School - Study Guides): che110-ch7-8-study-guide.md (formula sheet first), che110-ch7-8-practice.md (every question from those sets, worked, numbers checked), che110-ch7-8-pack.md (NotebookLM source), che110-ch7-8-cards.txt (69 Anki cards).\n\nSuggested: tonight or Wed do Part A of the practice file under a 25-minute clock, then check. Thu: Aktiv 08 (due Thu night) plus the cards. Fri morning: formula sheet once more.\n\nOne fix to know: the Ch 8 Self Test #11 prints the wrong number for choice b. The answer is 4.18 x 10^-19 J, and his key agrees.\n\nStill due tonight: MAT Test3 (Pearson), BIO Energy Quiz, CHE EXP9 report. Also posted this week in BIO: Metabolism 1 quiz (Fri 11/13) and Lab Quiz 3 Enzymes (Sun 11/15)."
     }
   ]
 }
