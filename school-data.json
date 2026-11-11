@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-11T02:35-05:00",
+  "generated": "2026-11-11T07:18:00-05:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
-  "oneThing": "Test 3 is at 9:00. Before it, just do a 20-min recall pass on the problem types you missed on Test 2, then stop. In the 11 AM-6 PM campus gap, take the BIO Energy Quiz (23 pts) and upload EXP9 (20 pts). Both close tonight 11:59 PM, and you're in class or lab until 9:45.",
-  "oneThingTs": "2026-11-10T07:16:00-05:00",
+  "oneThing": "Before you leave for lab (~11:00), take The Energy Quiz (23 pts). It closed last night, but Canvas keeps it open until Dec 13. After lab, 45 min on CHE Ch 7 with the Exam 4 pack.",
+  "oneThingTs": "2026-11-11T07:18:00-05:00",
   "semester": {
     "name": "Fall/Winter 2026",
     "start": "2026-08-24",
@@ -199,6 +199,17 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
+    },
+    {
+      "id": "assignment-1314527",
+      "title": "EoC_5. End-of-Chapter Homework UPLOAD",
+      "course": "CHE 110",
+      "due": "2026-10-20T23:59-04:00",
+      "points": 5.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314527/submissions/106818",
+      "big": false,
+      "source": "Canvas"
     },
     {
       "id": "assignment-1334543",
@@ -454,6 +465,39 @@
       "source": "Canvas"
     },
     {
+      "id": "pearson-Section-5.2",
+      "title": "Section 5.2",
+      "course": "MAT 151",
+      "due": "2026-11-07T23:59:00-05:00",
+      "points": 7,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-Section-R.6",
+      "title": "Section R.6",
+      "course": "MAT 151",
+      "due": "2026-11-07T23:59:00-05:00",
+      "points": 7,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-Section-5.3",
+      "title": "Section 5.3",
+      "course": "MAT 151",
+      "due": "2026-11-07T23:59:00-05:00",
+      "points": 15,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
       "id": "quiz-347687",
       "title": "Quiz: Fermentation/aerobic respiration",
       "course": "BIO 110",
@@ -474,6 +518,17 @@
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1338978",
       "big": false,
       "source": "Canvas"
+    },
+    {
+      "id": "pearson-Review-Test3",
+      "title": "Review Test3",
+      "course": "MAT 151",
+      "due": "2026-11-10T20:30:00-05:00",
+      "points": 16,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": true
     },
     {
       "id": "assignment-1314516",
@@ -509,6 +564,17 @@
       "source": "Canvas"
     },
     {
+      "id": "pearson-Test-3",
+      "title": "Test 3",
+      "course": "MAT 151",
+      "due": "2026-11-10T23:59:00-05:00",
+      "points": 15,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": true
+    },
+    {
       "id": "assignment-1337744",
       "title": "Aktiv 08 v23.06",
       "course": "CHE 110",
@@ -542,6 +608,28 @@
       "source": "Canvas"
     },
     {
+      "id": "pearson-Section-5.4",
+      "title": "Section 5.4",
+      "course": "MAT 151",
+      "due": "2026-11-14T23:59:00-05:00",
+      "points": 11,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-Section-5.5",
+      "title": "Section 5.5",
+      "course": "MAT 151",
+      "due": "2026-11-14T23:59:00-05:00",
+      "points": 14,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
       "id": "quiz-347993",
       "title": "Lab Quiz 3: Enzymes",
       "course": "BIO 110",
@@ -564,6 +652,17 @@
       "source": "Canvas"
     },
     {
+      "id": "bio-takehome3",
+      "title": "Exam 3 Take-Home portion (PDF in Week 12 module; upload or paper)",
+      "course": "BIO 110",
+      "due": "2026-11-19T18:00-05:00",
+      "points": 25,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810/modules",
+      "source": "Canvas",
+      "big": true
+    },
+    {
       "id": "quiz-347773",
       "title": "In-Class Exam 3",
       "course": "BIO 110",
@@ -573,6 +672,50 @@
       "url": "https://canvas.dccc.edu/courses/52810/quizzes/347773",
       "big": true,
       "source": "Canvas"
+    },
+    {
+      "id": "pearson-Section-6.1",
+      "title": "Section 6.1",
+      "course": "MAT 151",
+      "due": "2026-11-28T23:59:00-05:00",
+      "points": 8,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-Section-6.2",
+      "title": "Section 6.2",
+      "course": "MAT 151",
+      "due": "2026-11-28T23:59:00-05:00",
+      "points": 17,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-Section-6.3",
+      "title": "Section 6.3",
+      "course": "MAT 151",
+      "due": "2026-11-28T23:59:00-05:00",
+      "points": 18,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-Section-6.4",
+      "title": "Section 6.4",
+      "course": "MAT 151",
+      "due": "2026-11-28T23:59:00-05:00",
+      "points": 35,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
     },
     {
       "id": "quiz-347775",
@@ -608,6 +751,72 @@
       "source": "Canvas"
     },
     {
+      "id": "pearson-Section-6.5",
+      "title": "Section 6.5",
+      "course": "MAT 151",
+      "due": "2026-12-03T23:59:00-05:00",
+      "points": 23,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-Section-6.6",
+      "title": "Section 6.6",
+      "course": "MAT 151",
+      "due": "2026-12-03T23:59:00-05:00",
+      "points": 21,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-Section-6.8",
+      "title": "Section 6.8",
+      "course": "MAT 151",
+      "due": "2026-12-03T23:59:00-05:00",
+      "points": 6,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-****-Exponential-Equations-Homework-Assessment",
+      "title": "**** Exponential Equations Homework Assessment",
+      "course": "MAT 151",
+      "due": "2026-12-03T23:59:00-05:00",
+      "points": 21,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": false
+    },
+    {
+      "id": "pearson-Review-Test4",
+      "title": "Review Test4",
+      "course": "MAT 151",
+      "due": "2026-12-03T23:59:00-05:00",
+      "points": 24,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": true
+    },
+    {
+      "id": "pearson-Test4",
+      "title": "Test4",
+      "course": "MAT 151",
+      "due": "2026-12-03T23:59:00-05:00",
+      "points": 17,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": true
+    },
+    {
       "id": "assignment-1314503",
       "title": "Final",
       "course": "MAT 151",
@@ -617,6 +826,28 @@
       "url": "https://canvas.dccc.edu/courses/52253/assignments/1314503",
       "big": true,
       "source": "Canvas"
+    },
+    {
+      "id": "pearson-Review-Final",
+      "title": "Review Final",
+      "course": "MAT 151",
+      "due": "2026-12-08T23:59:00-05:00",
+      "points": 24,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": true
+    },
+    {
+      "id": "pearson-Final",
+      "title": "Final",
+      "course": "MAT 151",
+      "due": "2026-12-08T23:59:00-05:00",
+      "points": 21,
+      "status": "not_started",
+      "url": "https://mlm.pearson.com/",
+      "source": "Pearson",
+      "big": true
     },
     {
       "id": "assignment-1338136",
@@ -836,59 +1067,83 @@
   },
   "digest": {
     "label": "Today's brief",
-    "generated": "2026-11-10T07:16:00-05:00",
-    "headline": "MAT Test 3 at 9 AM. Energy Quiz and EXP9 close tonight, so use the 11-6 campus gap. Two items from last night went unsubmitted.",
+    "generated": "2026-11-11T07:18:00-05:00",
+    "headline": "Nothing closes tonight. Two missed BIO quizzes are still open until Dec 13. CHE Exam 4 is Friday.",
     "sections": [
       {
         "h": "Overdue",
         "empty": false,
         "lines": [
-          "CHE EoC_8 End-of-Chapter UPLOAD (Canvas, 5 pts) - closed 11:59 PM last night, unsubmitted. Fastest fix: upload now and message Cacciavillani if the portal is still open.",
-          "BIO Quiz: Fermentation/aerobic respiration (Canvas, 14 pts) - closed last night, no submission on record."
+          "BIO The Energy Quiz (Canvas, 23 pts) - closed last night, unsubmitted. Still open for late submission until Dec 13.",
+          "BIO Quiz: Fermentation/aerobic respiration (Canvas, 14 pts) - same, open until Dec 13.",
+          "CHE EXP9 report (20) and EoC_8 (5) - marked missing, no lock date, so the upload may still go through. Older: EXP8 (20), EoC_7 (5).",
+          "Pearson 5.2, R.6, 5.3 (due Sat 11/7) and Pearson Review Test3 / Test 3 (11/10) - not confirmed done. See the question in Messages."
         ]
       },
       {
         "h": "Due tonight",
-        "empty": false,
+        "empty": true,
         "lines": [
-          "BIO The Energy Quiz (Canvas, 23 pts) - 11:59 PM.",
-          "CHE EXP9 Post Lab report upload (Canvas, 20 pts) - 11:59 PM.",
-          "MAT 151 Test 3 (Canvas gradebook entry, in class today at 9:00)."
+          "Nothing closes tonight."
         ]
       },
       {
-        "h": "Today's calendar (Tue 11/10)",
+        "h": "Today's calendar (Wed 11/11)",
         "empty": false,
         "lines": [
-          "9:00-11:00 AM - MAT 151 Test 3 (Rm 2402).",
-          "11 AM-6 PM - on campus gap. Energy Quiz and EXP9 go here.",
-          "6:00-7:30 PM - BIO class (Rm 2402). 7:45-9:45 PM - BIO lab (Rm 2411).",
-          "Last bus out of DCCC is ~9:53 PM. Leave lab right at 9:45."
+          "Leave home ~11:00 AM (70 min bus).",
+          "12:20-3:20 PM - CHE lab, Rm 3413.",
+          "No work shift on file.",
+          "Study: CHE Ch 7 45 min + BIO Metabolism 1 cards 15 min."
         ]
       },
       {
         "h": "This week",
         "empty": false,
         "lines": [
-          "Wed 11/11: CHE lab 12:20-3:20 PM. CHE Ch 7-8 review for Exam 4.",
-          "Thu 11/12: Aktiv 08 (10 pts, Canvas) closes 11:59 PM. BIO class 6:00 PM.",
-          "Fri 11/13: CHE Exam 4 (Ch 7-8, 100 pts, in class). BIO Metabolism 1 quiz (18 pts) closes 11:59 PM.",
-          "Sun 11/15: BIO Lab Quiz 3 Enzymes (36 pts) closes 11:59 PM."
+          "Thu 11/12: CHE Aktiv 08 (Canvas, 10) 11:59 PM. CHE Ch 8 + timed Ch 7-8 practice.",
+          "Fri 11/13: CHE Exam 4, Ch 7-8 (Canvas, 100), in class 12:20. BIO Metabolism 1 (Canvas, 18) 11:59 PM.",
+          "Sat 11/14: Pearson Section 5.4 (11) and 5.5 (14), 11:59 PM.",
+          "Sun 11/15: BIO Lab Quiz 3 Enzymes (Canvas, 36) 11:59 PM."
         ]
       },
       {
         "h": "Watch",
         "empty": false,
         "lines": [
-          "BIO In-Class Exam 3 is Thu 11/19. Lab Quiz 4 (16 pts) closes Tue 11/17.",
-          "Fall 7-Week B withdrawal deadline is Fri 11/20 (only matters if you have a 7-week course).",
-          "No Pearson items are tracked after Oct 31. Tell me if MAT homework is still open.",
-          "Work shifts this week are not on file."
+          "BIO Exam 3 has two parts: take-home (25 pts, due Thu 11/19 6 PM, open resource, cite sources) + in-class (30 pts) that night.",
+          "Tue 11/17: MAT weekly quiz in class. BIO Lab Quiz 4 (16) 11:59 PM. Print the Photosynthetic Structures handout for lab.",
+          "New files pulled: CHE Group Practice Ch 7-8 (use it for Exam 4), BIO Take-Home 3, Wk12 slides + notes, 3 BIO handouts.",
+          "No work shifts on file this week."
         ]
       }
     ]
   },
   "messages": [
+    {
+      "id": "m-2026-11-11-takehome3",
+      "ts": "2026-11-11T07:18:00-05:00",
+      "kind": "info",
+      "needsReply": false,
+      "title": "BIO Exam 3 take-home is posted",
+      "body": "25 pts, due Thu 11/19 at 6 PM (upload one PDF or bring paper to class). Group work and any resource allowed if you cite it. It's about diabetes and ketone bodies, tied to section 7.9. The PDF is in your files/BIO 110 folder."
+    },
+    {
+      "id": "m-2026-11-11-pearson-done",
+      "ts": "2026-11-11T07:18:00-05:00",
+      "kind": "question",
+      "needsReply": true,
+      "title": "Which Pearson math sections are done?",
+      "body": "The app had stopped showing math after Oct 31. That's fixed: Pearson items through the Dec 8 final are back. Due dates already passed: 5.2, R.6, 5.3 (Sat 11/7) and Review Test3 + Test 3 on Pearson (11/10). Older ones from 2.3 through 5.1 are also unconfirmed. Tell me which are done and I'll mark them so they stop showing as open."
+    },
+    {
+      "id": "m-2026-11-11-late-open",
+      "ts": "2026-11-11T07:18:00-05:00",
+      "kind": "alert",
+      "needsReply": false,
+      "title": "Two missed BIO quizzes still accept submissions",
+      "body": "The Energy Quiz (23) and the Fermentation/aerobic respiration quiz (14) closed unsubmitted, but Canvas keeps both open until Dec 13. There may be a late penalty, but late beats zero. CHE EXP9, EoC_8, EXP8, and EoC_7 have no lock date either, so try those uploads too."
+    },
     {
       "id": "m-2026-11-10-overdue",
       "ts": "2026-11-10T07:16:00-05:00",
@@ -936,14 +1191,6 @@
       "needsReply": true,
       "title": "Did the math quiz happen Tuesday, and how are you actually studying?",
       "body": "Two things I can't see from here.\n\n1) The weekly MAT 151 quiz falls Tuesday or Thursday and I have no record of Tuesday's class. Did it happen Tue 9/1, or is it coming Thu 9/3? Knowing which day it usually lands lets me put the review block in the right place every week instead of guessing across both days.\n\n2) Your chem quizzes have gone well so far — both textbook overviews and both post-lab quizzes. I'd like to know what you actually did to prepare. Did you use the NotebookLM packs, the Anki cards, the practice problems, or none of it? CHE Exam 1 is Friday 9/11 and I'd rather build the next pack around what's working than keep guessing."
-    },
-    {
-      "id": "m-2026-09-17-qz2-zero",
-      "ts": "2026-09-17T22:25:00-04:00",
-      "kind": "question",
-      "needsReply": true,
-      "title": "Your MAT Qz2 shows a zero in Canvas -- do you know why?",
-      "body": "Qz2 (due 9/8, covered 1.2 quadratics and 1.3 complex numbers) shows a zero, not a low score. Qz3 came back fine, so it doesn't look like a knowledge problem. Was Qz2 never taken, submitted wrong, or is it a gradebook error worth emailing Abebe about?"
     },
     {
       "id": "m-2026-09-22-che-exam1-debrief",
