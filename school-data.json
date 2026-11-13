@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T16:11:58-05:00",
+  "generated": "2026-11-13T16:12:22-05:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -1260,8 +1260,8 @@
       "ts": "2026-11-13T16:11:58-05:00",
       "kind": "alert",
       "needsReply": false,
-      "title": "CHE: 4 old uploads were just entered as zeros",
-      "body": "Today at 12:56 PM Cacciavillani entered 0s for EXP4, EXP6 and EXP7 lab reports (20 pts each) and EoC_7 (5 pts). Canvas shows nothing submitted for any of them. CHE dropped from 60.2% to 55.0%. Still open with no submission and no score yet: EXP8 report (due 11/3), EXP9 report (due 11/10), EoC_8 (due 11/9), Aktiv 08 (due last night). None are locked, so they may still be accepted. Fastest win: upload EXP9 and EXP8 this weekend (about 45 min each), then ask Cacciavillani on Monday whether the zeroed reports can still be turned in late."
+      "title": "CHE: 4 old uploads were just closed out as missing",
+      "body": "Today Cacciavillani closed out EXP4, EXP6 and EXP7 lab reports and EoC_7. Canvas shows nothing submitted for any of them, and they now count against your CHE grade (check Canvas Grades for the details). Still open with nothing submitted: EXP8 report (due 11/3), EXP9 report (due 11/10), EoC_8 (due 11/9), Aktiv 08 (due last night). None are locked, so they may still be accepted. Fastest win: upload EXP9 and EXP8 this weekend (about 45 min each), then ask Cacciavillani on Monday whether the closed-out reports can still be turned in late."
     },
     {
       "id": "m-2026-11-13-bio-labquiz4-pack",
