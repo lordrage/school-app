@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13T12:34-05:00",
+  "generated": "2026-11-13T16:11:58-05:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -199,6 +199,61 @@
       "url": "https://mlm.pearson.com/",
       "big": false,
       "source": "Pearson"
+    },
+    {
+      "id": "assignment-1314527",
+      "title": "EoC_5. End-of-Chapter Homework UPLOAD",
+      "course": "CHE 110",
+      "due": "2026-10-20T23:59-04:00",
+      "points": 5.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314527/submissions/106818",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1334543",
+      "title": "Aktiv 06 v23.06",
+      "course": "CHE 110",
+      "due": "2026-10-21T23:59-04:00",
+      "points": 10.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1334543/submissions/106818",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1330852",
+      "title": "Take-Home Exam 2 Submission",
+      "course": "BIO 110",
+      "due": "2026-10-22T23:30-04:00",
+      "points": 30.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52810/assignments/1330852/submissions/106818",
+      "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1314528",
+      "title": "EoC_6. End-of-Chapter Homework UPLOAD ",
+      "course": "CHE 110",
+      "due": "2026-10-22T23:59-04:00",
+      "points": 5.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1314528/submissions/106818",
+      "big": false,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1338070",
+      "title": "Qz6",
+      "course": "MAT 151",
+      "due": "2026-10-22T23:59-04:00",
+      "points": 100.0,
+      "status": "graded",
+      "url": "https://canvas.dccc.edu/courses/52253/assignments/1338070/submissions/106818",
+      "big": true,
+      "source": "Canvas"
     },
     {
       "id": "assignment-1330453",
@@ -597,6 +652,17 @@
       "source": "Canvas"
     },
     {
+      "id": "bio-takehome3",
+      "title": "Exam 3 Take-Home portion (PDF in Week 12 module; upload or paper)",
+      "course": "BIO 110",
+      "due": "2026-11-19T18:00-05:00",
+      "points": 25,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810/modules",
+      "source": "Canvas",
+      "big": true
+    },
+    {
       "id": "quiz-347773",
       "title": "In-Class Exam 3",
       "course": "BIO 110",
@@ -666,7 +732,7 @@
       "id": "assignment-1330455",
       "title": "Exam 5 (Chapters 9 - 10)",
       "course": "CHE 110",
-      "due": "2026-12-02T12:20-05:00",
+      "due": "2026-12-02T23:59-05:00",
       "points": 100.0,
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52358/assignments/1330455",
@@ -1188,6 +1254,22 @@
       "needsReply": false,
       "title": "BIO Exam 3 study pack is ready",
       "body": "Built from Scholz's Oct 27–Nov 10 slides, lecture notes and the Enzymes lab. It covers the Metabolism 1 quiz (Fri 11/13), Lab Quiz 3 on enzymes (Sun 11/15) and the in-class Exam 3 (Thu 11/19, 6 PM). Files in School/study and Google Drive: bio110-exam3-study-guide.md, -practice.md (32 questions with answers, including the four ETC what-if scenarios he said will be on the quiz), -pack.md (NotebookLM source) and -cards.txt (114 Anki cards). It does not answer the Take-Home Exam 3 questions, which are due 11/19 at 6 PM."
+    },
+    {
+      "id": "m-2026-11-13-che-zeros",
+      "ts": "2026-11-13T16:11:58-05:00",
+      "kind": "alert",
+      "needsReply": false,
+      "title": "CHE: 4 old uploads were just entered as zeros",
+      "body": "Today at 12:56 PM Cacciavillani entered 0s for EXP4, EXP6 and EXP7 lab reports (20 pts each) and EoC_7 (5 pts). Canvas shows nothing submitted for any of them. CHE dropped from 60.2% to 55.0%. Still open with no submission and no score yet: EXP8 report (due 11/3), EXP9 report (due 11/10), EoC_8 (due 11/9), Aktiv 08 (due last night). None are locked, so they may still be accepted. Fastest win: upload EXP9 and EXP8 this weekend (about 45 min each), then ask Cacciavillani on Monday whether the zeroed reports can still be turned in late."
+    },
+    {
+      "id": "m-2026-11-13-bio-labquiz4-pack",
+      "ts": "2026-11-13T16:11:58-05:00",
+      "kind": "info",
+      "needsReply": false,
+      "title": "Pack ready: BIO Lab Quiz 4 (photosynthetic structures)",
+      "body": "Built from the Photosynthetic Structures lab handout for Lab Quiz 4 (due Tue 11/17). It also covers the photosynthesis part of Exam 3 (Thu 11/19). Files: bio110-labquiz4-study-guide.md, bio110-labquiz4-pack.md (NotebookLM source), bio110-labquiz4-cards.txt (56 Anki cards). In OneDrive School/study and in Google Drive. Tuesday is overloaded, so do it Sunday or Monday after Lab Quiz 3 (due Sun 11/15)."
     }
   ]
 }
