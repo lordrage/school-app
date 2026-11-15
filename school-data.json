@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T11:51-05:00",
+  "generated": "2026-11-15T16:25:00-05:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
@@ -565,7 +565,7 @@
     },
     {
       "id": "quiz-348177",
-      "title": "Friday the 13th Pop Quiz",
+      "title": "Friday the 13th Pop Quiz (optional, up to 4 bonus pts on Exam 3)",
       "course": "BIO 110",
       "due": "2026-11-17T18:00-05:00",
       "points": 4.0,
@@ -584,6 +584,17 @@
       "url": "https://canvas.dccc.edu/courses/52810/quizzes/347994",
       "big": false,
       "source": "Canvas"
+    },
+    {
+      "id": "bio-takehome3",
+      "title": "Exam 3 Take-Home portion (PDF in Week 12 module; upload or paper)",
+      "course": "BIO 110",
+      "due": "2026-11-19T18:00-05:00",
+      "points": 25,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810/modules",
+      "source": "Canvas",
+      "big": true
     },
     {
       "id": "quiz-347773",
@@ -1198,6 +1209,22 @@
       "needsReply": false,
       "title": "Metabolism 1 is still open, plus a 4-pt Exam 3 bonus",
       "body": "Quiz: Metabolism 1 (18) closed Friday without a submission, but Canvas keeps it open for late work until Dec 13. Same for The Energy Quiz (23) and Fermentation (14): 55 points you can still pick up. Separate thing: Scholz posted an optional Friday the 13th Pop Quiz worth up to 4 bonus points on In-Class Exam 3. 30 minutes, one attempt, closes Tue 11/17 at 6 PM with no extensions. Have Ch 8 and the photosynthetic structures lab on hand. It overlaps Lab Quiz 4, so do both Monday night."
+    },
+    {
+      "id": "m-2026-11-15-bio-zeros",
+      "ts": "2026-11-15T16:25:00-05:00",
+      "kind": "alert",
+      "needsReply": false,
+      "title": "BIO: Energy Quiz and Lab Quiz 2 were just entered as zeros",
+      "body": "Scholz graded The Energy Quiz (23 pts) and Lab Quiz 2 (24 pts) as zeros this afternoon. Canvas has no submission for either. Both still stay open until Dec 13, so taking them now may replace the zero. Metabolism 1 (18) and Fermentation (14) are also still open. First thing tonight is still Lab Quiz 3: Enzymes (36 pts), due 11:59 PM. Use bio110-exam3-study-guide.md section 6."
+    },
+    {
+      "id": "m-2026-11-15-bio-nov12-addon",
+      "ts": "2026-11-15T16:25:00-05:00",
+      "kind": "info",
+      "needsReply": false,
+      "title": "BIO Exam 3 add-on ready (Nov 12 lecture)",
+      "body": "New files in study: bio110-exam3-nov12-study-guide.md, -pack.md (NotebookLM) and -cards.txt (51 cards). Covers what the first Exam 3 pack missed: the bean equilibrium sim with answers, enzymes vs equilibrium (K=4 problem, hemoglobin, carbonic anhydrase), the amylase graphing checklist Scholz said to do before the exam, and his photosynthesis 'what to know for Exam 3' list (light reactions, Calvin cycle, rubisco, Fig 8.9). For In-Class Exam 3 Thu 11/19, and it helps with the pop quiz and Lab Quiz 4 Tue."
     }
   ]
 }
