@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-16T02:45-05:00",
+  "generated": "2026-11-16T07:18:17-05:00",
   "mode": "semester",
   "headline": "",
   "subline": "",
-  "oneThing": "Tonight: BIO Lab Quiz 3: Enzymes (Canvas, 36) before 11:59 PM. 30 min with your enzyme notes, then take it. If there's gas left, knock out Metabolism 1 (18) while the material is fresh. It's still open late.",
-  "oneThingTs": "2026-11-15T07:12:40-05:00",
+  "oneThing": "Tonight at 7: both BIO lab quizzes in one sitting. Lab Quiz 3: Enzymes (36) missed its deadline but is still open, then Lab Quiz 4 (16), due Tue 11:59 PM. Tuesday has no room for it. 52 points, about an hour.",
+  "oneThingTs": "2026-11-16T07:18:17-05:00",
   "semester": {
     "name": "Fall/Winter 2026",
     "start": "2026-08-24",
@@ -521,7 +521,7 @@
     },
     {
       "id": "quiz-347976",
-      "title": "Quiz: Metabolism 1",
+      "title": "Quiz: Metabolism 1 (late, still open to Dec 12)",
       "course": "BIO 110",
       "due": "2026-11-13T23:59-05:00",
       "points": 18.0,
@@ -554,7 +554,7 @@
     },
     {
       "id": "quiz-347993",
-      "title": "Lab Quiz 3: Enzymes",
+      "title": "Lab Quiz 3: Enzymes (late, still open to Dec 12)",
       "course": "BIO 110",
       "due": "2026-11-15T23:59-05:00",
       "points": 36.0,
@@ -565,7 +565,7 @@
     },
     {
       "id": "quiz-348177",
-      "title": "Friday the 13th Pop Quiz",
+      "title": "Friday the 13th Pop Quiz (optional, up to 4 bonus pts on Exam 3)",
       "course": "BIO 110",
       "due": "2026-11-17T18:00-05:00",
       "points": 4.0,
@@ -586,6 +586,17 @@
       "source": "Canvas"
     },
     {
+      "id": "bio-takehome3",
+      "title": "Exam 3 Take-Home portion (PDF in Week 12 module; upload or paper)",
+      "course": "BIO 110",
+      "due": "2026-11-19T18:00-05:00",
+      "points": 25,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52810/modules",
+      "source": "Canvas",
+      "big": true
+    },
+    {
       "id": "quiz-347773",
       "title": "In-Class Exam 3",
       "course": "BIO 110",
@@ -594,6 +605,16 @@
       "status": "not_started",
       "url": "https://canvas.dccc.edu/courses/52810/quizzes/347773",
       "big": true,
+      "source": "Canvas"
+    },
+    {
+      "id": "assignment-1341286",
+      "title": "EoC_9. End-of-Chapter Homework UPLOAD Copy",
+      "course": "CHE 110",
+      "due": "2026-11-23T23:59-05:00",
+      "points": 5.0,
+      "status": "not_started",
+      "url": "https://canvas.dccc.edu/courses/52358/assignments/1341286",
       "source": "Canvas"
     },
     {
@@ -1037,56 +1058,64 @@
     }
   },
   "digest": {
-    "label": "Sunday morning brief",
-    "generated": "2026-11-15T07:12:40-05:00",
-    "headline": "One thing tonight: BIO Lab Quiz 3 (36). Exam 3 is Thursday.",
+    "label": "Monday morning brief",
+    "generated": "2026-11-16T07:18:17-05:00",
+    "headline": "Lab Quiz 3 slipped last night but is still open. Close it and Lab Quiz 4 tonight. BIO Exam 3 is Thursday.",
     "sections": [
       {
-        "h": "Due tonight (Sun 11/15)",
+        "h": "Overdue, still open",
         "empty": false,
         "lines": [
-          "BIO Lab Quiz 3: Enzymes (Canvas, 36), 11:59 PM. Not submitted yet."
+          "BIO Lab Quiz 3: Enzymes (Canvas, 36). Missed Sun 11:59 PM, open until Dec 12. Biggest open item.",
+          "BIO Metabolism 1 (18), Fermentation (14): open until Dec 12, and they double as Exam 3 review.",
+          "CHE EXP8 (20), EXP9 (20), EoC_8 (5): still missing, no lock date.",
+          "Pearson 5.4 and 5.5 closed Sat. Tell me if they went in."
         ]
       },
       {
         "h": "Today's calendar",
         "empty": false,
         "lines": [
-          "No class. No shift on file for this week.",
-          "Gym: Sunday is the fallback if last week came up short."
+          "11:00 AM leave for campus. Gym bag.",
+          "12:20-1:45 PM CHE class, Rm 3403.",
+          "2:35 PM gym on the 115 from campus.",
+          "4:45 PM Pearson 6.1 + 6.2 (25). That is tomorrow's quiz prep.",
+          "7:00 PM BIO Lab Quiz 3 + Lab Quiz 4.",
+          "No shift on file this week."
         ]
       },
       {
         "h": "This week",
         "empty": false,
         "lines": [
-          "Mon 11/16: CHE 12:20 PM. Night: BIO Lab Quiz 4 (Canvas, 16) and the optional Pop Quiz (up to 4 bonus pts).",
-          "Tue 11/17: MAT Quiz 9 in class, Sections 6.1 and 6.2. Pop Quiz hard-closes 6 PM.",
-          "Wed 11/18: CHE lab 12:20 PM.",
-          "Thu 11/19: BIO Exam 3. Take-home (25) due 6 PM, in-class (30) that night.",
-          "Fri 11/20: CHE 12:20 PM."
-        ]
-      },
-      {
-        "h": "Still open",
-        "empty": false,
-        "lines": [
-          "Pearson 5.4 and 5.5 closed last night. Tell me if they went in.",
-          "BIO Metabolism 1 (18), Energy (23), Fermentation (14) still take late work until Dec 13.",
-          "CHE EXP8 (20), EXP9 (20), EoC_8 (5) still missing."
+          "Tue 11/17: MAT Quiz 9 in class (6.1, 6.2). BIO pop quiz closes 6 PM (optional, +4 on Exam 3). Lab Quiz 4 closes 11:59 PM.",
+          "Wed 11/18: CHE lab 12:20. EXP9 report right after, on campus.",
+          "Thu 11/19: BIO Exam 3. Take-home (25) due 6 PM, in-class (30) at night.",
+          "Fri 11/20: CHE 12:20. EXP8 report at 5 PM.",
+          "Mon 11/23: CHE EoC_9 upload (Canvas, 5), 11:59 PM. New this week."
         ]
       },
       {
         "h": "Watch",
         "empty": false,
         "lines": [
-          "Thanksgiving: college closed Thu 11/26, no CHE Fri 11/27. Pearson 6.1 to 6.4 (78 pts) due Sat 11/28.",
-          "Dec 2 CHE Exam 5, Dec 3 MAT Test 4. Those two land back to back."
+          "BIO posted a Metabolism 2 worksheet for Tuesday, plus the Energy Quiz key. Both are in files/BIO 110.",
+          "New CHE files: Ch 9 notes and Ch 10 slides. That is Exam 5 material (Wed 12/2).",
+          "Thanksgiving: closed Thu 11/26, no CHE Fri 11/27. Pearson 6.1-6.4 (78) due Sat 11/28.",
+          "Dec 2 CHE Exam 5, Dec 3 MAT Test 4, back to back."
         ]
       }
     ]
   },
   "messages": [
+    {
+      "id": "m-2026-11-16-labquiz3-late",
+      "ts": "2026-11-16T07:18:17-05:00",
+      "kind": "alert",
+      "needsReply": false,
+      "title": "Lab Quiz 3 (36) missed its deadline but is still open",
+      "body": "Canvas shows BIO Lab Quiz 3: Enzymes as missing after Sunday 11:59 PM. It stays open for late submission until Dec 12. It is worth 36 points, the most of any open item, so it goes first tonight, with Lab Quiz 4 right after."
+    },
     {
       "id": "m-2026-11-14-bio-popquiz",
       "ts": "2026-11-14T22:35:00-05:00",
